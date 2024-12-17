@@ -168,397 +168,397 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YViNBW6Mx3rO0wQZnAEL" name="xxl-job">
-    <mxGraphModel dx="3827" dy="2809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2927" dy="3486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1259" y="1534" width="460" height="380" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1230.5" y="-45" width="460" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1140" y="694" width="1260" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="150" y="700" width="725" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;XXL-JOB 任务调度全过程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="104" y="-550" width="280" height="40" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;XXL-JOB 任务调度全过程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="113" y="-1420" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;调用中心是用来控制定时任务的触发逻辑&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心是一个单独的Web服务，用来触发定时任务的执行&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;它提供了一些页面操作，管理这些定时任务的触发逻辑&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心依赖数据库，所以数据都是存在数据库中的&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心也支持集群模式，但是它们所依赖的数据库必须是同一个&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;所以同一个集群中的调度中心实例之间是没有任何通信的，数据都是通过数据库共享的&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;调用中心是用来控制定时任务的触发逻辑&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心是一个单独的Web服务，用来触发定时任务的执行&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;它提供了一些页面操作，管理这些定时任务的触发逻辑&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心依赖数据库，所以数据都是存在数据库中的&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;调度中心也支持集群模式，但是它们所依赖的数据库必须是同一个&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;所以同一个集群中的调度中心实例之间是没有任何通信的，数据都是通过数据库共享的&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1286.5" y="524" width="480" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="205" y="797" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-16" value="&lt;b&gt;&lt;font&gt;@XxlJob注解的Bean&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-16" value="&lt;b&gt;&lt;font&gt;@XxlJob注解的Bean&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="205" y="897" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="205" y="987" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="205" y="1087" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-20" value="&lt;b&gt;&lt;font&gt;Spring容器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-20" value="&lt;b&gt;&lt;font&gt;Spring容器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="802" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-21" value="&lt;b&gt;MethodJobHandler&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-21" value="&lt;b&gt;MethodJobHandler&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="205" y="997" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-22" value="&lt;b&gt;JobHandler&lt;/b&gt;&lt;div&gt;&lt;b&gt;Map缓存&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-22" value="&lt;b&gt;JobHandler&lt;/b&gt;&lt;div&gt;&lt;b&gt;Map缓存&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="215" y="1097" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-26" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;成员变量&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-26" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;成员变量&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="345" y="1087" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-17" target="ANlJ96FJJQ0399WOkpuZ-18">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-17" target="ANlJ96FJJQ0399WOkpuZ-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="555" y="1057" as="sourcePoint" />
             <mxPoint x="605" y="1007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-16" target="ANlJ96FJJQ0399WOkpuZ-17">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-16" target="ANlJ96FJJQ0399WOkpuZ-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="555" y="1057" as="sourcePoint" />
             <mxPoint x="605" y="1007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-15" target="ANlJ96FJJQ0399WOkpuZ-16">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-15" target="ANlJ96FJJQ0399WOkpuZ-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="555" y="1057" as="sourcePoint" />
             <mxPoint x="605" y="1007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-30" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;扫描所有加了该注解的bean&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-30" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;扫描所有加了该注解的bean&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="190" y="855" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-31" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;封装&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-31" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;封装&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="250" y="946.5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-32" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;添加&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-32" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;添加&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="255" y="1045" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="420" y="786" width="330" height="604" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="796" y="942" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1190" y="860" width="300" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorBizClient&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorBizClient&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1190" y="885" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-39" value="&lt;b&gt;Http服务端&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-39" value="&lt;b&gt;Http服务端&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="821" y="957" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-40" value="&lt;b&gt;ExecutorBizImpl&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-40" value="&lt;b&gt;ExecutorBizImpl&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="797" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-41" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;发送http请求&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-41" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;发送http请求&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="965" y="966" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-42" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;将请求交给&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-42" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;将请求交给&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="740" y="946.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-37" target="ANlJ96FJJQ0399WOkpuZ-36">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-37" target="ANlJ96FJJQ0399WOkpuZ-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1095" y="926" as="sourcePoint" />
             <mxPoint x="1145" y="966" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-36">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="866" y="932" as="sourcePoint" />
             <mxPoint x="746" y="978" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-48" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;接收来自调度中心的请求&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-48" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;接收来自调度中心的请求&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="816" y="1002" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-49" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所有调度中心的请求都是这里处理的&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-49" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所有调度中心的请求都是这里处理的&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="832" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="145" y="665" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-51" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;调度中心&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-51" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;调度中心&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1189" y="654" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-52" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;当执行器启动的时候，会启动一个注册线程，这个线程会往调度中心注册当前执行器的信息，包括两部分数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;执行器的名字，也就是设置的appname&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;执行器所在机器的ip和端口，这样调度中心就可以访问到这个执行器提供的Http接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;每个服务实例都会对应一个执行器实例，所以调用中心会保存每个执行器实例的地址&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-52" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;当执行器启动的时候，会启动一个注册线程，这个线程会往调度中心注册当前执行器的信息，包括两部分数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;执行器的名字，也就是设置的appname&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;执行器所在机器的ip和端口，这样调度中心就可以访问到这个执行器提供的Http接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;每个服务实例都会对应一个执行器实例，所以调用中心会保存每个执行器实例的地址&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="225" y="615" width="600" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-53" value="&lt;div&gt;&lt;b&gt;1.&amp;nbsp; 当执行器启动的时候，会启动一个注册线程，这个线程会往调度中心注册当前执行器的信息，包括两部分数据&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;执行器的名字，也就是设置的appname&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;执行器所在机器的ip和端口，这样调度中心就可以访问到这个执行器提供的Http接口&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;前面提到每个服务实例都会对应一个执行器实例，所以调用中心会保存每个执行器实例的地址&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="104" y="-460" width="620" height="90" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-53" value="&lt;div&gt;&lt;b&gt;1.&amp;nbsp; 当执行器启动的时候，会启动一个注册线程，这个线程会往调度中心注册当前执行器的信息，包括两部分数据&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;执行器的名字，也就是设置的appname&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;执行器所在机器的ip和端口，这样调度中心就可以访问到这个执行器提供的Http接口&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;前面提到每个服务实例都会对应一个执行器实例，所以调用中心会保存每个执行器实例的地址&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="113" y="-1330" width="620" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1484" width="275" height="230" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="121.5" y="-95" width="275" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1794" width="275" height="230" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="121.5" y="215" width="275" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="155" y="1484" width="80" height="40" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="-95" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-57" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1794" width="80" height="40" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-57" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="121.5" y="215" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="1524" width="130" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="186.5" y="-55" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="1834" width="130" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="186.5" y="255" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.101:9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1894" width="170" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.101:9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="166.5" y="315" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-61" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.100：9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1584" width="180" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-61" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.100：9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="161.5" y="5" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.100：9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="1674" width="180" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.100：9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1351.5" y="95" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-63" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.101:9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="1718" width="170" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-63" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.101:9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1356.5" y="139" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1389" y="1624" width="130" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XxlJob-Demo&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1360.5" y="45" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-66" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;调度中心&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1269" y="1544" width="100" height="40" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-66" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;调度中心&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1240.5" y="-35" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#007FFF;entryX=0.01;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-55" target="ANlJ96FJJQ0399WOkpuZ-65">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#007FFF;entryX=0.01;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-55" target="ANlJ96FJJQ0399WOkpuZ-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1010" y="1830" as="sourcePoint" />
-            <mxPoint x="1030" y="1790" as="targetPoint" />
+            <mxPoint x="981.5" y="251" as="sourcePoint" />
+            <mxPoint x="1001.5" y="211" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-54" target="ANlJ96FJJQ0399WOkpuZ-65">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-54" target="ANlJ96FJJQ0399WOkpuZ-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1010" y="1830" as="sourcePoint" />
-            <mxPoint x="1060" y="1780" as="targetPoint" />
+            <mxPoint x="981.5" y="251" as="sourcePoint" />
+            <mxPoint x="1031.5" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-69" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;启动一个注册线程往调度中心注册当前执行器的信息，包括两部分数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;执行器的名字，也就是设置的appname，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;执行器所在机器的ip和端口&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1699" width="400" height="60" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-69" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;启动一个注册线程往调度中心注册当前执行器的信息，包括两部分数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;执行器的名字，也就是设置的appname，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;执行器所在机器的ip和端口&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="426.5" y="120" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-70" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1624" width="190" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-70" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="501.5" y="45" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-71" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="635" y="1864" width="190" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-71" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="606.5" y="285" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.002;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-45" target="ANlJ96FJJQ0399WOkpuZ-65">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.962;exitY=-0.004;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#007FFF;exitPerimeter=0;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-45" target="ANlJ96FJJQ0399WOkpuZ-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="1750" as="sourcePoint" />
             <mxPoint x="950" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1394" y="1854" width="205" height="60" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1414" y="-45" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dashboard&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1449" y="1869" width="110" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dashboard&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-35" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ANlJ96FJJQ0399WOkpuZ-73">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ANlJ96FJJQ0399WOkpuZ-73" edge="1" source="ANlJ96FJJQ0399WOkpuZ-76">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1496" y="1954" as="sourcePoint" />
-            <mxPoint x="1229" y="1824" as="targetPoint" />
+            <mxPoint x="1450" y="-100" as="sourcePoint" />
+            <mxPoint x="1200.5" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-76" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1481.5" y="1964" width="30" height="60" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-76" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1496" y="-180" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-77" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;提供了一些页面操作管理这些定时任务的触发逻辑&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1499" y="1918" width="290" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-77" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;提供了一些页面操作管理这些定时任务的触发逻辑&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1551" y="-25" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-78" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="1619.5" width="150" height="200" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-78" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="2301.5" y="40.5" width="150" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-65" target="ANlJ96FJJQ0399WOkpuZ-78">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-65" target="ANlJ96FJJQ0399WOkpuZ-78" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150.5" y="-125" as="sourcePoint" />
+            <mxPoint x="1200.5" y="-175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-78" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1179" y="1454" as="sourcePoint" />
             <mxPoint x="1229" y="1404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-78">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1179" y="1454" as="sourcePoint" />
-            <mxPoint x="1229" y="1404" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2341.5" y="250.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1829.5" width="70" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-83" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="636.5" y="-60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-83" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="665" y="1519" width="190" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-85" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;调度中心依赖数据库，所以数据都是存在数据库中的&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;调度中心也支持集群模式，但是它们所依赖的数据库必须是同一个&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以同一个集群中的调度中心实例之间是没有任何通信的，数据都是通过数据库共享的&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2461.5" y="-50.5" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-85" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;调度中心依赖数据库，所以数据都是存在数据库中的&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;调度中心也支持集群模式，但是它们所依赖的数据库必须是同一个&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以同一个集群中的调度中心实例之间是没有任何通信的，数据都是通过数据库共享的&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2490" y="1528.5" width="480" height="90" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-86" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度中心依赖数据库&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;增删查改任务触发规则数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1711" y="95" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-86" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度中心依赖数据库&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;任务触发规则数据&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1829" y="1788" width="130" height="40" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-87" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;尝试加锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2295" y="360" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-87" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;尝试加锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2106" y="1457" width="70" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-88" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2。 初始化JobHandler就是指，执行器启动的时候会去Spring容器中找到加了@XxlJob注解的Bean&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;解析注解，然后封装成一个MethodJobHandler对象，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最终存到XxlJobSpringExecutor成员变量的一个本地的Map缓存中，&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;缓存key就是任务的名字&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="113" y="-1240" width="550" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-88" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2。 初始化JobHandler就是指，执行器启动的时候会去Spring容器中找到加了@XxlJob注解的Bean&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;解析注解，然后封装成一个MethodJobHandler对象，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最终存到XxlJobSpringExecutor成员变量的一个本地的Map缓存中，&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;缓存key就是任务的名字&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="104" y="-370" width="550" height="90" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-89" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="481.5" y="45" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-89" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1624" width="30" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-90" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="621.5" y="-55" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-90" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1524" width="30" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-91" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="591.5" y="285" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-91" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1864" width="30" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-92" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;xxl_job_info&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2316.5" y="124.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-92" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;xxl_job_info&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2345" y="1703.5" width="120" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-93" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3.&amp;nbsp; 任务触发&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;调度中心在启动的时候，会开启一个线程，这个线程的作用就是来计算任务触发时机，这里我把这个线程称为调度线程&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;这个调度线程会去查询xxl_job_info这张表，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;这张表存了任务的一些基本信息和任务下一次执行的时间&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;调度线程会去查询下一次执行的时间 &amp;lt;= 当前时间 + 5s的任务，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;这个5s是XxlJob写死的，被称为预读时间，提前读出来，保证任务能准时触发&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;对于已经超过5s以上时间的任务，会根据任务配置的调度过期策略来选择要不要执行&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;调度过期策略就两种&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;直接忽略这个已经过期的任务&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;立马执行一次这个过期的任务&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;对于超时时间在5s以内的任务，就直接立马执行一次，之后如果判断任务下一次执行时间就在5s内，会直接放到一个时间轮里面，等待下一次触发执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;还没到执行时间，所以不会立马执行，也是直接放到时间轮里面，等待触发执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;当这批任务处理完成之后，不论是前面是什么情况，调度线程都会去重新计算每个任务的下一次触发时间，然后更新xxl_job_info这张表的下一次执行时间&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;之后调度线程还会继续重复上面的步骤，查任务，调度任务，更新任务下次执行时间，一直死循环下去，这就实现了任务到了执行时间就会触发的功能&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;当任务达到了触发条件，并不是由调度线程直接去触发执行器的任务执行&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;调度线程会将这个触发的任务交给线程池去执行，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Xxl-Job为了进一步优化任务的触发，将这个触发任务执行的线程池划分成快线程池和慢线程池两个线程池&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;在调用执行器的Http接口触发任务执行的时候，Xxl-Job会去记录每个任务的触发所耗费的时间&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;注意并不是任务执行时间，只是整个Http请求耗时时间，这是因为执行器执行任务是异步执行的，所以整个时间不包括任务执行时间&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;当任务一次触发的时间超过500ms，那么这个任务的慢次数就会加1&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;如果这个任务一分钟内触发的慢次数超过10次，接下来就会将触发任务交给慢线程池去异步执行&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;所以快慢线程池就是避免那种频繁触发并且每次触发时间还很长的任务阻塞其它任务的触发的情况发生&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="109" y="-1120" width="850" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-93" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3.&amp;nbsp; 任务触发&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;调度中心在启动的时候，会开启一个线程，这个线程的作用就是来计算任务触发时机，这里我把这个线程称为调度线程&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;这个调度线程会去查询xxl_job_info这张表，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;这张表存了任务的一些基本信息和任务下一次执行的时间&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;调度线程会去查询下一次执行的时间 &amp;lt;= 当前时间 + 5s的任务，&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;这个5s是XxlJob写死的，被称为预读时间，提前读出来，保证任务能准时触发&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;对于已经超过5s以上时间的任务，会根据任务配置的调度过期策略来选择要不要执行&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;调度过期策略就两种&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;直接忽略这个已经过期的任务&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;立马执行一次这个过期的任务&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;对于超时时间在5s以内的任务，就直接立马执行一次，之后如果判断任务下一次执行时间就在5s内，会直接放到一个时间轮里面，等待下一次触发执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;还没到执行时间，所以不会立马执行，也是直接放到时间轮里面，等待触发执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;当这批任务处理完成之后，不论是前面是什么情况，调度线程都会去重新计算每个任务的下一次触发时间，然后更新xxl_job_info这张表的下一次执行时间&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;之后调度线程还会继续重复上面的步骤，查任务，调度任务，更新任务下次执行时间，一直死循环下去，这就实现了任务到了执行时间就会触发的功能&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;当任务达到了触发条件，并不是由调度线程直接去触发执行器的任务执行&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;调度线程会将这个触发的任务交给线程池去执行，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Xxl-Job为了进一步优化任务的触发，将这个触发任务执行的线程池划分成快线程池和慢线程池两个线程池&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;在调用执行器的Http接口触发任务执行的时候，Xxl-Job会去记录每个任务的触发所耗费的时间&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;注意并不是任务执行时间，只是整个Http请求耗时时间，这是因为执行器执行任务是异步执行的，所以整个时间不包括任务执行时间&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;当任务一次触发的时间超过500ms，那么这个任务的慢次数就会加1&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;如果这个任务一分钟内触发的慢次数超过10次，接下来就会将触发任务交给慢线程池去异步执行&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;所以快慢线程池就是避免那种频繁触发并且每次触发时间还很长的任务阻塞其它任务的触发的情况发生&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-250" width="850" height="340" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-94" value="&lt;b&gt;&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 14px;&quot;&gt;select * from xxl_job_lock where lock_name = &#39;schedule_lock&#39; for update&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2472.5" y="115.5" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-94" value="&lt;b&gt;&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 14px;&quot;&gt;select * from xxl_job_lock where lock_name = &#39;schedule_lock&#39; for update&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2501" y="1694.5" width="510" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-95" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;执行成功，说明当前调度中心成功抢到了锁，接下来就可以执行调度任务了&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;当调度任务执行完之后再去关闭连接，从而释放锁&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;由于每次执行之前都需要去获取锁，这样就保证在调度中心集群中，同时只有一个调度中心执行调度任务&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2481.5" y="144.5" width="580" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-95" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;执行成功，说明当前调度中心成功抢到了锁，接下来就可以执行调度任务了&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;当调度任务执行完之后再去关闭连接，从而释放锁&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;由于每次执行之前都需要去获取锁，这样就保证在调度中心集群中，同时只有一个调度中心执行调度任务&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="1723.5" width="580" height="90" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-96" value="&lt;b&gt;由于调度中心可以是集群的形式，每个调度中心实例都有调度线程，那么如何保证任务在同一时间只会被其中的一个调度中心触发一次？&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2481.5" y="69.5" width="740" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-96" value="&lt;b&gt;由于调度中心可以是集群的形式，每个调度中心实例都有调度线程，那么如何保证任务在同一时间只会被其中的一个调度中心触发一次？&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="1648.5" width="740" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-97" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;xxl_job_lock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2316.5" y="159.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-97" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;xxl_job_lock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2345" y="1738.5" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-99" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;调度线程&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-99" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;调度线程&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="2081" y="1095" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-100" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-100" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1249.5" y="1058" width="139" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-101" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-101" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1793.5" y="1006" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-102" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-102" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1791" y="1206" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-103" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-103" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1701" y="1095" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-105" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;已经超过5秒的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-105" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;已经超过5秒的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1793.5" y="1028" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-106" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;已经超时但在5秒内的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-106" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;已经超时但在5秒内的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1731" y="1103" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-107" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5秒内即将触发的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-107" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5秒内即将触发的任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1783.5" y="1221" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-108" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-108" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1526" y="996" width="245" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-109" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;调度过期策略&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-109" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;调度过期策略&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1588.5" y="1021" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-110" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-110" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1591" y="1196" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-111" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;时间轮&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-111" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;时间轮&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1613.5" y="1221" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-112" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.022;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-65" target="ANlJ96FJJQ0399WOkpuZ-78">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-112" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.022;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#000000;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-65" target="ANlJ96FJJQ0399WOkpuZ-78" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1549" y="1634" as="sourcePoint" />
-            <mxPoint x="1599" y="1584" as="targetPoint" />
+            <mxPoint x="1520.5" y="55" as="sourcePoint" />
+            <mxPoint x="1570.5" y="5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-131" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ANlJ96FJJQ0399WOkpuZ-112">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-131" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ANlJ96FJJQ0399WOkpuZ-112" vertex="1" connectable="0">
           <mxGeometry x="0.054" y="-6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-113" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;尝试加锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1789" y="1679" width="70" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-113" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;尝试加锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1780.5" y="240.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-114" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-114" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="837" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-115" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;执行成功，说明当前调度中心成功抢到了锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2091" y="1479" width="250" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-115" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;执行成功，说明当前调度中心成功抢到了锁&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2270" y="390" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-117" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-103">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-117" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-103" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1881" y="1206" as="sourcePoint" />
             <mxPoint x="1931" y="1156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-118" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2091" y="1457" width="30" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-118" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="360" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-119" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1779" y="1678" width="30" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-119" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1763.5" y="240.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=57.5;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-78">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=142.5;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-78" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2029" y="1404" as="sourcePoint" />
             <mxPoint x="2079" y="1354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-121" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;查询xxl_job_info表，获取job信息&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1945" y="1306" width="210" height="30" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-121" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;查询xxl_job_info表，获取job信息&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="450" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-101">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1971" y="1306" as="sourcePoint" />
             <mxPoint x="2021" y="1256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-124" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-102">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-124" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-99" target="ANlJ96FJJQ0399WOkpuZ-102" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1971" y="1306" as="sourcePoint" />
             <mxPoint x="2021" y="1256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-125" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度线程会去查询xxl_job_info这张表&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;这张表存了任务的一些基本信息和任务下一次执行的时间&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度线程会去查询下一次执行的时间 &amp;lt;= 当前时间 + 5s的任务&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1841" y="1326" width="350" height="60" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-125" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度线程会去查询xxl_job_info这张表&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;这张表存了任务的一些基本信息和任务下一次执行的时间&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;调度线程会去查询下一次执行的时间 &amp;lt;= 当前时间 + 5s的任务&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="470" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-126" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-101" target="ANlJ96FJJQ0399WOkpuZ-108">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-126" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-101" target="ANlJ96FJJQ0399WOkpuZ-108" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1971" y="1306" as="sourcePoint" />
             <mxPoint x="2021" y="1256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-127" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-102" target="ANlJ96FJJQ0399WOkpuZ-110">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-127" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-102" target="ANlJ96FJJQ0399WOkpuZ-110" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1971" y="1206" as="sourcePoint" />
             <mxPoint x="2021" y="1156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-128" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;快线程池&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-128" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;快线程池&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1286.5" y="1076" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1268.5" y="1196" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-130" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;慢线程池&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-130" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;慢线程池&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1286.5" y="1211" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-133" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-133" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1499" y="855" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-134" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;丢弃&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-134" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;丢弃&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1526" y="872" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-135" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-108" target="ANlJ96FJJQ0399WOkpuZ-133">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-135" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-108" target="ANlJ96FJJQ0399WOkpuZ-133" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1260" y="1190" as="sourcePoint" />
             <mxPoint x="1310" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;entryX=0.991;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-108" target="ANlJ96FJJQ0399WOkpuZ-149">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;entryX=0.991;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-108" target="ANlJ96FJJQ0399WOkpuZ-149" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1260" y="1190" as="sourcePoint" />
             <mxPoint x="1487" y="983" as="targetPoint" />
@@ -567,164 +567,173 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-110" target="ANlJ96FJJQ0399WOkpuZ-37">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-110" target="ANlJ96FJJQ0399WOkpuZ-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1260" y="1190" as="sourcePoint" />
             <mxPoint x="1510" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-103" target="ANlJ96FJJQ0399WOkpuZ-37">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-103" target="ANlJ96FJJQ0399WOkpuZ-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1260" y="1190" as="sourcePoint" />
             <mxPoint x="1510" y="1129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-141" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b style=&quot;&quot;&gt;在调用执行器的Http接口触发任务执行的时候，&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b style=&quot;&quot;&gt;Xxl-Job会去记录每个任务的触发所耗费的时间&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-141" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b style=&quot;&quot;&gt;在调用执行器的Http接口触发任务执行的时候，&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b style=&quot;&quot;&gt;Xxl-Job会去记录每个任务的触发所耗费的时间&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1188.5" y="1138" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-142" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;当任务一次触发的时间超过500ms，那么这个任务的慢次数就会加1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;如果这个任务一分钟内触发的慢次数超过10次，接下来就会将触发任务交给慢线程池去执行&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;所以快慢线程池就是避免那种频繁触发并且每次触发时间还很长的任务阻塞其它任务的触发的情况发生&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-142" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;当任务一次触发的时间超过500ms，那么这个任务的慢次数就会加1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;如果这个任务一分钟内触发的慢次数超过10次，接下来就会将触发任务交给慢线程池去执行&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;所以快慢线程池就是避免那种频繁触发并且每次触发时间还很长的任务阻塞其它任务的触发的情况发生&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1159" y="1266" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-143" value="&lt;b&gt;立即触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-143" value="&lt;b&gt;立即触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1493.5" y="997" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-144" value="&lt;b&gt;立即触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-144" value="&lt;b&gt;立即触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1509" y="1102" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-145" value="&lt;b&gt;到时触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-145" value="&lt;b&gt;到时触发执行&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1499" y="1206" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-146" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;4.&amp;nbsp; 选择执行器实例&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;任务需要触发的时候，调度中心会向执行器发送Http请求，执行器去执行具体的任务&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;由于一个执行器会有很多实例，那么应该向哪个实例请求？&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;这其实就跟任务配置时设置的路由策略有关了&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;xxljob支持多种路由策略：第一个、最后一个、轮询、随机，一致性Hash&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最不经常使用（LFU：Least Frequently Used）：Xxl-Job内部会有一个缓存，统计每个任务每个地址的使用次数，每次都选择使用次数最少的地址，这个缓存每隔24小时重置一次&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最近最久未使用（LRU：Least Recently Used）：将地址存到LinkedHashMap中，它利用LinkedHashMap可以根据元素访问（get/put）顺序来给元素排序的特性，快速找到最近最久未使用（未访问）的节点&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;故障转移：调度中心都会去请求每个执行器，只要能接收到响应，说明执行器正常，那么任务就会交给这个执行器去执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;忙碌转移：调度中心也会去请求每个执行器，判断执行器是不是正在执行当前需要执行的任务（任务执行时间过长，导致上一次任务还没执行完，下一次又触发了），如果在执行，说明忙碌，不能用，否则就可以用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;分片广播：XxlJob给每个执行器分配一个编号，从0开始递增，然后向所有执行器触发任务，告诉每个执行器自己的编号和总共执行器的数据&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;除了分片广播，其余的具体的算法实现都是通过ExecutorRouter的实现类来实现的，当选择好了具体的执行器实例之后，调用中心就会携带一些触发的参数，发送Http请求，触发任务&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="125" width="1180" height="170" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-146" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;4.&amp;nbsp; 选择执行器实例&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;任务需要触发的时候，调度中心会向执行器发送Http请求，执行器去执行具体的任务&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;由于一个执行器会有很多实例，那么应该向哪个实例请求？&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;这其实就跟任务配置时设置的路由策略有关了&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;xxljob支持多种路由策略：第一个、最后一个、轮询、随机，一致性Hash&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最不经常使用（LFU：Least Frequently Used）：Xxl-Job内部会有一个缓存，统计每个任务每个地址的使用次数，每次都选择使用次数最少的地址，这个缓存每隔24小时重置一次&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;最近最久未使用（LRU：Least Recently Used）：将地址存到LinkedHashMap中，它利用LinkedHashMap可以根据元素访问（get/put）顺序来给元素排序的特性，快速找到最近最久未使用（未访问）的节点&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;故障转移：调度中心都会去请求每个执行器，只要能接收到响应，说明执行器正常，那么任务就会交给这个执行器去执行&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;忙碌转移：调度中心也会去请求每个执行器，判断执行器是不是正在执行当前需要执行的任务（任务执行时间过长，导致上一次任务还没执行完，下一次又触发了），如果在执行，说明忙碌，不能用，否则就可以用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;分片广播：XxlJob给每个执行器分配一个编号，从0开始递增，然后向所有执行器触发任务，告诉每个执行器自己的编号和总共执行器的数据&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;除了分片广播，其余的具体的算法实现都是通过ExecutorRouter的实现类来实现的，当选择好了具体的执行器实例之后，调用中心就会携带一些触发的参数，发送Http请求，触发任务&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="109" y="-745" width="1180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-147" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-147" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1060" y="1051" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-148" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorRouter&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-148" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorRouter&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1066" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-149" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;xxljob支持多种路由策略：&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;第一个、最后一个、轮询、随机，LFU,LRU,Failover，分片广播&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;具体的算法实现都是通过ExecutorRouter的实现类来实现的&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-149" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;xxljob支持多种路由策略：&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;第一个、最后一个、轮询、随机，LFU,LRU,Failover，分片广播&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;具体的算法实现都是通过ExecutorRouter的实现类来实现的&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="973.5" y="1006" width="520" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-153" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-153" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="515" y="1230" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-154" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-154" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="495" y="927" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-155" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-155" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="535" y="1136" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-156" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-156" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="535" y="1051" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-157" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;任务队列&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-157" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;任务队列&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="1065" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-158" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;JobThread&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-158" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;JobThread&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="545" y="1148" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-159" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;5.&amp;nbsp; 执行器如何去执行任务&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;当执行器接收到调度中心的请求时，会把请求交给ExecutorBizImpl来处理，&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;执行器处理触发请求是这个ExecutorBizImpl的run方法实现的&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;当执行器接收到请求，在正常情况下，执行器会去为这个任务创建一个单独的线程，这个线程被称为JobThread&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;之后任务并不是直接交给线程处理的，而是直接放到一个内存队列中，线程直接从队列中获取任务，&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;每个任务在触发的时候都有单独的线程去执行，保证不同的任务执行互不影响&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="295" width="760" height="110" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-159" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;5.&amp;nbsp; 执行器如何去执行任务&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;当执行器接收到调度中心的请求时，会把请求交给ExecutorBizImpl来处理，&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;执行器处理触发请求是这个ExecutorBizImpl的run方法实现的&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;当执行器接收到请求，在正常情况下，执行器会去为这个任务创建一个单独的线程，这个线程被称为JobThread&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;b&gt;之后任务并不是直接交给线程处理的，而是直接放到一个内存队列中，线程直接从队列中获取任务，&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;每个任务在触发的时候都有单独的线程去执行，保证不同的任务执行互不影响&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="124" y="-575" width="760" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-160" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-160" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="510" y="1300" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-161" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;XxlJobSpringExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-161" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;XxlJobSpringExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="509" y="942" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-163" value="&lt;b&gt;（XxlJobExecutor）&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-163" value="&lt;b&gt;（XxlJobExecutor）&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="524" y="957" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-165" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-18" target="ANlJ96FJJQ0399WOkpuZ-154">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-165" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-18" target="ANlJ96FJJQ0399WOkpuZ-154" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="960" as="sourcePoint" />
             <mxPoint x="540" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-166" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-166" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="950" y="965" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-167" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00008A;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-163" target="ANlJ96FJJQ0399WOkpuZ-156">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-167" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00008A;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-163" target="ANlJ96FJJQ0399WOkpuZ-156" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="1100" as="sourcePoint" />
             <mxPoint x="540" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-168" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;提交任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-168" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;提交任务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="594" y="1021" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-169" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00008A;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-156">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-169" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00008A;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-156" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="1100" as="sourcePoint" />
             <mxPoint x="540" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-170" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;获取任务处理&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-170" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;获取任务处理&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="1111" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#00008A;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-18">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#00008A;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="1240" as="sourcePoint" />
             <mxPoint x="540" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-172" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;任务交给对应的JobHandler&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-172" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;任务交给对应的JobHandler&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="364" y="1155" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-173" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;不正常的情况下：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果调度中心选择的执行器实例正在处理定时任务，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;那么此时该怎么处理呢？**&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;这时就跟阻塞处理策略有关了，&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;阻塞处理策略总共有三种：&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;单机串行&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;丢弃后续调度&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;覆盖之前调度&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;单机串行的实现就是将任务放到队列中，由于队列是先进先出的，所以就实现串行，&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;这也是为什么放在队列的原因&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;丢弃调度的实现就是执行器什么事都不用干就可以了，自然而然任务就丢了&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;覆盖之前调度的实现就很暴力了，他是直接重新创建一个JobThread来执行任务，&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;并且尝试打断之前的正在处理任务的JobThread，丢弃之前队列中的任务&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;阻塞处理策略是对于单个执行器上的任务来生效的，不同执行器实例上的同一个任务是互不影响的&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-173" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;不正常的情况下：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果调度中心选择的执行器实例正在处理定时任务，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;那么此时该怎么处理呢？**&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;这时就跟阻塞处理策略有关了，&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;阻塞处理策略总共有三种：&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;单机串行&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;丢弃后续调度&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;覆盖之前调度&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;单机串行的实现就是将任务放到队列中，由于队列是先进先出的，所以就实现串行，&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;这也是为什么放在队列的原因&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;丢弃调度的实现就是执行器什么事都不用干就可以了，自然而然任务就丢了&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;覆盖之前调度的实现就很暴力了，他是直接重新创建一个JobThread来执行任务，&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;并且尝试打断之前的正在处理任务的JobThread，丢弃之前队列中的任务&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;阻塞处理策略是对于单个执行器上的任务来生效的，不同执行器实例上的同一个任务是互不影响的&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="669" y="1045" width="540" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-174" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-174" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="1013" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-175" value="&lt;b&gt;6.任务执行结果的回调&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;当任务处理完成之后，执行器会将任务执行的结果发送给调度中心&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;JobThread会将任务执行的结果发送到一个内存队列中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;执行器启动的时候会开启一个处发送任务执行结果的线程：TriggerCallbackThread&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;这个线程会不停地从队列中获取所有的执行结果，将执行结果批量发送给调度中心&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;调用中心接收到请求时，会根据执行的结果修改这次任务的执行状态和进行一些后续的事，比如失败了是否需要重试，是否有子任务需要触发等等&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="405" width="790" height="110" as="geometry" />
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-175" value="&lt;b&gt;6.任务执行结果的回调&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;当任务处理完成之后，执行器会将任务执行的结果发送给调度中心&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;JobThread会将任务执行的结果发送到一个内存队列中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;执行器启动的时候会开启一个处发送任务执行结果的线程：TriggerCallbackThread&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;这个线程会不停地从队列中获取所有的执行结果，将执行结果批量发送给调度中心&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;调用中心接收到请求时，会根据执行的结果修改这次任务的执行状态和进行一些后续的事，比如失败了是否需要重试，是否有子任务需要触发等等&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="124" y="-465" width="790" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-176" value="&lt;b&gt;执行结果队列&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-176" value="&lt;b&gt;执行结果队列&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="530" y="1236" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-178" value="&lt;b&gt;TriggerCallbackThread&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-178" value="&lt;b&gt;TriggerCallbackThread&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="1315" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-179" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;获取所有的执行结果&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-179" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;获取所有的执行结果&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="435" y="1270" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-180" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;批量发送执行结果给调度中心&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-180" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;批量发送执行结果给调度中心&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="796" y="1300" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-181" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-153">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-181" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-155" target="ANlJ96FJJQ0399WOkpuZ-153" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="1220" as="sourcePoint" />
             <mxPoint x="510" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-182" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;将任务执行的结果发送到一个内存队列中&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-182" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;将任务执行的结果发送到一个内存队列中&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="415" y="1200" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-183" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.518;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-160" target="ANlJ96FJJQ0399WOkpuZ-176">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-183" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.518;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-160" target="ANlJ96FJJQ0399WOkpuZ-176" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="1220" as="sourcePoint" />
             <mxPoint x="510" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-184" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ANlJ96FJJQ0399WOkpuZ-178" target="ANlJ96FJJQ0399WOkpuZ-37">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-184" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="ANlJ96FJJQ0399WOkpuZ-178" target="ANlJ96FJJQ0399WOkpuZ-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="1220" as="sourcePoint" />
             <mxPoint x="1190" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-185" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;6&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-185" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;6&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="1191" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-188" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;XxlJobSpringExecutor&amp;nbsp;整个执行器启动的入口&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-188" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;XxlJobSpringExecutor&amp;nbsp;整个执行器启动的入口&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="902" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-189" value="&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;JobHandler其实就是一个定时任务的封装&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;一个定时任务会对应一个JobHandler对象&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;当执行器执行任务的时候，就会调用JobHandler的execute方法&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;JobHandler有三种实现：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;MethodJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;ScriptJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;MethodJobHandler是通过反射来调用方法执行任务&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler比较有意思，它支持动态修改任务执行的代码&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;当你在创建任务的时候，需要指定运行模式为GLUE(Java)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;ScriptJobHandler专门处理一些脚本的&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;初始化JobHandler就是指，执行器启动的时候会去Spring容器中找到加了@XxlJob注解的Bean&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;解析注解，然后封装成一个MethodJobHandler对象，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;最终存到XxlJobSpringExecutor成员变量的一个本地的Map缓存中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler和ScriptJobHandler都是任务触发时才会创建&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-189" value="&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;JobHandler其实就是一个定时任务的封装&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;一个定时任务会对应一个JobHandler对象&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;当执行器执行任务的时候，就会调用JobHandler的execute方法&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;JobHandler有三种实现：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;MethodJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;ScriptJobHandler&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;MethodJobHandler是通过反射来调用方法执行任务&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler比较有意思，它支持动态修改任务执行的代码&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;当你在创建任务的时候，需要指定运行模式为GLUE(Java)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;ScriptJobHandler专门处理一些脚本的&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;初始化JobHandler就是指，执行器启动的时候会去Spring容器中找到加了@XxlJob注解的Bean&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;解析注解，然后封装成一个MethodJobHandler对象，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;最终存到XxlJobSpringExecutor成员变量的一个本地的Map缓存中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;GlueJobHandler和ScriptJobHandler都是任务触发时才会创建&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-90" y="1103" width="530" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ANlJ96FJJQ0399WOkpuZ-190" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;ExecutorBizClient的实现就是发送http请求，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以这个实现类是在调度中心使用的，用来访问执行器提供的http接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ANlJ96FJJQ0399WOkpuZ-190" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;ExecutorBizClient的实现就是发送http请求，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;所以这个实现类是在调度中心使用的，用来访问执行器提供的http接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1180" y="910" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VdQDnjwRHH8x-FotQMhJ-3" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;注册执行器应用名，ip和端口号&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="877.5" y="420" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VdQDnjwRHH8x-FotQMhJ-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VdQDnjwRHH8x-FotQMhJ-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;192.168.0.102:9999&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1356" y="189.5" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
