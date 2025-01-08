@@ -1003,7 +1003,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aFdEVQMKjbmttWaHHXfw" name="Spring，Springboot">
-    <mxGraphModel dx="1212" dy="26345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="26479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2706,16 +2706,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-168" value="&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;Spring&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;泛型处理&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="366" y="-18690" width="190" height="50" as="geometry" />
+          <mxGeometry x="359.31" y="-18880" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OZDBB6FNwcegUENohpiK-169" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;泛型处理其实是一块相对独立的东西，因为它就只是一个工具类，只还不过这个工具类在Spring中却是无处不在！&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ResolvableType提供了有一套灵活的API，可以在运行时获取和处理泛型类型等信息。&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;通过ResolvableType#forClass方法创建ResolvableType之外，还可以通过一下几个方法创建：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forField(Field field)：获取字段类型对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forMethodReturnType(Method method)：获取方法返回值类型对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forMethodParameter(Method method, int parameterIndex)：获取方法某个位置方法参数对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forConstructorParameter(Constructor&amp;lt;?&amp;gt; constructor, int parameterIndex)：获取构造方法某个构造参数对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="369.12" y="-18670" width="730" height="200" as="geometry" />
+        <mxCell id="OZDBB6FNwcegUENohpiK-169" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;泛型处理其实是一块相对独立的东西，因为它就只是一个工具类，只还不过这个工具类在Spring中却是无处不在！&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ResolvableType提供了有一套灵活的API，可以在运行时获取和处理泛型类型等信息。&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;通过ResolvableType#forClass方法创建ResolvableType之外，还可以通过一下几个方法创建：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forField(Field field)：获取字段类型对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forMethodReturnType(Method method)：获取方法返回值类型对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forMethodParameter(Method method, int parameterIndex)：获取方法某个位置方法参数对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;forConstructorParameter(Constructor&amp;lt;?&amp;gt; constructor, int parameterIndex)：获取构造方法某个构造参数对应的ResolvableType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;对于一个类方法参数，方法返回值，字段等等都可以获取到对应的ResolvableType&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="362.43" y="-18860" width="730" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-170" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="541.12" y="-18420" width="310" height="70" as="geometry" />
+          <mxGeometry x="534.43" y="-18610" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-171" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ResolvableType&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="634.12" y="-18400" width="140" height="30" as="geometry" />
+          <mxGeometry x="627.43" y="-18590" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-172" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;国际化（Internationalization，简称i18n）也是Spring提供的一个核心功能，它其实也是一块相对独立的功能。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;所谓的国际化，其实理解简单点就是对于不同的地区国家，输出的文本内容语言不同。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;Spring的国际化其实主要是依赖Java中的国际化和文本处理方式。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="407.13" y="-18120" width="620" height="90" as="geometry" />
@@ -2760,7 +2760,7 @@
           <mxGeometry x="402.5" y="-17150" width="740" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-187" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;Locale：不同国家和地区的信息封装&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;ResourceBundle：根据不同国家的Locale，加载对应的资源文件，这个资源文件的命名需要遵守basename_lang_country.properties命名规范&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;MessageFormat：其实就是一个文本处理的方式，他可以解析模板，根据参数替换模板的占位符&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;MessageSource：Spring提供的国际化接口，其实他底层主要是依赖Java的ResourceBundle和MessageFormat，资源文件存储模板信息，MessageFormat根据MessageSource方法的传参替换模板中的占位符&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="362.5" y="-18270" width="1150" height="70" as="geometry" />
+          <mxGeometry x="426.59" y="-18270" width="1150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-189" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="826.49" y="-16356" width="385" height="80" as="geometry" />
@@ -3792,7 +3792,16 @@
           <mxGeometry x="721.3" y="-5680" width="640" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eQpZBN6BaFq8j83PpIj-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;在运行时获取和处理泛型类型等信息。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="615" y="-18342" width="230" height="30" as="geometry" />
+          <mxGeometry x="608.31" y="-18532" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#forClass方法创建一个MyMap类型对应的ResolvableType&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;通过ResolvableType#getSuperType()方法获取,获取到父类HashMap对应的ResolvableType&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#getGeneric(int... indexes)就可以获取指定位置的泛型参数ResolvableType&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#resolve()方法就可以获取到ResolvableType类型对应的class类型&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-18602" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-4" value="&lt;b&gt;基于ResourceBundle + MessageFormat的实现ResourceBundleMessageSource&lt;/b&gt;&lt;div&gt;&lt;b&gt;可以在资源文件存储消息的模板，然后通过MessageFormat来替换占位符，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource的getMessage方法就可以传递具体的参数&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="948" y="-16932" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-5" value="&lt;div&gt;&lt;b&gt;Locale：不同国家和地区的信息封装&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ResourceBundle：根据不同国家的Locale，加载对应的资源文件，这个资源文件的命名需要遵守basename_lang_country.properties命名规范&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageFormat：其实就是一个文本处理的方式，他可以解析模板，根据参数替换模板的占位符&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource：Spring提供的国际化接口，其实他底层主要是依赖Java的ResourceBundle和MessageFormat，资源文件存储模板信息，MessageFormat根据MessageSource方法的传参替换模板中的占位符&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="391.33000000000004" y="-17090" width="1150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
