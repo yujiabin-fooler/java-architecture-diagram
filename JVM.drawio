@@ -1007,6 +1007,18 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1439.9999999999998" y="-23210" width="297.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="954.3299999999999" y="-23220" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="895.5" y="-23050" width="394.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="495.5" y="-23040" width="320" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-361" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="1506.8600000000001" y="-19530" width="300" height="77" as="geometry" />
         </mxCell>
@@ -3808,6 +3820,63 @@
         </mxCell>
         <mxCell id="R36P5IaH8ckpL3Td1BHd-3" value="&lt;div&gt;&lt;b&gt;资源管理：对资源进行统一的封装，方便资源读取和管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;环境：对容器或者是项目的配置进行管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;类型转换：将一种类型转换成另一种类型&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;数据绑定：将数据跟对象的属性进行绑定，绑定之前涉及到类型转换&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;泛型处理：一个操作泛型的工具类，Spring中到处可见&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;国际化：对Java的国际化进行了统一的封装&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;BeanFactory：IOC容器&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ApplicationContext：一个集万千功能于一身的王炸接口，也可以说是IOC容器&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;事件：Spring提供的基于观察者模式实现的解耦合利器&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1564" y="-21600" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ApplicationEventPublisher&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="532.0899999999999" y="-23020" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ApplicationEvent&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="-23025" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;EventObject&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1034.33" y="-23192" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1413.28" y="-23050" width="355" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ApplicationListener&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1498.78" y="-23025" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;EventListener&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1537.4999999999998" y="-23192" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R36P5IaH8ckpL3Td1BHd-7" target="R36P5IaH8ckpL3Td1BHd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-23030" as="sourcePoint" />
+            <mxPoint x="1180" y="-23080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R36P5IaH8ckpL3Td1BHd-10" target="R36P5IaH8ckpL3Td1BHd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-23030" as="sourcePoint" />
+            <mxPoint x="1180" y="-23080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R36P5IaH8ckpL3Td1BHd-7" target="R36P5IaH8ckpL3Td1BHd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-23030" as="sourcePoint" />
+            <mxPoint x="1180" y="-23080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-17" value="&lt;b&gt;事件监听的接口，泛型是需要监听的事件类型，子类需要实现onApplicationEvent，参数就是监听的事件类型，&lt;/b&gt;&lt;div&gt;&lt;b&gt;onApplicationEvent方法的实现就代表了对事件的处理，当事件发生时，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Spring会回调onApplicationEvent方法的实现，传入发布的事件。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1504" y="-22950" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-18" value="&lt;b&gt;事件的父类，所有具体的事件都得继承这个类，构造方法的参数是这个事件携带的参数，&lt;/b&gt;&lt;div&gt;&lt;b&gt;监听器就可以通过这个参数来进行一些业务操作。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="896.37" y="-22930" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-19" value="&lt;div&gt;&lt;b&gt;事件发布器，通过publishEvent方法就可以发布一个事件，然后就可以触发监听这个事件的监听器的回调。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ApplicationContext继承了ApplicationEventPublisher，说明只要有ApplicationContext就可以来发布事件了。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-22957" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R36P5IaH8ckpL3Td1BHd-5" target="R36P5IaH8ckpL3Td1BHd-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="-23030" as="sourcePoint" />
+            <mxPoint x="1180" y="-23080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-21" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;Spring Event 事件就是Spring实现了这种事件模型，你只需要基于Spring提供的API进行扩展，就可以轻易地完成事件的发布与订阅&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;Spring事件相关api主要有以下几个：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;b&gt;ApplicationEvent&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;事件的父类，所有具体的事件都得继承这个类，构造方法的参数是这个事件携带的参数，监听器就可以通过这个参数来进行一些业务操作。&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;b&gt;ApplicationListener&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;事件监听的接口，泛型是需要监听的事件类型，子类需要实现onApplicationEvent，参数就是监听的事件类型，onApplicationEvent方法的实现就代表了对事件的处理，当事件发生时，Spring会回调onApplicationEvent方法的实现，传入发布的事件。&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;b&gt;ApplicationEventPublisher&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;事件发布器，通过publishEvent方法就可以发布一个事件，然后就可以触发监听这个事件的监听器的回调。&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;Spring内置的事件很多，这里我罗列几个&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;事件类型&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;触发时机&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;ContextRefreshedEvent&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;在调用ConfigurableApplicationContext 接口中的refresh()方法时触发&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;ContextStartedEvent&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;在调用ConfigurableApplicationContext的start()方法时触发&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;ContextStoppedEvent&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;在调用ConfigurableApplicationContext的stop()方法时触发&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;ContextClosedEvent&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;当ApplicationContext被关闭时触发该事件，也就是调用close()方法触发&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;在ApplicationContext(Spring容器)启动的过程中，Spring会发布这些事件，如果你需要这Spring容器启动的某个时刻进行什么操作，只需要监听对应的事件即可。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;b&gt;Spring事件的传播特性&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;ApplicationContext有子父容器的概念，而Spring事件的传播就是指当通过子容器发布一个事件之后，不仅可以触发在这个子容器的事件监听器，还可以触发在父容器的这个事件的监听器。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235.5" y="-23620" width="1480" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-22" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Spring&amp;nbsp; EVENT&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="239.99999999999997" y="-23700" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
