@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.0" pages="24">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.4" pages="24">
   <diagram name="JVM" id="2t9mX146NmbGCnDUHTSx">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1003,7 +1003,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aFdEVQMKjbmttWaHHXfw" name="Spring，Springboot">
-    <mxGraphModel dx="1471" dy="26479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="26800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3633,13 +3633,13 @@
           <mxGeometry x="1827.97" y="-24470" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-451" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1709" y="-23775" width="483.49" height="60" as="geometry" />
+          <mxGeometry x="1630.26" y="-23730" width="483.49" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-452" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2029.36" y="-23965" width="257.12" height="60" as="geometry" />
+          <mxGeometry x="1950.62" y="-23920" width="257.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-453" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1646.28" y="-23965" width="257.12" height="60" as="geometry" />
+          <mxGeometry x="1567.54" y="-23920" width="257.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-454" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1434" y="-24177" width="270" height="60" as="geometry" />
@@ -3654,7 +3654,7 @@
           <mxGeometry x="2860" y="-24345" width="257.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-458" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="-23650" width="295" height="60" as="geometry" />
+          <mxGeometry x="1721.26" y="-23605" width="295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-459" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AbstractBeanDefinitionReader&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1786.4" y="-24305" width="260" height="30" as="geometry" />
@@ -3693,40 +3693,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-468" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ClassPathBeanDefinitionScanner&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1805" y="-23635" width="280" height="30" as="geometry" />
+          <mxGeometry x="1726.26" y="-23590" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-469" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ClassPathScanningCandidateComponentProvider&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1744.99" y="-23768" width="400" height="30" as="geometry" />
+          <mxGeometry x="1666.25" y="-23723" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-470" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;EnvironmentCapable&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1695.41" y="-23950" width="180" height="30" as="geometry" />
+          <mxGeometry x="1616.67" y="-23905" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-471" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ResourceLoaderAware&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2059" y="-23950" width="200" height="30" as="geometry" />
+          <mxGeometry x="1980.26" y="-23905" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-472" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-451" target="OZDBB6FNwcegUENohpiK-453" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1794" y="-23650" as="sourcePoint" />
-            <mxPoint x="1844" y="-23700" as="targetPoint" />
+            <mxPoint x="1715.26" y="-23605" as="sourcePoint" />
+            <mxPoint x="1765.26" y="-23655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-473" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.571;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OZDBB6FNwcegUENohpiK-451" target="OZDBB6FNwcegUENohpiK-452" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1794" y="-23650" as="sourcePoint" />
-            <mxPoint x="1844" y="-23700" as="targetPoint" />
+            <mxPoint x="1715.26" y="-23605" as="sourcePoint" />
+            <mxPoint x="1765.26" y="-23655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-474" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-458" target="OZDBB6FNwcegUENohpiK-451" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1720" y="-22700" as="sourcePoint" />
-            <mxPoint x="1770" y="-22750" as="targetPoint" />
+            <mxPoint x="1641.26" y="-22655" as="sourcePoint" />
+            <mxPoint x="1691.26" y="-22705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-475" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;读取xml配置的Bean&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2109" y="-24112" width="130" height="30" as="geometry" />
+          <mxGeometry x="2193.74" y="-24112" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-476" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;读取properties文件配置的Bean，Bean可以定义在properties文件配置中&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1694" y="-24112" width="420" height="30" as="geometry" />
+          <mxGeometry x="1709" y="-24110" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-477" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AnnotatedBeanDefinitionReader&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2237.74" y="-24455" width="270" height="30" as="geometry" />
@@ -3783,25 +3783,31 @@
           <mxGeometry x="1465" y="-24492" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-492" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ClassPathBeanDefinitionScanner&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1417.78" y="-24012" width="280" height="30" as="geometry" />
+          <mxGeometry x="1455.23" y="-23977" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-493" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BeanDefinitionRegistry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2664.28" y="-24510" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0eQpZBN6BaFq8j83PpIj-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在SpringBoot中，application.yml的文件就是通过ResourceLoader加载成Resource，之后再读取文件的内容的。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在SpringBoot中，application.yml的文件就是通过ResourceLoader加载成Resource，之后再读取文件的内容的。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="721.3" y="-5680" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0eQpZBN6BaFq8j83PpIj-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;在运行时获取和处理泛型类型等信息。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;在运行时获取和处理泛型类型等信息。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608.31" y="-18532" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0eQpZBN6BaFq8j83PpIj-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#forClass方法创建一个MyMap类型对应的ResolvableType&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;通过ResolvableType#getSuperType()方法获取,获取到父类HashMap对应的ResolvableType&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#getGeneric(int... indexes)就可以获取指定位置的泛型参数ResolvableType&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#resolve()方法就可以获取到ResolvableType类型对应的class类型&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#forClass方法创建一个MyMap类型对应的ResolvableType&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;通过ResolvableType#getSuperType()方法获取,获取到父类HashMap对应的ResolvableType&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#getGeneric(int... indexes)就可以获取指定位置的泛型参数ResolvableType&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;通过ResolvableType#resolve()方法就可以获取到ResolvableType类型对应的class类型&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="890" y="-18602" width="550" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0eQpZBN6BaFq8j83PpIj-4" value="&lt;b&gt;基于ResourceBundle + MessageFormat的实现ResourceBundleMessageSource&lt;/b&gt;&lt;div&gt;&lt;b&gt;可以在资源文件存储消息的模板，然后通过MessageFormat来替换占位符，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource的getMessage方法就可以传递具体的参数&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-4" value="&lt;b&gt;基于ResourceBundle + MessageFormat的实现ResourceBundleMessageSource&lt;/b&gt;&lt;div&gt;&lt;b&gt;可以在资源文件存储消息的模板，然后通过MessageFormat来替换占位符，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource的getMessage方法就可以传递具体的参数&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="948" y="-16932" width="470" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0eQpZBN6BaFq8j83PpIj-5" value="&lt;div&gt;&lt;b&gt;Locale：不同国家和地区的信息封装&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ResourceBundle：根据不同国家的Locale，加载对应的资源文件，这个资源文件的命名需要遵守basename_lang_country.properties命名规范&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageFormat：其实就是一个文本处理的方式，他可以解析模板，根据参数替换模板的占位符&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource：Spring提供的国际化接口，其实他底层主要是依赖Java的ResourceBundle和MessageFormat，资源文件存储模板信息，MessageFormat根据MessageSource方法的传参替换模板中的占位符&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0eQpZBN6BaFq8j83PpIj-5" value="&lt;div&gt;&lt;b&gt;Locale：不同国家和地区的信息封装&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ResourceBundle：根据不同国家的Locale，加载对应的资源文件，这个资源文件的命名需要遵守basename_lang_country.properties命名规范&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageFormat：其实就是一个文本处理的方式，他可以解析模板，根据参数替换模板的占位符&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MessageSource：Spring提供的国际化接口，其实他底层主要是依赖Java的ResourceBundle和MessageFormat，资源文件存储模板信息，MessageFormat根据MessageSource方法的传参替换模板中的占位符&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="391.33000000000004" y="-17090" width="1150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-2" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;扫描指定包下通过@Component及其派生注解（@Service等等）注解定义的Bean，&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;其实就是@ComponentScan注解的底层实现&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="-23525" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R36P5IaH8ckpL3Td1BHd-3" value="&lt;div&gt;&lt;b&gt;资源管理：对资源进行统一的封装，方便资源读取和管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;环境：对容器或者是项目的配置进行管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;类型转换：将一种类型转换成另一种类型&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;数据绑定：将数据跟对象的属性进行绑定，绑定之前涉及到类型转换&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;泛型处理：一个操作泛型的工具类，Spring中到处可见&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;国际化：对Java的国际化进行了统一的封装&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;BeanFactory：IOC容器&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ApplicationContext：一个集万千功能于一身的王炸接口，也可以说是IOC容器&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;事件：Spring提供的基于观察者模式实现的解耦合利器&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1564" y="-21600" width="440" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
