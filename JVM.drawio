@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ki8XQq0x2mf3S2qTC5oE" name="Tomcat">
-    <mxGraphModel dx="8654" dy="4776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7731" dy="3874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -809,6 +809,39 @@
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-206" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;7.&amp;nbsp; 请求处理完毕，响应结果会沿着原路返回，&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;经过各个 Valve，最终由 Connector 发送回客户端。&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="2180" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-207" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="2630" width="1360" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-208" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="2610" width="1120" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-209" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-207" target="Ub1CV1uvOyHI6s0gvkGn-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800" y="2480" as="sourcePoint" />
+            <mxPoint x="-750" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-210" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-208" target="Ub1CV1uvOyHI6s0gvkGn-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800" y="2200" as="sourcePoint" />
+            <mxPoint x="-750" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-211" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Endpoint&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="2650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-212" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;ProtocolHandler&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="2660" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-213" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="-296" width="1970" height="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-214" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. Connector组件的Acceptor监听客户端套接字连接并接收Socket。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2. 将连接交给线程池Executor处理，开始执行请求响应任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3. Processor组件读取消息报文，解析请求行、请求体、请求头，封装成Request对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4. Mapper组件根据请求行的URL值和请求头的Host值匹配由哪个Host容器、Context容器、Wrapper容器处理请求。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5. CoyoteAdaptor组件负责将Connector组件和Engine容器关联起来，把生成的Request对象和响应对象Response传递到Engine容器中，调用 Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;6. Engine容器的管道开始处理，管道中包含若干个Valve、每个Valve负责部分处理逻辑。执行完Valve后会执行基础的 Valve--StandardEngineValve，负责调用Host容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;7. Host容器的管道开始处理，流程类似，最后执行 Context容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;8. Context容器的管道开始处理，流程类似，最后执行 Wrapper容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;9. Wrapper容器的管道开始处理，流程类似，最后执行 Wrapper容器对应的Servlet对象的 处理方法&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="-550" width="1320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-215" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Tomcat处理请求流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="-617" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
