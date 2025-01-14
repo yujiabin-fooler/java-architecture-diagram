@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ki8XQq0x2mf3S2qTC5oE" name="Tomcat">
-    <mxGraphModel dx="7731" dy="3874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7508" dy="3333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,7 +283,7 @@
           <mxGeometry x="-1180" y="1169" width="1600" height="1201" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-65" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1150" width="1970" height="1230" as="geometry" />
+          <mxGeometry x="720" y="1150" width="2310" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-66" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Connector&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="1200" width="130" height="40" as="geometry" />
@@ -811,10 +811,10 @@
           <mxGeometry x="410" y="2180" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-207" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-2070" y="2630" width="1360" height="980" as="geometry" />
+          <mxGeometry x="-2390" y="2630" width="1490" height="980" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-208" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="2610" width="1120" height="1000" as="geometry" />
+          <mxGeometry x="-450" y="2610" width="1970" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-209" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-207" target="Ub1CV1uvOyHI6s0gvkGn-92">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -831,17 +831,506 @@
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-211" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Endpoint&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-400" y="2650" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-212" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;ProtocolHandler&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2020" y="2660" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-213" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="-296" width="1970" height="1230" as="geometry" />
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-212" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Connector&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2330" y="2650" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-214" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. Connector组件的Acceptor监听客户端套接字连接并接收Socket。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2. 将连接交给线程池Executor处理，开始执行请求响应任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3. Processor组件读取消息报文，解析请求行、请求体、请求头，封装成Request对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4. Mapper组件根据请求行的URL值和请求头的Host值匹配由哪个Host容器、Context容器、Wrapper容器处理请求。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5. CoyoteAdaptor组件负责将Connector组件和Engine容器关联起来，把生成的Request对象和响应对象Response传递到Engine容器中，调用 Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;6. Engine容器的管道开始处理，管道中包含若干个Valve、每个Valve负责部分处理逻辑。执行完Valve后会执行基础的 Valve--StandardEngineValve，负责调用Host容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;7. Host容器的管道开始处理，流程类似，最后执行 Context容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;8. Context容器的管道开始处理，流程类似，最后执行 Wrapper容器的Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;9. Wrapper容器的管道开始处理，流程类似，最后执行 Wrapper容器对应的Servlet对象的 处理方法&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-573" y="-550" width="1320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-215" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Tomcat处理请求流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-715" y="-617" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-216" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="3110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-217" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2990" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-218" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="3220" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-219" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2790" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-220" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3070" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-221" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3330" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-222" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2970" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-223" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="3410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-224" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="3025" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-225" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;LimitLatch&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="3130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-226" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Acceptor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3010" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-227" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Acceptor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="3240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-228" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Poller&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-229" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Poller&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3075" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-230" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Poller&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="3340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-232" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Executor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="3000" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-233" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Http11Processor&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="3050" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-234" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;NioSocketWrapper&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="3440" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-236" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="610" y="3050" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-238" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="3070" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-239" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="3100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-240" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SocketProcessor&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="3115" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-241" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;EndPoint是通信端点，即通信监听的接口，是具体的 Socket 接收和发送处理器&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;EndPoint是一个接口，对应的抽象实现类是 AbstractEndpoint，而 AbstractEndpoint的具体子类，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;比如在 NioEndpoint和 Nio2Endpoint中，有两个重要的子组件：Acceptor和 SocketProcessor。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="2690" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-242" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2290" y="2900" width="730" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-243" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="2915" width="430" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-244" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="3000" width="290" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-245" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1890" y="3000" width="300" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-246" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Endpoint&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2170" y="3130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-247" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Processor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1780" y="3140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-248" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Adapter&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1315" y="3140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-249" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;连接器的三个核心组件 Endpoint、Processor和 Adapter来分别做三件事情，其中 Endpoint和 Processor放在一起抽象成了 ProtocolHandler组件&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2340" y="2700" width="810" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-250" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;连接器的功能需求就是：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 监听网络端口。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 接受网络连接请求。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 读取请求网络字节流。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 根据具体应用层协议（HTTP/AJP）解析字节流，生成统一的 Tomcat Request 对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 将 Tomcat Request 对象转成标准的 ServletRequest。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 调用 Servlet容器，得到 ServletResponse。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 将 ServletResponse转成 Tomcat Response 对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 将 Tomcat Response 转成网络字节流。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 将响应字节流写回给浏览器。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2340" y="2740" width="490" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-251" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;连接器需要完成 3 个高内聚的功能：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 网络通信。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● 应用层协议解析。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;● Tomcat Request/Response 与 ServletRequest/ServletResponse 的转化。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1810" y="2770" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-252" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;因此 Tomcat 的设计者设计了 3 个组件来实现这 3 个功能，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;分别是 EndPoint、Processor 和 Adapter。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;EndPoint 负责提供字节流给 Processor，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Processor负责提供 Tomcat Request 对象给 Adapter，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Adapter负责提供 ServletRequest对象给容器。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="2760" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-253" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ub1CV1uvOyHI6s0gvkGn-242">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2490" y="3010" as="sourcePoint" />
+            <mxPoint x="-1680" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-255" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;request&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2490" y="2970" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-256" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;response&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2480" y="3190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-257" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-242">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1730" y="3300" as="sourcePoint" />
+            <mxPoint x="-2490" y="3230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-259" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;TCP/IP&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="2950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-260" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ProtocolHandler&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2270" y="2908" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-261" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-244" target="Ub1CV1uvOyHI6s0gvkGn-245">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1730" y="3130" as="sourcePoint" />
+            <mxPoint x="-1680" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-263" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;socket&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1960" y="3095" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-264" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;HTTP/AJP&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1810" y="2960" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-265" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Ub1CV1uvOyHI6s0gvkGn-243">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="3120" as="sourcePoint" />
+            <mxPoint x="-1680" y="3070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-266" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;tomcatRequest&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="3070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-267" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ServletRequest&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1023" y="3075" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-268" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-243">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1730" y="3120" as="sourcePoint" />
+            <mxPoint x="-810" y="3120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-269" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="3040" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-270" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Container&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="3125" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-271" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;LimitLatch 是连接控制器，它负责控制最大连接数，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;NIO 模式下默认是 10000，达到这个阈值后，连接请求被拒绝。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="3200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-272" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Acceptor 用于监听 Socket 连接请求。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;循环里调用 accept方法来接收新连接，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;一旦有新的连接请求到来，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;accept方法返回一个 Channel 对象，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;接着把 Channel对象交给 Poller 去处理。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="3130" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-273" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;SocketProcessor用于处理 Acceptor 接收到的 Socket请求，它实现 Runnable接口，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在 Run方法里调用应用层协议处理组件 Processor 进行处理。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为了提高处理能力，SocketProcessor被提交到线程池来执行。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="3180" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-274" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Poller 的本质是一个 Selector，Poller在内部维护一个 Channel数组&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;循环里不断检测 Channel的数据就绪状态，一旦有 Channel可读，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;就生成一个 SocketProcessor任务对象扔给 Executor去处理。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3000" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-275" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;SocketProcessor 实现了 Runnable 接口，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;其中 run 方法中的 getHandler().process(socketWrapper, SocketEvent.CONNECT_FAIL);&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;代码则是获取 handler 并执行处理 socketWrapper，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;最后通过 socket 获取合适应用层协议处理器，也就是调用 Http11Processor 组件来处理请求。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="3240" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-276" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Http11Processor 读取 Channel 的数据来生成 ServletRequest 对象，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Http11Processor 并不是直接读取 Channel 的。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Http11Processor 只调用 SocketWrapper 的方法去读写数据。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="3135" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-277" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Executor就是线程池，负责运行 SocketProcessor任务类，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;SocketProcessor 的 run方法会调用 Http11Processor 来读取和解析请求数据。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2930" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-278" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="275" y="3400" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-279" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="285" y="3425" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-280" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3440" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-281" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="270" y="3125" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-282" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3145" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-283" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3165" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-284" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2850" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-285" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2870" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-286" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2888" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-289" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="480" y="3400" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-290" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="514.51" y="3401.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-293" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2862" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-294" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="504.51" y="2863.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-295" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="473.01" y="3146" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-296" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="507.52" y="3147.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-297" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="78.62" y="3290" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-298" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="113.13" y="3291.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-299" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="88.01" y="3036" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-300" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="122.52" y="3037.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-301" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="880" y="3072" width="52.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-302" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;rotation=-130;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="914.51" y="3073.69" width="11.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-303" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-216" target="Ub1CV1uvOyHI6s0gvkGn-217">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="3350" as="sourcePoint" />
+            <mxPoint x="-30" y="3300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-304" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-216" target="Ub1CV1uvOyHI6s0gvkGn-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="3350" as="sourcePoint" />
+            <mxPoint x="-30" y="3300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-305" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-217" target="Ub1CV1uvOyHI6s0gvkGn-219">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="3350" as="sourcePoint" />
+            <mxPoint x="-30" y="3300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-306" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-218" target="Ub1CV1uvOyHI6s0gvkGn-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="3350" as="sourcePoint" />
+            <mxPoint x="-30" y="3300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-307" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Channel&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2898" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-308" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Channel&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3185" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-309" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Channel&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="3458" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-310" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-220" target="Ub1CV1uvOyHI6s0gvkGn-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3250" as="sourcePoint" />
+            <mxPoint x="270" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-311" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-221" target="Ub1CV1uvOyHI6s0gvkGn-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3250" as="sourcePoint" />
+            <mxPoint x="270" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-312" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-219" target="Ub1CV1uvOyHI6s0gvkGn-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3250" as="sourcePoint" />
+            <mxPoint x="270" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-314" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.36;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-222" target="Ub1CV1uvOyHI6s0gvkGn-224">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3250" as="sourcePoint" />
+            <mxPoint x="270" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-315" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-224" target="Ub1CV1uvOyHI6s0gvkGn-223">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3250" as="sourcePoint" />
+            <mxPoint x="270" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-317" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;有新的连接请求到来，accept方法返回一个 Channel 对象，&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;接着把 Channel对象交给 Poller 去处理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="2938" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-319" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;一旦有 Channel可读，就生成一个&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;SocketProcessor任务对象扔给 Executor去处理。&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="537" y="2840" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-320" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-141.87" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-321" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-6.869999999999997" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-322" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-286.87" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-326" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1660" y="3680" as="sourcePoint" />
+            <mxPoint x="-611.78" y="3680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-327" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-261.87" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-328" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-116.87" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-329" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="13.130000000000003" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-330" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="635" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-331" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="770" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-332" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="490" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-333" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-334" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-335" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-336" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;用户态&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="3600" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-337" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;内核态&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="3730" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-338" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;接收队列&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-126.87" y="3820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-339" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;发送队列&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="3830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-340" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-322" target="Ub1CV1uvOyHI6s0gvkGn-216">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="3720" as="sourcePoint" />
+            <mxPoint x="150" y="3670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-341" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;连接请求&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="3450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-342" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-223" target="Ub1CV1uvOyHI6s0gvkGn-331">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="3340" as="sourcePoint" />
+            <mxPoint x="380" y="3480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-343" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-223" target="Ub1CV1uvOyHI6s0gvkGn-321">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="3720" as="sourcePoint" />
+            <mxPoint x="-50" y="3650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-344" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;读写&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="3230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-345" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;写&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="3530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-346" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;读&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-352" value="LimitLatch限制连接数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="3128" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-353" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;LimitLatch限制连接数&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="3250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-354" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Acceptor监听连接请求&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-216.87" y="3055" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-355" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Poller检测Channel的I/O事件，&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;可读时，创建SocketProcessor任务类扔给线程池处理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2880" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-356" value="&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;b&gt;线程池在执行SocketProcessor时会调用Http11Processor去处理请求&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Http11Processor会通过NioSocketWrapper读写数据&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2990" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-360" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="2170" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-361" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;FilterChain&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="2190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-362" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-137" target="Ub1CV1uvOyHI6s0gvkGn-360">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2380" y="2020" as="sourcePoint" />
+            <mxPoint x="2430" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-365" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;8. 执行完过滤链FilterChain后&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;执行对应Servlet实例的处理方法&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="2255" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-366" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-36.87" y="1630" width="176.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-368" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1835" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-369" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Mapper&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="1650" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-370" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;CoyoteAdaptor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-25.000000000000053" y="1845" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-371" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Mapper组件根据请求行的URL值和请求头的Host值&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;匹配由哪个Host容器、Context容器、Wrapper容器处理请求。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="1700" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-372" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;CoyoteAdaptor组件负责将Connector组件和Engine容器关联起来，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;把生成的Request对象和响应对象Response传递到Engine容器中，调用 Pipeline。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1910" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-373" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-95" target="Ub1CV1uvOyHI6s0gvkGn-368">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="2190" as="sourcePoint" />
+            <mxPoint x="-320" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-374" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-368" target="Ub1CV1uvOyHI6s0gvkGn-366">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="2190" as="sourcePoint" />
+            <mxPoint x="470" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-375" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-368" target="Ub1CV1uvOyHI6s0gvkGn-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1890" as="sourcePoint" />
+            <mxPoint x="190" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-376" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-377" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Servlet&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2885" y="2195" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-378" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-360" target="Ub1CV1uvOyHI6s0gvkGn-376">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2150" y="2360" as="sourcePoint" />
+            <mxPoint x="2200" y="2310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-379" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;● LimitLatch 是连接控制器，它负责控制最大连接数，NIO 模式下默认是 10000(tomcat9中8192)，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当连接数到达最大时阻塞线程，直到后续组件处理完一个连接后将连接数减 1。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;注意到达最大连接数后操作系统底层还是会接收客户端连接，但用户层已经不再接收。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;● Acceptor 跑在一个单独的线程里，它在一个死循环里调用 accept 方法来接收新连接，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;一旦有新的连接请求到来，accept 方法返回一个 Channel 对象，接着把 Channel 对象交给 Poller 去处理。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ServerSocketChannel 通过 accept() 接受新的连接，accept() 方法返回获得 SocketChannel 对象，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;然后将 SocketChannel 对象封装在一个 PollerEvent 对象中，并将 PollerEvent 对象压入 Poller 的 SynchronizedQueue 里，这是个典型的生产者 - 消费者模式，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Acceptor 与 Poller 线程之间通过 SynchronizedQueue 通信。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;● Poller 的本质是一个 Selector，也跑在单独线程里。Poller 在内部维护一个 Channel 数组，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;它在一个死循环里不断检测 Channel 的数据就绪状态，一旦有 Channel 可读，就生成一个 SocketProcessor 任务对象扔给 Executor 去处理。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Executor 就是线程池，负责运行 SocketProcessor 任务类，SocketProcessor 的 run 方法会调用 Http11Processor 来读取和解析请求数据。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;●&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Http11Processor 是应用层协议的封装，它会调用容器获得响应，再把响应通过 Channel 写出。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="3890" width="1180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-380" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-223" target="Ub1CV1uvOyHI6s0gvkGn-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="3400" as="sourcePoint" />
+            <mxPoint x="370" y="3350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-381" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;调用回调函数&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="3325" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-382" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;1. 用户在浏览器中输入该网址，请求被发送到本机端口8080，被在那里监听的Coyote HTTP/1.1 Connector获得;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;2. Connector把该请求交给它所在的Service的Engine (Container) 来处理，并等待Engine的回应;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;3. Engine获得请求localhost/test/index.jsp，匹配所有的虚拟主机Host;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;4. Engine匹配到名为localhost的Host(即使匹配不到也把请求交给该Host处理，因为该Host被定义为该Engine的默认主机)，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;名为localhostHost获得请求/test/index.jsp，匹配它所拥有的所有Context。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;Host匹配到路径为/test的Context(如果匹配不到就把该请求交给路径名为“”的Context去处理);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;5. path=&quot;/test&quot;的Context获得请求/ index. jsp，在它的mapping table中寻找出对应的Servlet。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;Context 匹配到URLPattern为* .jsp的Servlet，对应于JspServlet类;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;6. 构造HttpServletRequest对象和HttpServletResponse对象，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;作为参数调用JspServlet的doGet()或doPost(),执行业务逻辑、数据存储等&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;7. Context把执行完之后的HttpServletResponse对象返回给Host; .&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;8. Host把HttpServletResponse对象返回给Engine;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;9. Engine把HttpServletResponse对象返回Connector;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;10. Connector把HttpServletResponse对象返回给客户Browser&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2060" y="1265" width="910" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
