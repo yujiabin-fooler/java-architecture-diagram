@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ki8XQq0x2mf3S2qTC5oE" name="Tomcat">
-    <mxGraphModel dx="7508" dy="3333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6308" dy="3884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1331,6 +1331,225 @@
         </mxCell>
         <mxCell id="Ub1CV1uvOyHI6s0gvkGn-382" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;1. 用户在浏览器中输入该网址，请求被发送到本机端口8080，被在那里监听的Coyote HTTP/1.1 Connector获得;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;2. Connector把该请求交给它所在的Service的Engine (Container) 来处理，并等待Engine的回应;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;3. Engine获得请求localhost/test/index.jsp，匹配所有的虚拟主机Host;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;4. Engine匹配到名为localhost的Host(即使匹配不到也把请求交给该Host处理，因为该Host被定义为该Engine的默认主机)，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;名为localhostHost获得请求/test/index.jsp，匹配它所拥有的所有Context。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;Host匹配到路径为/test的Context(如果匹配不到就把该请求交给路径名为“”的Context去处理);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;5. path=&quot;/test&quot;的Context获得请求/ index. jsp，在它的mapping table中寻找出对应的Servlet。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;Context 匹配到URLPattern为* .jsp的Servlet，对应于JspServlet类;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;6. 构造HttpServletRequest对象和HttpServletResponse对象，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;作为参数调用JspServlet的doGet()或doPost(),执行业务逻辑、数据存储等&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;7. Context把执行完之后的HttpServletResponse对象返回给Host; .&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;8. Host把HttpServletResponse对象返回给Engine;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;9. Engine把HttpServletResponse对象返回Connector;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;10. Connector把HttpServletResponse对象返回给客户Browser&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2060" y="1265" width="910" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-444" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-455" y="-1760" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-445" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;启动类加载器（Bootstrap ClassLoader）&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-1750" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-446" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-455" y="-1620" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-447" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;扩展类加载器（Extension ClassLoader）&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="-1610" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-448" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-455" y="-1480" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-449" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;应用程序类加载器（Application ClassLoader）&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-1470" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-450" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载位于 JAVA_HOME/lib 目录下的，或者被-Xbootclasspath 参数指定的路径中的，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;并且被虚拟机识别的类库（仅根据文件名识别，例如 rt.jar，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;其他名字的类库即使放在 lib 目录下也不会被重载）。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="-1700" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-451" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载位于 JAVA_HOME/lib/ext 目录下的，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;或由 java.ext.dirs 系统变量指定的路径中的所有类库。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;由 sun.misc.Launcher$ExtClassLoader 实现，&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;开发者可以直接使用扩展类加载器。&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="-1565" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-452" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;由 sun.misc.Launcher$AppClassLoader 实现，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;由于它是 ClassLoader 中的 getSystemClassLoader 方法的返回值，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;因此也被称为系统类加载器。它负责加载用户类路径（ClassPath）上所指定的类库。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;开发者可以直接使用扩展类加载器。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-1400" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-453" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-455" y="-1310" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-454" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Common 类加载器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="-1300" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-455" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="-1170" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-456" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Catalina 类加载器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-645" y="-1160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-457" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-1150" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-458" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Shared 类加载器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1140" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-459" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-1000" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-460" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;WebApp 类加载器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-990" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-461" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-850" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-462" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Jsp 类加载器&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-840" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-463" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载 Tomcat 和 Web 应用共同复用的类，例如日志框架、通用工具库等&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="-1242" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-464" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载 Tomcat 自身的类，这些类在 Web 应用中不可见，确保了 Tomcat 核心功能的独立性。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-1090" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-465" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载所有 Web 应用共同复用的类，例如数据库连接池、缓存框架等，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;这些类在 Tomcat 中不可见，避免了应用之间的冲突。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-1095" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-466" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为每个 Web 应用单独创建，负责加载该应用的类，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;这些类在 Tomcat 和其他应用中不可见，确保了应用之间的隔离。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="78.13" y="-940" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-467" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为每个 JSP 页面创建唯一的类加载器，方便实现 JSP 页面的热插拔，提高开发效率。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-780" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-468" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-444" target="Ub1CV1uvOyHI6s0gvkGn-446">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="-1410" as="sourcePoint" />
+            <mxPoint x="-260" y="-1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-469" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-446" target="Ub1CV1uvOyHI6s0gvkGn-448">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-1500" as="sourcePoint" />
+            <mxPoint x="-265" y="-1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-470" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-448" target="Ub1CV1uvOyHI6s0gvkGn-453">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-1130" as="sourcePoint" />
+            <mxPoint x="-265" y="-1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-471" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-453" target="Ub1CV1uvOyHI6s0gvkGn-455">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-950" as="sourcePoint" />
+            <mxPoint x="-265" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-472" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.53;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-453" target="Ub1CV1uvOyHI6s0gvkGn-457">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-950" as="sourcePoint" />
+            <mxPoint x="-265" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-473" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-457" target="Ub1CV1uvOyHI6s0gvkGn-459">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-950" as="sourcePoint" />
+            <mxPoint x="-265" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-474" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-459" target="Ub1CV1uvOyHI6s0gvkGn-461">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="-950" as="sourcePoint" />
+            <mxPoint x="-265" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-475" value="&lt;div&gt;&lt;b&gt;1. 先在本地 Cache 查找该类是否已经加载过，也就是说 Tomcat 的类加载器是否已经加载过这个类。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. 如果 Tomcat 类加载器没有加载过这个类，再看看系统类加载器是否加载过。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. 如果都没有，就让ExtClassLoader去加载，这一步比较关键，目的 防止 Web 应用自己的类覆盖 JRE 的核心类。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;因为 Tomcat 需要打破双亲委托机制，假如 Web 应用里自定义了一个叫 Object 的类，如果先加载这个 Object 类，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;就会覆盖 JRE 里面的那个 Object 类，这就是为什么 Tomcat 的类加载器会优先尝试用 ExtClassLoader去加载，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;因为 ExtClassLoader会委托给 BootstrapClassLoader去加载，BootstrapClassLoader发现自己已经加载了 Object 类，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;直接返回给 Tomcat 的类加载器，这样 Tomcat 的类加载器就不会去加载 Web 应用下的 Object 类了，也就避免了覆盖 JRE 核心类的问题。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4. 如果 ExtClassLoader加载器加载失败，也就是说 JRE核心类中没有这类，那么就在本地 Web 应用目录下查找并加载。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;5. 如果本地目录下没有这个类，说明不是 Web 应用自己定义的类，那么由系统类加载器去加载。这里请你注意，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Web 应用是通过Class.forName调用交给系统类加载器的，因为Class.forName的默认加载器就是系统类加载器。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;6. 如果上述加载过程全部失败，抛出 ClassNotFound异常。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-1020" width="770" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-476" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Tomcat 启动流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="-2090" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-477" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-1915" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-478" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="-1915" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-479" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="-1915" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-480" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-1915" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-481" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="695" y="-1915" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-482" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Startup.sh&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-1905" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-483" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Boostrap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-1895" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-484" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;catalina&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-1905" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-485" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Server&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-1905" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-486" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Service&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="-1905" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-487" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-2000" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-488" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Connetor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-1990" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-489" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-1830" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-490" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Engine&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-1820" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-491" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;主要任务就是初始化 Tomcat 定义的类加载器，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;同时创建 Catalina 对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-367" y="-1845" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-492" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Catalina 的主要任务就是创建 Server，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;解析 server.xml 把里面配置的各个组件创建出来，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;并调用每个组件的 init和 start方法，将整个 Tomcat 启动&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-1855" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-493" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Server 组件的职责就是管理 Service 组件，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;负责调用持有的 Service 的 start 方法。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-1845" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-494" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;管理 Connector 连接器 和 顶层容器 Engine，会分别调用他们的 start 方法。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;至此，整个 Tomcat 就算启动完成了。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-1835" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-495" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-477" target="Ub1CV1uvOyHI6s0gvkGn-478">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-1465" as="sourcePoint" />
+            <mxPoint x="240" y="-1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-496" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-478" target="Ub1CV1uvOyHI6s0gvkGn-444">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-497" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-478" target="Ub1CV1uvOyHI6s0gvkGn-479">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-498" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-479" target="Ub1CV1uvOyHI6s0gvkGn-480">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-499" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-480" target="Ub1CV1uvOyHI6s0gvkGn-481">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-500" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-481" target="Ub1CV1uvOyHI6s0gvkGn-487">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-501" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ub1CV1uvOyHI6s0gvkGn-481" target="Ub1CV1uvOyHI6s0gvkGn-489">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-1470" as="sourcePoint" />
+            <mxPoint x="270" y="-1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ub1CV1uvOyHI6s0gvkGn-502" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Tomcat 的自定义类加载器 WebAppClassLoader打破了双亲委托机制，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它首先自己尝试去加载某个类，如果找不到则通过 ExtClassLoader 加载 JRE 核心类防止黑客攻击，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;无法加载再代理给 AppClassLoader 加载器，其目的是优先加载 Web 应用自己定义的类。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-1020" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
