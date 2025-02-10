@@ -64,7 +64,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2mkHYNsd13yYfi2aoQFV" name="Mybatis">
-    <mxGraphModel dx="4327" dy="2972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10308" dy="5945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
           <mxGeometry x="40" y="800" width="920" height="430" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="-640" width="1010" height="610" as="geometry" />
+          <mxGeometry x="-1690" y="-1469" width="1750" height="1309" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="210" y="50" width="280" height="60" as="geometry" />
@@ -165,7 +165,7 @@
           <mxGeometry x="312.5" y="-280" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-34" value="&lt;div&gt;&lt;b&gt;MyBatis的初始化可以有两种方式：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;基于XML配置文件：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;基于XML配置文件的方式是将MyBatis的所有配置信息放在XML文件中，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;MyBatis通过加载XML配置文件，将配置文信息组装成内部的Configuration对象。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;基于Java API：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;这种方式不使用XML配置文件，需要MyBatis使用者在Java代码中，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;手动创建Configuration对象，然后将配置参数set 进入Configuration对象中。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="-680" width="490" height="130" as="geometry" />
+          <mxGeometry x="185" y="-799" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="-500" width="200" height="60" as="geometry" />
@@ -189,91 +189,82 @@
           <mxGeometry x="265" y="-72" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-44" value="&lt;div&gt;&lt;b&gt;mybatis初始化要经过简单的以下几步：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;调用SqlSessionFactoryBuilder对象的build(inputStream)方法；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactoryBuilder会根据输入流inputStream等信息创建XMLConfigBuilder对象;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactoryBuilder调用XMLConfigBuilder对象的parse()方法；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;XMLConfigBuilder对象返回Configuration对象；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactoryBuilder根据Configuration对象创建一个DefaultSessionFactory对象；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactoryBuilder返回 DefaultSessionFactory对象给Client，供Client使用。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="845" y="-620" width="510" height="130" as="geometry" />
+          <mxGeometry x="-1561" y="-1305" width="510" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-455" width="160" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1561" y="-795" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;mybatis-config.xml&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-440" width="150" height="30" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;mybatis-config.xml&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;mapper.xml&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-1556" y="-795" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-335" width="210" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-385.5" y="-1302" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-50" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="-140" width="120" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-50" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-346.75" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-51" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-440" width="180" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-51" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-380.5" y="-455" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="885" y="-215" width="120" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-295" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-53" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="-350" width="200" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-385.5" y="-1135" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-54" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="-215" width="160" height="60" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-54" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1326" y="-795" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-55" value="Resources.getResourceAsStream()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="920" y="-380" width="210" height="30" as="geometry" />
+          <mxGeometry x="-1333.5" y="-975" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-56" value="&amp;nbsp;new SqlSessionFactoryBuilder().build()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="-260" width="230" height="30" as="geometry" />
+          <mxGeometry x="-393" y="-1335" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-57" value="SqlSessionFactoryBuilder" style="text;whiteSpace=wrap;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="895" y="-315" width="205" height="40" as="geometry" />
+          <mxGeometry x="-375.5" y="-1282" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;SqlSession&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="-200" width="110" height="30" as="geometry" />
+          <mxGeometry x="-343" y="-280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SqlSessionFactory&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-425" width="150" height="30" as="geometry" />
+          <mxGeometry x="-360.5" y="-440" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;XMLConfigBuilder&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="-335" width="150" height="30" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;XMLConfigBuilder&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="-1120" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-61" value="sqlSessionFactory.openSession()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="885" y="-140" width="200" height="30" as="geometry" />
+          <mxGeometry x="-368" y="-230" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;InputStream&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="-200" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1303.5" y="-780" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-63" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Configuration&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-117" width="120" height="30" as="geometry" />
+          <mxGeometry x="-346.75" y="-705" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-64" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;产生SqlSession，执行SQL语句&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="-19" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-65" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;创建XMLConfigBuilder对象用来解析XML配置文件，生成Configuration对象&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-290" width="440" height="30" as="geometry" />
+          <mxGeometry x="-400" y="-1065" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-66" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;将XML配置文件内的信息解析成Java对象Configuration对象&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="-250" width="350" height="30" as="geometry" />
+          <mxGeometry x="-355" y="-1035" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-67" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;MyBatis内部通过Configuration对象来创建SqlSessionFactory&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="-70" width="360" height="30" as="geometry" />
+          <mxGeometry x="-355.75" y="-660" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-68" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;SqlSessionFactory的构造器，用于创建SqlSessionFactory，采用了Builder设计模式&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-280" width="490" height="30" as="geometry" />
+        <mxCell id="Vq6O65trJawBY8Uh8ofG-68" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;SqlSessionFactory的构造器，用于创建SqlSessionFactory，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;采用了Builder设计模式&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-1235" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-69" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;该对象是mybatis-config.xml文件中所有mybatis配置信息&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1236" y="-50" width="330" height="30" as="geometry" />
+          <mxGeometry x="-359.75" y="-640" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-70" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;SqlSession工厂类，以工厂形式创建SqlSession对象，采用了Factory工厂设计模式&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="-380" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-71" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="-530" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-72" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;XmlConfigParser&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="-515" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Vq6O65trJawBY8Uh8ofG-73" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;负责将mybatis-config.xml配置文件解析成Configuration对象，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;共SqlSessonFactoryBuilder使用，创建SqlSessionFactory&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="-465" width="370" height="40" as="geometry" />
+          <mxGeometry x="-460" y="-365" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-74" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;SqlSessionFactoryBuilder执行build()方法，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;调用了XMLConfigBuilder的parse()方法，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;然后返回了Configuration对象。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="-27" width="270" height="60" as="geometry" />
+          <mxGeometry x="-370.25" y="-590" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFB570;strokeWidth=3;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-36" target="Vq6O65trJawBY8Uh8ofG-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -333,7 +324,7 @@
           <mxGeometry x="-610" y="930" width="550" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-92" value="&lt;div&gt;&lt;b&gt;// mybatis初始化&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;String resource = &quot;mybatis-config.xml&quot;;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;InputStream inputStream = Resources.getResourceAsStream(resource);&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;// 创建SqlSession&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSession sqlSession = sqlSessionFactory.openSession();&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;// 执行SQL语句&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;List list = sqlSession.selectList(&quot;com.foo.bean.BlogMapper.queryAllBlogInfo&quot;);&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="-515" width="550" height="160" as="geometry" />
+          <mxGeometry x="675" y="-810" width="550" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Vq6O65trJawBY8Uh8ofG-93" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1085" width="140" height="180" as="geometry" />
@@ -432,6 +423,327 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="620" as="sourcePoint" />
             <mxPoint x="-30" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1326" y="-925" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Reader&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1283.5" y="-910" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1043.5" y="-975" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;InputSource&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1015.5" y="-960" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-823.5" y="-975" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Document&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-789.5" y="-960" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-825.5" y="-795" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;XMLMapperEntityResolver&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-805.5" y="-780" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1328.5" y="-1035" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;InputStream&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1306" y="-1020" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1065.5" y="-795" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;InputSource&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1043" y="-780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1573.5" y="-985" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;mybatis-3-config.dtd&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;mybatis-3-mapper.dtd&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-1578.5" y="-985" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-17" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255); font-size: 14px;&quot;&gt;XMLConfigBuilder会将mybatis-config.xml以及mapper配置文件转换成对应document对象&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255); font-size: 14px;&quot;&gt;会将mybatis的XML配置定义文件dtd加载成EntityResolver对象，组成XPathParser对象，然后根据XPath表达式访问Node节点&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1628.5" y="-700" width="820" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-16" target="1bELZ38nUYD51GLO0hUq-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.971;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-16" target="1bELZ38nUYD51GLO0hUq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-11" target="1bELZ38nUYD51GLO0hUq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-1" target="1bELZ38nUYD51GLO0hUq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-3" target="1bELZ38nUYD51GLO0hUq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-5" target="1bELZ38nUYD51GLO0hUq-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-495.5" y="-865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-46" target="Vq6O65trJawBY8Uh8ofG-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-973.5" y="-880" as="sourcePoint" />
+            <mxPoint x="-923.5" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-54" target="1bELZ38nUYD51GLO0hUq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1153.5" y="-830" as="sourcePoint" />
+            <mxPoint x="-1103.5" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-13" target="1bELZ38nUYD51GLO0hUq-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1143.5" y="-830" as="sourcePoint" />
+            <mxPoint x="-1093.5" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-9" target="1bELZ38nUYD51GLO0hUq-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1143.5" y="-830" as="sourcePoint" />
+            <mxPoint x="-495.5" y="-850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-359.75" y="-910" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-29" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;XPathParser&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-334.75" y="-895" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-30" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;负责将mybatis-config.xml配置文件解析成Configuration对象，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;共SqlSessonFactoryBuilder使用，创建SqlSessionFactory&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-359.75" y="-830" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-40" target="Vq6O65trJawBY8Uh8ofG-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-140" as="sourcePoint" />
+            <mxPoint x="1270" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.444;exitY=0.955;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-57" target="Vq6O65trJawBY8Uh8ofG-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-43" y="-915" as="sourcePoint" />
+            <mxPoint x="7" y="-965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;XMLConfigBuilder调用parse()方法&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;会从XPathParser中取出&amp;lt;configuration&amp;gt;节点对应的Node对象，然后解析此Node节点的子Node：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;properties, settings, typeAliases,typeHandlers, objectFactory, objectWrapperFactory, plugins, environments,databaseIdProvider, mappers&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1615.5" y="-640" width="810" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-51" target="Vq6O65trJawBY8Uh8ofG-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-43" y="-465" as="sourcePoint" />
+            <mxPoint x="-503" y="-295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-53" target="1bELZ38nUYD51GLO0hUq-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-333" y="-1065" as="sourcePoint" />
+            <mxPoint x="-283" y="-1115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-28" target="Vq6O65trJawBY8Uh8ofG-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="-760" as="sourcePoint" />
+            <mxPoint x="-292.75" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vq6O65trJawBY8Uh8ofG-50" target="Vq6O65trJawBY8Uh8ofG-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-573" y="-765" as="sourcePoint" />
+            <mxPoint x="-283" y="-785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-38" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;提供根据Xpath表达式获取基本的DOM节点Node信息的操作&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-790" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-46" value="&lt;div&gt;&lt;b&gt;String resource = &quot;mybatis-config.xml&quot;;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;InputStream inputStream = Resources.getResourceAsStream(resource);&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;// 手动创建XMLConfigBuilder，并解析创建Configuration对象&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;XMLConfigBuilder parser = new XMLConfigBuilder(inputStream, null,null); // 看这里&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Configuration configuration = parser.parse();&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;// 使用Configuration对象创建SqlSessionFactory&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;// 使用MyBatis&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SqlSession sqlSession = sqlSessionFactory.openSession();&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;List list = sqlSession.selectList(&quot;com.foo.bean.BlogMapper.queryAllBlogInfo&quot;);&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="-800" width="570" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-1000" width="630" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-660" width="630" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-230" width="650" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-52" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;!-- 方法一： 从外部指定properties配置文件, 除了使用resource属性指定外，还可通过url属性指定url&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;properties resource=&quot;dbConfig.properties&quot;&amp;gt;&amp;lt;/properties&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;!-- 方法二： 直接配置为xml --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;properties&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;driver&quot; value=&quot;com.mysql.jdbc.Driver&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/test1&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;username&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;password&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/properties&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-2130" width="590" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-53" value="&lt;div&gt;&lt;b&gt;要是两种方法都同时配置了，那么最终会采用什么样的配置呢？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;首先会先检查文件中的xml配置 和 外部指定的properties(也就是resource)，如果两个同时配置了，那么就会报异常&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;接着会加载Java Configuration的配置&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果有Configuration的配置，那么最终会使用Configuration的配置&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果没有Configuration的配置，那么最终会使用上一步的xml的配置或resource配置&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;这是因为配置是存放在Properties，它继承自HashTable类，当依次将上述几种配置源put进去时，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;后加载的配置会覆盖先加载的配置。所以，最终应用配置时Configuration配置优先级最高&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2420" y="-1962" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-54" value="&lt;div&gt;&lt;b&gt;&amp;lt;environments default=&quot;development&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;environment id=&quot;development&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!--&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JDBC–这个配置直接简单使用了JDBC的提交和回滚设置。它依赖于从数据源得到的连接来管理事务范围。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MANAGED–这个配置几乎没做什么。它从来不提交或回滚一个连接。而它会让容器来管理事务的整个生命周期&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;（比如Spring或JEE应用服务器的上下文）。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;transactionManager type=&quot;JDBC&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!--&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; UNPOOLED–这个数据源的实现是每次被请求时简单打开和关闭连接&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; POOLED–mybatis实现的简单的数据库连接池类型，它使得数据库连接可被复用，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;不必在每次请求时都去创建一个物理的连接。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JNDI – 通过jndi从tomcat之类的容器里获取数据源。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;dataSource type=&quot;POOLED&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!--&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 如果上面没有指定数据库配置的properties文件，那么此处可以这样直接配置&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;driver&quot; value=&quot;com.mysql.jdbc.Driver&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/test1&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;username&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;password&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 上面指定了数据库配置文件， 配置文件里面也是对应的这四个属性 --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;driver&quot; value=&quot;${driver}&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;url&quot; value=&quot;${url}&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;username&quot; value=&quot;${username}&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;password&quot; value=&quot;${password}&quot;/&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;/dataSource&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/environment&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;!-- 我再指定一个environment --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;environment id=&quot;test&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;transactionManager type=&quot;JDBC&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;dataSource type=&quot;POOLED&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;driver&quot; value=&quot;com.mysql.jdbc.Driver&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 与上面的url不一样 --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/demo&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;username&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;password&quot; value=&quot;root&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;/dataSource&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/environment&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/environments&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="-1790" width="630" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-55" value="&lt;div&gt;&lt;b&gt;environments元素节点可以配置多个environment子节点， 怎么理解呢？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;假如我们系统的开发环境和正式环境所用的数据库不一样（这是肯定的），&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;那么可以设置两个environment, 两个id分别对应开发环境（dev）和正式环境（final），&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;那么通过配置environments的default属性就能选择对应的environment了，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;例如，我将environments的deault属性的值配置为dev, 那么就会选择dev的environment。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2420" y="-1140" width="510" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-56" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;typeAliases&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!--&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 通过package, 可以直接指定package的名字， mybatis会自动扫描你指定包下面的javabean,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 并且默认设置一个别名，默认的名字为： javabean 的首字母小写的非限定类名来作为它的别名。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 也可在javabean 加上注解@Alias 来自定义别名， 例如： @Alias(user)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;package name=&quot;com.dy.entity&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;typeAlias alias=&quot;UserEntity&quot; type=&quot;com.dy.entity.User&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/typeAliases&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2395" y="-990" width="560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-57" value="&lt;div&gt;&lt;b&gt;typeAliases节点主要用来设置别名，其实这是挺好用的一个功能， 通过配置别名，我们不用再指定完整的包名，并且还能取别名。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;例如： 我们在使用 com.demo.entity. UserEntity 的时候，我们可以直接配置一个别名user,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;这样以后在配置文件中要使用到com.demo.entity.UserEntity的时候，直接使用User即可&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="-750" width="720" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-58" value="&lt;b&gt;&amp;nbsp;MyBatis 在预处理语句（PreparedStatement）中设置一个参数时，还是从结果集中取出一个值时，&lt;/b&gt;&lt;div&gt;&lt;b&gt;都会用类型处理器将获取的值以合适的方式转换成 Java 类型。&lt;/b&gt;&lt;div&gt;&lt;b&gt;Mybatis默认为我们实现了许多TypeHandler, 当我们没有配置指定TypeHandler时，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Mybatis会根据参数或者返回结果的不同，默认为我们选择合适的TypeHandler处理。&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-300" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-59" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;typeHandlers&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!--&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 当配置package的时候，mybatis会去配置的package扫描TypeHandler&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;package name=&quot;com.dy.demo&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;--&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- handler属性直接配置我们要指定的TypeHandler --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;typeHandler handler=&quot;&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- javaType 配置java类型，例如String, 如果配上javaType, 那么指定的typeHandler就只作用于指定的类型 --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;typeHandler javaType=&quot;&quot; handler=&quot;&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- jdbcType 配置数据库基本数据类型，例如varchar, 如果配上jdbcType,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;那么指定的typeHandler就只作用于指定的类型&amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;typeHandler jdbcType=&quot;&quot; handler=&quot;&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 也可两者都配置 --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;typeHandler javaType=&quot;&quot; jdbcType=&quot;&quot; handler=&quot;&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;lt;/typeHandlers&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-670" width="640" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-60" value="&lt;div&gt;&lt;b&gt;MyBatis 每次创建结果对象的新实例时，它都会使用一个对象工厂（ObjectFactory）实例来完成。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;默认的对象工厂需要做的仅仅是实例化目标类，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;要么通过默认构造方法，要么在参数映射存在的时候通过参数构造方法来实例化。默认情况下，我们不需要配置，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;mybatis会调用默认实现的objectFactory。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;除非我们要自定义ObjectFactory的实现， 那么我们才需要去手动配置。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;那么怎么自定义实现ObjectFactory？ 怎么配置呢？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;自定义ObjectFactory只需要去继承DefaultObjectFactory（是ObjectFactory接口的实现类），并重写其方法即可。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="-65" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-61" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;objectFactory type=&quot;org.mybatis.example.ExampleObjectFactory&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;someProperty&quot; value=&quot;100&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/objectFactory&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2395" y="-215" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-62" value="&lt;div&gt;&lt;b&gt;plugins 是一个可选配置。mybatis中的plugin其实就是个interceptor，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;它可以拦截Executor 、ParameterHandler 、ResultSetHandler 、StatementHandler 的部分方法，处理我们自己的逻辑。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Executor就是真正执行sql语句的东西， ParameterHandler 是处理我们传入参数的，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;还记得前面讲TypeHandler的时候提到过，mybatis默认帮我们实现了不少的typeHandler,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;当我们不显示配置typeHandler的时候，mybatis会根据参数类型自动选择合适的typeHandler执行，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;其实就是ParameterHandler 在选择。ResultSetHandler 就是处理返回结果的。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;怎么自定义plugin ? 怎么配置？要自定义一个plugin, 需要去实现Interceptor接口&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="250" width="690" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-63" value="" style="whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="72" width="640" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-64" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;plugins&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;plugin interceptor=&quot;org.mybatis.example.ExamplePlugin&quot;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;property name=&quot;someProperty&quot; value=&quot;100&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;/plugin&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/plugins&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2395" y="90" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-65" value="&lt;b&gt;mappers 节点下，配置我们的mapper映射文件， 所谓的mapper映射文件，&lt;/b&gt;&lt;div&gt;&lt;b&gt;就是让mybatis 用来建立数据表和javabean映射的一个桥梁。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;在我们实际开发中，通常一个mapper文件对应一个dao接口，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;这个mapper可以看做是dao的实现。所以,mappers必须配置。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="690" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="395" width="675" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-67" value="&lt;div&gt;&lt;b&gt;&amp;lt;configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;mappers&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 第一种方式：通过resource指定 --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;mapper resource=&quot;com/dy/dao/userDao.xml&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 第二种方式， 通过class指定接口，进而将接口与对应的xml文件形成映射关系&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;不过，使用这种方式必须保证 接口与mapper文件同名(不区分大小写)，&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;我这儿接口是UserDao,那么意味着mapper文件为UserDao.xml&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;mapper class=&quot;com.dy.dao.UserDao&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 第三种方式，直接指定包，自动扫描，与方法二同理&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;package name=&quot;com.dy.dao&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;!-- 第四种方式：通过url指定mapper文件位置&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;mapper url=&quot;file://........&quot;/&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/mappers&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ......&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/configuration&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="385" width="490" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="785" width="675" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-69" value="&lt;div&gt;&lt;b&gt;&amp;lt;settings&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;cacheEnabled&quot; value=&quot;true&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;lazyLoadingEnabled&quot; value=&quot;true&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;multipleResultSetsEnabled&quot; value=&quot;true&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;useColumnLabel&quot; value=&quot;true&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;useGeneratedKeys&quot; value=&quot;false&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;enhancementEnabled&quot; value=&quot;false&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;defaultExecutorType&quot; value=&quot;SIMPLE&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;lt;setting name=&quot;defaultStatementTimeout&quot; value=&quot;25000&quot;/&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/settings&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="800" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-70" value="&lt;b&gt;setting节点里配置的值会直接改写Configuration对应的变量值，这些变量描述的是Mybatis的全局运行方式，&lt;/b&gt;&lt;div&gt;&lt;b&gt;如果对这些属性的含义不熟悉的话建议不要配置，使用默认值即可。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2415" y="990" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-71" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="-2130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-73" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;properties&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2575" y="-2110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-74" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-1770" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-75" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;environment&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2615" y="-1750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-76" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-1000" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-77" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;typeAliases&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2610" y="-980" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-78" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="-620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-79" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;typeHandler&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2585" y="-600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-80" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2610" y="-200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-81" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;objectFactory&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="-180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-82" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="132" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-83" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;plugins&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2565" y="152" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-84" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2590" y="480" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-85" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;mappers&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2560" y="500" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-86" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-2590" y="870" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-87" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;settings&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2555" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-88" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.004;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="-700" as="sourcePoint" />
+            <mxPoint x="-1560" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-89" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.996;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-59" target="Vq6O65trJawBY8Uh8ofG-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="-700" as="sourcePoint" />
+            <mxPoint x="-1540" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-91" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1790" y="-360" as="sourcePoint" />
+            <mxPoint x="-1560" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-92" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-63" target="Vq6O65trJawBY8Uh8ofG-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1790" y="-360" as="sourcePoint" />
+            <mxPoint x="-1740" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-93" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-66" target="Vq6O65trJawBY8Uh8ofG-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1790" y="-360" as="sourcePoint" />
+            <mxPoint x="-1740" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-94" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.722;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-68" target="Vq6O65trJawBY8Uh8ofG-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1790" y="-20" as="sourcePoint" />
+            <mxPoint x="-1740" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-95" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.007;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-54" target="Vq6O65trJawBY8Uh8ofG-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1620" y="-1320" as="sourcePoint" />
+            <mxPoint x="-1570" y="-1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1bELZ38nUYD51GLO0hUq-96" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.999;exitY=0.421;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1bELZ38nUYD51GLO0hUq-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1620" y="-1520" as="sourcePoint" />
+            <mxPoint x="-1560" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
