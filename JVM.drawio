@@ -6052,172 +6052,172 @@
           <mxGeometry x="-147" y="2198" width="730" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-223.5" y="3947" width="290" height="40" as="geometry" />
+          <mxGeometry x="-223.5" y="4130" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-72" value="&lt;b&gt;ReentrantReadWriteLock有五个内部类，Sync继承自AQS、NonfairSync继承自Sync类、FairSync继承自Sync类；ReadLock实现了Lock接口、WriteLock也实现了Lock接口。五个内部类之间也是相互关联的&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-98" y="3987" width="1150" height="30" as="geometry" />
+          <mxGeometry x="-98" y="4170" width="1150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-73" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="603" y="4227" width="233" height="60" as="geometry" />
+          <mxGeometry x="603" y="4410" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="626" y="4242" width="210" height="30" as="geometry" />
+          <mxGeometry x="626" y="4425" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="405" y="4092" width="233" height="60" as="geometry" />
+          <mxGeometry x="405" y="4275" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-76" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadWriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="463" y="4107" width="140" height="30" as="geometry" />
+          <mxGeometry x="463" y="4290" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="45" y="4217" width="233" height="60" as="geometry" />
+          <mxGeometry x="45" y="4400" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-78" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Sync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="143" y="4232" width="60" height="30" as="geometry" />
+          <mxGeometry x="143" y="4415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-79" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="16.5" y="4092" width="290" height="60" as="geometry" />
+          <mxGeometry x="16.5" y="4275" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-80" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractQueuedSynchronizer&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="41.5" y="4107" width="250" height="30" as="geometry" />
+          <mxGeometry x="41.5" y="4290" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-81" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="184.5" y="4332" width="233" height="60" as="geometry" />
+          <mxGeometry x="184.5" y="4515" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-82" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="267.5" y="4347" width="90" height="30" as="geometry" />
+          <mxGeometry x="267.5" y="4530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-83" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-105" y="4332" width="233" height="60" as="geometry" />
+          <mxGeometry x="-105" y="4515" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-84" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;NonfairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-37" y="4347" width="120" height="30" as="geometry" />
+          <mxGeometry x="-37" y="4530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-85" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="1365" y="4332" width="233" height="60" as="geometry" />
+          <mxGeometry x="1365" y="4515" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-86" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;WriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="4347" width="100" height="30" as="geometry" />
+          <mxGeometry x="1440" y="4530" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="1023.5" y="4332" width="233" height="60" as="geometry" />
+          <mxGeometry x="1023.5" y="4515" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-88" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="4347" width="100" height="30" as="geometry" />
+          <mxGeometry x="1090" y="4530" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-89" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="799" y="4077" width="233" height="60" as="geometry" />
+          <mxGeometry x="799" y="4260" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-90" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Serializable&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="872" y="4092" width="110" height="30" as="geometry" />
+          <mxGeometry x="872" y="4275" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1192" y="4077" width="233" height="60" as="geometry" />
+          <mxGeometry x="1192" y="4260" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-92" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Lock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="4092" width="60" height="30" as="geometry" />
+          <mxGeometry x="1290" y="4275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1165" y="4317" as="sourcePoint" />
-            <mxPoint x="1215" y="4267" as="targetPoint" />
+            <mxPoint x="1165" y="4500" as="sourcePoint" />
+            <mxPoint x="1215" y="4450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="778" y="4197" />
-              <mxPoint x="915" y="4197" />
+              <mxPoint x="778" y="4380" />
+              <mxPoint x="915" y="4380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-75" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1165" y="4317" as="sourcePoint" />
-            <mxPoint x="1215" y="4267" as="targetPoint" />
+            <mxPoint x="1165" y="4500" as="sourcePoint" />
+            <mxPoint x="1215" y="4450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="661" y="4197" />
-              <mxPoint x="522" y="4197" />
+              <mxPoint x="661" y="4380" />
+              <mxPoint x="522" y="4380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-83" target="sP_teEGo85cFPhSgKsu7-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="735" y="4182" as="sourcePoint" />
-            <mxPoint x="785" y="4132" as="targetPoint" />
+            <mxPoint x="735" y="4365" as="sourcePoint" />
+            <mxPoint x="785" y="4315" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="12" y="4302" />
-              <mxPoint x="165" y="4302" />
+              <mxPoint x="12" y="4485" />
+              <mxPoint x="165" y="4485" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.608;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="735" y="4182" as="sourcePoint" />
-            <mxPoint x="785" y="4132" as="targetPoint" />
+            <mxPoint x="735" y="4365" as="sourcePoint" />
+            <mxPoint x="785" y="4315" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="301" y="4302" />
-              <mxPoint x="187" y="4302" />
+              <mxPoint x="301" y="4485" />
+              <mxPoint x="187" y="4485" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-79" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="735" y="4352" as="sourcePoint" />
-            <mxPoint x="785" y="4302" as="targetPoint" />
+            <mxPoint x="735" y="4535" as="sourcePoint" />
+            <mxPoint x="785" y="4485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.342;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-87" target="sP_teEGo85cFPhSgKsu7-91" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1240" y="4087" as="sourcePoint" />
-            <mxPoint x="1290" y="4037" as="targetPoint" />
+            <mxPoint x="1240" y="4270" as="sourcePoint" />
+            <mxPoint x="1290" y="4220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1147" y="4197" />
-              <mxPoint x="1272" y="4197" />
+              <mxPoint x="1147" y="4380" />
+              <mxPoint x="1272" y="4380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.668;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-85" target="sP_teEGo85cFPhSgKsu7-91" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1240" y="4087" as="sourcePoint" />
-            <mxPoint x="1290" y="4037" as="targetPoint" />
+            <mxPoint x="1240" y="4270" as="sourcePoint" />
+            <mxPoint x="1290" y="4220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1479" y="4197" />
-              <mxPoint x="1348" y="4197" />
+              <mxPoint x="1479" y="4380" />
+              <mxPoint x="1348" y="4380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-100" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-73" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="985" y="4307" as="sourcePoint" />
-            <mxPoint x="1035" y="4257" as="targetPoint" />
+            <mxPoint x="985" y="4490" as="sourcePoint" />
+            <mxPoint x="1035" y="4440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-102" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-83" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="985" y="4307" as="sourcePoint" />
-            <mxPoint x="705" y="4287" as="targetPoint" />
+            <mxPoint x="985" y="4490" as="sourcePoint" />
+            <mxPoint x="705" y="4470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-103" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-73" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="985" y="4057" as="sourcePoint" />
-            <mxPoint x="1035" y="4007" as="targetPoint" />
+            <mxPoint x="985" y="4240" as="sourcePoint" />
+            <mxPoint x="1035" y="4190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-104" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-87" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="985" y="4307" as="sourcePoint" />
-            <mxPoint x="1035" y="4257" as="targetPoint" />
+            <mxPoint x="985" y="4490" as="sourcePoint" />
+            <mxPoint x="1035" y="4440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-105" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sP_teEGo85cFPhSgKsu7-85" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="835" y="4257" as="sourcePoint" />
-            <mxPoint x="1035" y="4257" as="targetPoint" />
+            <mxPoint x="835" y="4440" as="sourcePoint" />
+            <mxPoint x="1035" y="4440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-106" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp;Sync抽象类继承自AQS抽象类，Sync类提供了对ReentrantReadWriteLock的支持。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类的内部类，&lt;/b&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;Sync的构造函数中设置了本地线程计数器和AQS的状态state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类内部存在两个内部类，分别为HoldCounter和ThreadLocalHoldCounter，其中HoldCounter主要与读锁配套使用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;: HoldCounter主要有两个属性，count和tid，其中count表示某个读线程重入的次数，tid表示该线程的tid字段的值，该字段可以用来唯一标识一个线程。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ThreadLocalHoldCounter重写了ThreadLocal的initialValue方法，ThreadLocal类可以将线程与对象相关联。在没有进行set的情况下，get到的均是initialValue方法里面生成的那个HolderCounter对象。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="4437" width="1110" height="140" as="geometry" />
+          <mxGeometry x="-233" y="4620" width="1110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-107" value="&lt;div&gt;&lt;b&gt;写锁的获取&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ReentrantReadWriteLock 的写锁是独占式锁，而实现写锁的同步语义是通过重写 AQS 中的 tryAcquire 方法实现的&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;获取写锁：首先会获取state，判断是否为0； 1. 若为0，表示此时没有读锁线程，再判断写线程是否应该被阻塞，而在非公平策略下总是不会被阻塞，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;在公平策略下会进行判断(判断同步队列中是否有等待时间更长的线程；若存在，则需要被阻塞，否则，无需阻塞)，之后在设置状态state，然后返回true。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;2. 若state不为0，则表示此时存在读锁或写锁线程，若写锁线程数量为0或者当前线程为独占锁线程，则返回false，表示不成功，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;否则，判断写锁线程的重入次数是否大于了最大值，若是，则抛出异常，否则，设置状态state，返回true，表示成功。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-215" y="4525" width="840" height="130" as="geometry" />
+          <mxGeometry x="-215" y="4708" width="840" height="130" as="geometry" />
         </mxCell>
         <mxCell id="sP_teEGo85cFPhSgKsu7-108" value="如果存在则直接返回很好理解, 那么对于如何初始化的代码又是怎样的呢?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-145" y="1777" width="410" height="30" as="geometry" />
