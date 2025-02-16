@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.6" pages="27">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.14" pages="27">
   <diagram name="JVM" id="2t9mX146NmbGCnDUHTSx">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5740,384 +5740,384 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ty3kaYn2vb88mmvuE6XE" name="ThreadPool">
-    <mxGraphModel dx="2326" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="3240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sP_teEGo85cFPhSgKsu7-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;ScheduledThreadPoolExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="-530" width="350" height="40" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;ScheduledThreadPoolExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-73" y="-1310" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-2" value="&lt;div&gt;&lt;b&gt;ScheduledThreadPoolExecutor继承自 ThreadPoolExecutor:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ScheduledThreadPoolExecutor 内部构造了两个内部类 ScheduledFutureTask 和 DelayedWorkQueue:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ScheduledFutureTask: 继承了FutureTask，说明是一个异步运算任务；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;最上层分别实现了Runnable、Future、Delayed接口，说明它是一个可以延迟执行的异步运算任务。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;DelayedWorkQueue: 这是 ScheduledThreadPoolExecutor 为存储周期或延迟任务专门定义的一个延迟队列，继承了 AbstractQueue，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;为了契合 ThreadPoolExecutor 也实现了 BlockingQueue 接口。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它内部只允许存储 RunnableScheduledFuture 类型的任务。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;与 DelayQueue 的不同之处就是它只允许存放 RunnableScheduledFuture 对象，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;并且自己实现了二叉堆(DelayQueue 是利用了 PriorityQueue 的二叉堆结构)。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="-480" width="750" height="190" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-2" value="&lt;div&gt;&lt;b&gt;ScheduledThreadPoolExecutor继承自 ThreadPoolExecutor:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ScheduledThreadPoolExecutor 内部构造了两个内部类 ScheduledFutureTask 和 DelayedWorkQueue:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ScheduledFutureTask: 继承了FutureTask，说明是一个异步运算任务；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;最上层分别实现了Runnable、Future、Delayed接口，说明它是一个可以延迟执行的异步运算任务。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;DelayedWorkQueue: 这是 ScheduledThreadPoolExecutor 为存储周期或延迟任务专门定义的一个延迟队列，继承了 AbstractQueue，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;为了契合 ThreadPoolExecutor 也实现了 BlockingQueue 接口。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它内部只允许存储 RunnableScheduledFuture 类型的任务。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;与 DelayQueue 的不同之处就是它只允许存放 RunnableScheduledFuture 对象，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;并且自己实现了二叉堆(DelayQueue 是利用了 PriorityQueue 的二叉堆结构)。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-63" y="-1260" width="750" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="115" y="30" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="137" y="-750" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="22" y="150" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="44" y="-630" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="30" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-63" y="-750" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="995" y="270" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1017" y="-510" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;DelayedWorkQueue&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="375" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;DelayedWorkQueue&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1097" y="-405" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="660" y="270" width="270" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="682" y="-510" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="617.5" y="100" width="184" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="639.5" y="-680" width="184" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="817.5" y="-45" width="220" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="839.5" y="-825" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="530" y="-45" width="210" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="552" y="-825" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="715" y="-145" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="737" y="-925" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="715" y="-250" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="737" y="-1030" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="305" y="405" width="190" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="327" y="-375" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="315" y="280" width="210" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="337" y="-500" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="62" y="275" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="84" y="-505" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="265" y="160" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="287" y="-620" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="355" y="30" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="377" y="-750" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Executor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" y="-240" width="90" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Executor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="772" y="-1020" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorService&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="715" y="-135" width="150" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ExecutorService&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="737" y="-915" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledFuture&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="265" y="170" width="150" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledFuture&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="287" y="-610" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-27" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;RunnableFuture&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="22" y="160" width="150" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-27" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;RunnableFuture&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="44" y="-620" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Delayed&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="40" width="80" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Delayed&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="412" y="-740" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Future&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="155" y="40" width="70" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Future&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="177" y="-740" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-30" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Runnable&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-75" y="40" width="130" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-30" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Runnable&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-53" y="-740" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadPoolExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="627.5" y="110" width="180" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadPoolExecutor&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="649.5" y="-670" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledExecutorService&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="807.5" y="-35" width="230" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledExecutorService&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="829.5" y="-815" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-33" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractExecutorService&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="525" y="-35" width="210" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-33" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractExecutorService&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="547" y="-815" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-34" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledThreadPoolExecutor&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="280" width="260" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-34" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledThreadPoolExecutor&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="682" y="-500" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-35" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledFutureTask&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="305" y="415" width="190" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-35" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ScheduledFutureTask&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="327" y="-365" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;RunnableScheduledFuture&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="305" y="290" width="230" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;RunnableScheduledFuture&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="327" y="-490" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-37" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FutureTask&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="102" y="285" width="110" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-37" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FutureTask&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="124" y="-495" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-38" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractQueue&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="995" y="280" width="140" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-38" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractQueue&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1017" y="-500" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BlockingQueue&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1215" y="270" width="160" height="50" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BlockingQueue&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1237" y="-510" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-16" target="sP_teEGo85cFPhSgKsu7-17">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-16" target="sP_teEGo85cFPhSgKsu7-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="605" y="140" as="sourcePoint" />
-            <mxPoint x="655" y="90" as="targetPoint" />
+            <mxPoint x="627" y="-640" as="sourcePoint" />
+            <mxPoint x="677" y="-690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-15" target="sP_teEGo85cFPhSgKsu7-16">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-15" target="sP_teEGo85cFPhSgKsu7-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="605" y="140" as="sourcePoint" />
-            <mxPoint x="655" y="90" as="targetPoint" />
+            <mxPoint x="627" y="-640" as="sourcePoint" />
+            <mxPoint x="677" y="-690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="635" y="-70" />
-              <mxPoint x="755" y="-70" />
+              <mxPoint x="657" y="-850" />
+              <mxPoint x="777" y="-850" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-14" target="sP_teEGo85cFPhSgKsu7-16">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-14" target="sP_teEGo85cFPhSgKsu7-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="50" as="sourcePoint" />
-            <mxPoint x="725" as="targetPoint" />
+            <mxPoint x="697" y="-730" as="sourcePoint" />
+            <mxPoint x="747" y="-780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="928" y="-70" />
-              <mxPoint x="835" y="-70" />
+              <mxPoint x="950" y="-850" />
+              <mxPoint x="857" y="-850" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-13" target="sP_teEGo85cFPhSgKsu7-15">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-13" target="sP_teEGo85cFPhSgKsu7-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="170" as="sourcePoint" />
-            <mxPoint x="725" y="120" as="targetPoint" />
+            <mxPoint x="697" y="-610" as="sourcePoint" />
+            <mxPoint x="747" y="-660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="50" />
-              <mxPoint x="635" y="50" />
+              <mxPoint x="732" y="-730" />
+              <mxPoint x="657" y="-730" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.349;exitY=-0.027;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-12" target="sP_teEGo85cFPhSgKsu7-13">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.349;exitY=-0.027;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-12" target="sP_teEGo85cFPhSgKsu7-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="170" as="sourcePoint" />
-            <mxPoint x="725" y="120" as="targetPoint" />
+            <mxPoint x="697" y="-610" as="sourcePoint" />
+            <mxPoint x="747" y="-660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="755" y="180" />
-              <mxPoint x="710" y="180" />
+              <mxPoint x="777" y="-600" />
+              <mxPoint x="732" y="-600" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.652;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-12" target="sP_teEGo85cFPhSgKsu7-14">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.652;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-12" target="sP_teEGo85cFPhSgKsu7-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="170" as="sourcePoint" />
-            <mxPoint x="725" y="120" as="targetPoint" />
+            <mxPoint x="697" y="-610" as="sourcePoint" />
+            <mxPoint x="747" y="-660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="836" y="220" />
-              <mxPoint x="928" y="220" />
+              <mxPoint x="858" y="-560" />
+              <mxPoint x="950" y="-560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-21" target="sP_teEGo85cFPhSgKsu7-22">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-21" target="sP_teEGo85cFPhSgKsu7-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="290" as="sourcePoint" />
-            <mxPoint x="725" y="240" as="targetPoint" />
+            <mxPoint x="697" y="-490" as="sourcePoint" />
+            <mxPoint x="747" y="-540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="345" y="110" />
-              <mxPoint x="435" y="110" />
+              <mxPoint x="367" y="-670" />
+              <mxPoint x="457" y="-670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-21" target="sP_teEGo85cFPhSgKsu7-3">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-21" target="sP_teEGo85cFPhSgKsu7-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="290" as="sourcePoint" />
-            <mxPoint x="725" y="240" as="targetPoint" />
+            <mxPoint x="697" y="-490" as="sourcePoint" />
+            <mxPoint x="747" y="-540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="305" y="100" />
-              <mxPoint x="235" y="100" />
+              <mxPoint x="327" y="-680" />
+              <mxPoint x="257" y="-680" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-19" target="sP_teEGo85cFPhSgKsu7-21">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-19" target="sP_teEGo85cFPhSgKsu7-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="290" as="sourcePoint" />
-            <mxPoint x="725" y="240" as="targetPoint" />
+            <mxPoint x="697" y="-490" as="sourcePoint" />
+            <mxPoint x="747" y="-540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="240" />
-              <mxPoint x="345" y="240" />
+              <mxPoint x="442" y="-540" />
+              <mxPoint x="367" y="-540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-12">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="675" y="410" as="sourcePoint" />
-            <mxPoint x="725" y="360" as="targetPoint" />
+            <mxPoint x="697" y="-370" as="sourcePoint" />
+            <mxPoint x="747" y="-420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="448" y="380" />
-              <mxPoint x="795" y="380" />
-              <mxPoint x="795" y="350" />
+              <mxPoint x="470" y="-400" />
+              <mxPoint x="817" y="-400" />
+              <mxPoint x="817" y="-430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.335;exitY=-0.026;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-19">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.335;exitY=-0.026;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="240" as="sourcePoint" />
-            <mxPoint x="645" y="190" as="targetPoint" />
+            <mxPoint x="617" y="-540" as="sourcePoint" />
+            <mxPoint x="667" y="-590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-4" target="sP_teEGo85cFPhSgKsu7-5">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-4" target="sP_teEGo85cFPhSgKsu7-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="240" as="sourcePoint" />
-            <mxPoint x="645" y="190" as="targetPoint" />
+            <mxPoint x="617" y="-540" as="sourcePoint" />
+            <mxPoint x="667" y="-590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="102" y="110" />
-              <mxPoint x="-5" y="110" />
+              <mxPoint x="124" y="-670" />
+              <mxPoint x="17" y="-670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-20" target="sP_teEGo85cFPhSgKsu7-4">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-20" target="sP_teEGo85cFPhSgKsu7-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="240" as="sourcePoint" />
-            <mxPoint x="645" y="190" as="targetPoint" />
+            <mxPoint x="617" y="-540" as="sourcePoint" />
+            <mxPoint x="667" y="-590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-4" target="sP_teEGo85cFPhSgKsu7-3">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-4" target="sP_teEGo85cFPhSgKsu7-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="240" as="sourcePoint" />
-            <mxPoint x="645" y="190" as="targetPoint" />
+            <mxPoint x="617" y="-540" as="sourcePoint" />
+            <mxPoint x="667" y="-590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="142" y="110" />
-              <mxPoint x="195" y="110" />
+              <mxPoint x="164" y="-670" />
+              <mxPoint x="217" y="-670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-20">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-18" target="sP_teEGo85cFPhSgKsu7-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="380" as="sourcePoint" />
-            <mxPoint x="645" y="330" as="targetPoint" />
+            <mxPoint x="617" y="-400" as="sourcePoint" />
+            <mxPoint x="667" y="-450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="353" y="380" />
-              <mxPoint x="142" y="380" />
+              <mxPoint x="375" y="-400" />
+              <mxPoint x="164" y="-400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-39">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="795" y="235" as="sourcePoint" />
-            <mxPoint x="845" y="185" as="targetPoint" />
+            <mxPoint x="817" y="-545" as="sourcePoint" />
+            <mxPoint x="867" y="-595" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1155" y="345" />
-              <mxPoint x="1295" y="345" />
+              <mxPoint x="1177" y="-435" />
+              <mxPoint x="1317" y="-435" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-10">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="885" y="240" as="sourcePoint" />
-            <mxPoint x="935" y="190" as="targetPoint" />
+            <mxPoint x="907" y="-540" as="sourcePoint" />
+            <mxPoint x="957" y="-590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1115" y="340" />
-              <mxPoint x="1075" y="340" />
+              <mxPoint x="1137" y="-440" />
+              <mxPoint x="1097" y="-440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.142;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.635;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-12">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.142;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.635;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-11" target="sP_teEGo85cFPhSgKsu7-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="885" y="240" as="sourcePoint" />
-            <mxPoint x="935" y="190" as="targetPoint" />
+            <mxPoint x="907" y="-540" as="sourcePoint" />
+            <mxPoint x="957" y="-590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1095" y="350" />
-              <mxPoint x="831" y="350" />
+              <mxPoint x="1117" y="-430" />
+              <mxPoint x="853" y="-430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-58" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ScheduledFutureTask: 继承了FutureTask，说明是一个异步运算任务；最上层分别实现了Runnable、Future、Delayed接口，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;说明它是一个可以延迟执行的异步运算任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="465" width="710" height="40" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-58" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ScheduledFutureTask: 继承了FutureTask，说明是一个异步运算任务；最上层分别实现了Runnable、Future、Delayed接口，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;说明它是一个可以延迟执行的异步运算任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-58" y="-315" width="710" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-59" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;DelayedWorkQueue: 这是 ScheduledThreadPoolExecutor 为存储周期或延迟任务专门定义的一个延迟队列，继承了 AbstractQueue，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为了契合 ThreadPoolExecutor 也实现了 BlockingQueue 接口。它内部只允许存储 RunnableScheduledFuture 类型的任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="945" y="445" width="750" height="40" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-59" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;DelayedWorkQueue: 这是 ScheduledThreadPoolExecutor 为存储周期或延迟任务专门定义的一个延迟队列，继承了 AbstractQueue，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为了契合 ThreadPoolExecutor 也实现了 BlockingQueue 接口。它内部只允许存储 RunnableScheduledFuture 类型的任务。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="967" y="-335" width="750" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-60" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ScheduledThreadPoolExecutor 内部构造了两个内部类 ScheduledFutureTask 和 DelayedWorkQueue&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475" y="385" width="580" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-60" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ScheduledThreadPoolExecutor 内部构造了两个内部类 ScheduledFutureTask 和 DelayedWorkQueue&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="497" y="-395" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-61" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;schedule主要用于执行一次性(延迟)任务。函数执行逻辑分两步:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. decorateTask方法&lt;/b&gt;&lt;/span&gt;&lt;b&gt;封装 Callable/Runnable&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. delayedExecute方法&lt;/b&gt;&lt;/span&gt;&lt;b&gt;执行任务&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;delayedExecute是执行任务的主方法，方法执行逻辑如下:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果池已关闭(ctl &amp;gt;= SHUTDOWN)，执行任务拒绝策略；&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;池正在运行，首先把任务入队排序；然后重新检查池的关闭状态，执行如下逻辑:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: 如果池正在运行，或者 run-after-shutdown 参数值为true，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;则调用父类方法ensurePrestart启动一个新的线程等待执行任务。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;B: 如果池已经关闭，并且 run-after-shutdown 参数值为false，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;则执行父类(ThreadPoolExecutor)方法remove移除队列中的指定任务，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;成功移除后调用ScheduledFutureTask.cancel取消任务&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="570" width="470" height="230" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-61" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;schedule主要用于执行一次性(延迟)任务。函数执行逻辑分两步:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. decorateTask方法&lt;/b&gt;&lt;/span&gt;&lt;b&gt;封装 Callable/Runnable&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. delayedExecute方法&lt;/b&gt;&lt;/span&gt;&lt;b&gt;执行任务&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;delayedExecute是执行任务的主方法，方法执行逻辑如下:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;如果池已关闭(ctl &amp;gt;= SHUTDOWN)，执行任务拒绝策略；&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;池正在运行，首先把任务入队排序；然后重新检查池的关闭状态，执行如下逻辑:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: 如果池正在运行，或者 run-after-shutdown 参数值为true，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;则调用父类方法ensurePrestart启动一个新的线程等待执行任务。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;B: 如果池已经关闭，并且 run-after-shutdown 参数值为false，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;则执行父类(ThreadPoolExecutor)方法remove移除队列中的指定任务，&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;成功移除后调用ScheduledFutureTask.cancel取消任务&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="-210" width="470" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;schedule 方法主要逻辑:&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;scheduleAtFixedRate和scheduleWithFixedDelay方法的逻辑与schedule类似&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-105" y="530" width="680" height="30" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;schedule 方法主要逻辑:&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;scheduleAtFixedRate和scheduleWithFixedDelay方法的逻辑与schedule类似&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-39" y="-250" width="680" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-64" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;ThreadLocal&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="1230" width="200" height="40" as="geometry" />
+        <mxCell id="sP_teEGo85cFPhSgKsu7-64" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;ThreadLocal&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-53" y="300" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-65" value="&lt;div&gt;&lt;b&gt;&amp;nbsp;ThreadLocal 为每个使用该变量的线程提供独立的变量副本，所以每一个线程都可以独立地改变自己的副本，而不会影响其它线程。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;每个线程都有一个 ThreadLocalMap （ ThreadLocal 内部类），Map中元素的键为 ThreadLocal ，而值对应线程的变量副本。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-65" value="&lt;div&gt;&lt;b&gt;&amp;nbsp;ThreadLocal 为每个使用该变量的线程提供独立的变量副本，所以每一个线程都可以独立地改变自己的副本，而不会影响其它线程。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;每个线程都有一个 ThreadLocalMap （ ThreadLocal 内部类），Map中元素的键为 ThreadLocal ，而值对应线程的变量副本。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-140" y="1290" width="730" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-66" value="&lt;div&gt;&lt;b&gt;public T get() {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap threadLocals = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (threadLocals != null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ThreadLocalMap.Entry e = threadLocals.getEntry(this);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (e != null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @SuppressWarnings(&quot;unchecked&quot;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; T result = (T)e.value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return result;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; return setInitialValue();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-66" value="&lt;div&gt;&lt;b&gt;public T get() {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap threadLocals = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (threadLocals != null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ThreadLocalMap.Entry e = threadLocals.getEntry(this);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (e != null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; @SuppressWarnings(&quot;unchecked&quot;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; T result = (T)e.value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return result;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; return setInitialValue();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-128" y="1450" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-67" value="&lt;div&gt;&lt;b&gt;首先获取当前线程对象t, 然后从线程t中获取到ThreadLocalMap的成员属性threadLocals&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals已经初始化(即不为null) 并且存在以当前ThreadLocal对象为Key的值, 则直接返回当前线程要获取的对象(本例中为Connection);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals已经初始化(即不为null)但是不存在以当前ThreadLocal对象为Key的的对象, 那么重新创建一个Connection对象, 并且添加到当前线程的threadLocals Map中,并返回&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals属性还没有被初始化, 则重新创建一个ThreadLocalMap对象, 并且创建一个Connection对象并添加到ThreadLocalMap对象中并返回。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-67" value="&lt;div&gt;&lt;b&gt;首先获取当前线程对象t, 然后从线程t中获取到ThreadLocalMap的成员属性threadLocals&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals已经初始化(即不为null) 并且存在以当前ThreadLocal对象为Key的值, 则直接返回当前线程要获取的对象(本例中为Connection);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals已经初始化(即不为null)但是不存在以当前ThreadLocal对象为Key的的对象, 那么重新创建一个Connection对象, 并且添加到当前线程的threadLocals Map中,并返回&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前线程的threadLocals属性还没有被初始化, 则重新创建一个ThreadLocalMap对象, 并且创建一个Connection对象并添加到ThreadLocalMap对象中并返回。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-135" y="1667" width="1050" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-68" value="&lt;div&gt;&lt;b&gt;public void set(T value) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap map = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (map != null)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; map.set(this, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; createMap(t, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-68" value="&lt;div&gt;&lt;b&gt;public void set(T value) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap map = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (map != null)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; map.set(this, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; createMap(t, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-138" y="2020" width="230" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ThreadLocalMap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ThreadLocalMap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-162" y="2153" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-70" value="&lt;div&gt;&lt;b&gt;本质上来讲, 它就是一个Map, 但是这个ThreadLocalMap与平时见到的Map有点不一样&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它没有实现Map接口;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它没有public的方法, 最多有一个default的构造方法, 因为这个ThreadLocalMap的方法仅仅在ThreadLocal类中调用, 属于静态内部类&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ThreadLocalMap的Entry实现继承了WeakReference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;该方法仅仅用了一个Entry数组来存储Key, Value; Entry并不是链表形式, 而是每个bucket里面仅仅放一个Entry;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-70" value="&lt;div&gt;&lt;b&gt;本质上来讲, 它就是一个Map, 但是这个ThreadLocalMap与平时见到的Map有点不一样&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它没有实现Map接口;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;它没有public的方法, 最多有一个default的构造方法, 因为这个ThreadLocalMap的方法仅仅在ThreadLocal类中调用, 属于静态内部类&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ThreadLocalMap的Entry实现继承了WeakReference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;该方法仅仅用了一个Entry数组来存储Key, Value; Entry并不是链表形式, 而是每个bucket里面仅仅放一个Entry;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-147" y="2198" width="730" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-223.5" y="3947" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-72" value="&lt;b&gt;ReentrantReadWriteLock有五个内部类，Sync继承自AQS、NonfairSync继承自Sync类、FairSync继承自Sync类；ReadLock实现了Lock接口、WriteLock也实现了Lock接口。五个内部类之间也是相互关联的&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-72" value="&lt;b&gt;ReentrantReadWriteLock有五个内部类，Sync继承自AQS、NonfairSync继承自Sync类、FairSync继承自Sync类；ReadLock实现了Lock接口、WriteLock也实现了Lock接口。五个内部类之间也是相互关联的&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-98" y="3987" width="1150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-73" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-73" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="603" y="4227" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ReentrantReadWriteLock&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="626" y="4242" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="405" y="4092" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-76" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadWriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-76" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadWriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="463" y="4107" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="45" y="4217" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-78" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Sync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-78" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Sync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="143" y="4232" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-79" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-79" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="16.5" y="4092" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-80" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractQueuedSynchronizer&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-80" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AbstractQueuedSynchronizer&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="41.5" y="4107" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-81" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-81" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="184.5" y="4332" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-82" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-82" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;FairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="267.5" y="4347" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-83" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-83" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="-105" y="4332" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-84" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;NonfairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-84" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;NonfairSync&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-37" y="4347" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-85" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-85" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="1365" y="4332" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-86" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;WriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-86" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;WriteLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1440" y="4347" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="1023.5" y="4332" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-88" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-88" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ReadLock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1090" y="4347" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-89" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-89" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="799" y="4077" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-90" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Serializable&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-90" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Serializable&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="872" y="4092" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1192" y="4077" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-92" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Lock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-92" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Lock&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1290" y="4092" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-89">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1165" y="4317" as="sourcePoint" />
             <mxPoint x="1215" y="4267" as="targetPoint" />
@@ -6127,7 +6127,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-75">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-75" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1165" y="4317" as="sourcePoint" />
             <mxPoint x="1215" y="4267" as="targetPoint" />
@@ -6137,7 +6137,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-83" target="sP_teEGo85cFPhSgKsu7-77">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-83" target="sP_teEGo85cFPhSgKsu7-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="735" y="4182" as="sourcePoint" />
             <mxPoint x="785" y="4132" as="targetPoint" />
@@ -6147,7 +6147,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.608;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-77">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.608;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="735" y="4182" as="sourcePoint" />
             <mxPoint x="785" y="4132" as="targetPoint" />
@@ -6157,13 +6157,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-79">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-79" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="735" y="4352" as="sourcePoint" />
             <mxPoint x="785" y="4302" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.342;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-87" target="sP_teEGo85cFPhSgKsu7-91">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.342;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-87" target="sP_teEGo85cFPhSgKsu7-91" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1240" y="4087" as="sourcePoint" />
             <mxPoint x="1290" y="4037" as="targetPoint" />
@@ -6173,7 +6173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.668;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-85" target="sP_teEGo85cFPhSgKsu7-91">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.668;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-85" target="sP_teEGo85cFPhSgKsu7-91" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1240" y="4087" as="sourcePoint" />
             <mxPoint x="1290" y="4037" as="targetPoint" />
@@ -6183,89 +6183,278 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-100" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-73">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-100" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-81" target="sP_teEGo85cFPhSgKsu7-73" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="985" y="4307" as="sourcePoint" />
             <mxPoint x="1035" y="4257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-102" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-83">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-102" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-83" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="985" y="4307" as="sourcePoint" />
             <mxPoint x="705" y="4287" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-103" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-73">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-103" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-77" target="sP_teEGo85cFPhSgKsu7-73" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="985" y="4057" as="sourcePoint" />
             <mxPoint x="1035" y="4007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-104" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-87">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-104" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sP_teEGo85cFPhSgKsu7-73" target="sP_teEGo85cFPhSgKsu7-87" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="985" y="4307" as="sourcePoint" />
             <mxPoint x="1035" y="4257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-105" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sP_teEGo85cFPhSgKsu7-85">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-105" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sP_teEGo85cFPhSgKsu7-85" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="835" y="4257" as="sourcePoint" />
             <mxPoint x="1035" y="4257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-106" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp;Sync抽象类继承自AQS抽象类，Sync类提供了对ReentrantReadWriteLock的支持。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类的内部类，&lt;/b&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;Sync的构造函数中设置了本地线程计数器和AQS的状态state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类内部存在两个内部类，分别为HoldCounter和ThreadLocalHoldCounter，其中HoldCounter主要与读锁配套使用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;: HoldCounter主要有两个属性，count和tid，其中count表示某个读线程重入的次数，tid表示该线程的tid字段的值，该字段可以用来唯一标识一个线程。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ThreadLocalHoldCounter重写了ThreadLocal的initialValue方法，ThreadLocal类可以将线程与对象相关联。在没有进行set的情况下，get到的均是initialValue方法里面生成的那个HolderCounter对象。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-106" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp;Sync抽象类继承自AQS抽象类，Sync类提供了对ReentrantReadWriteLock的支持。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类的内部类，&lt;/b&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;Sync的构造函数中设置了本地线程计数器和AQS的状态state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sync类内部存在两个内部类，分别为HoldCounter和ThreadLocalHoldCounter，其中HoldCounter主要与读锁配套使用&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;: HoldCounter主要有两个属性，count和tid，其中count表示某个读线程重入的次数，tid表示该线程的tid字段的值，该字段可以用来唯一标识一个线程。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ThreadLocalHoldCounter重写了ThreadLocal的initialValue方法，ThreadLocal类可以将线程与对象相关联。在没有进行set的情况下，get到的均是initialValue方法里面生成的那个HolderCounter对象。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-233" y="4437" width="1110" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-107" value="&lt;div&gt;&lt;b&gt;写锁的获取&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ReentrantReadWriteLock 的写锁是独占式锁，而实现写锁的同步语义是通过重写 AQS 中的 tryAcquire 方法实现的&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;获取写锁：首先会获取state，判断是否为0； 1. 若为0，表示此时没有读锁线程，再判断写线程是否应该被阻塞，而在非公平策略下总是不会被阻塞，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;在公平策略下会进行判断(判断同步队列中是否有等待时间更长的线程；若存在，则需要被阻塞，否则，无需阻塞)，之后在设置状态state，然后返回true。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;2. 若state不为0，则表示此时存在读锁或写锁线程，若写锁线程数量为0或者当前线程为独占锁线程，则返回false，表示不成功，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;否则，判断写锁线程的重入次数是否大于了最大值，若是，则抛出异常，否则，设置状态state，返回true，表示成功。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-107" value="&lt;div&gt;&lt;b&gt;写锁的获取&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ReentrantReadWriteLock 的写锁是独占式锁，而实现写锁的同步语义是通过重写 AQS 中的 tryAcquire 方法实现的&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;获取写锁：首先会获取state，判断是否为0； 1. 若为0，表示此时没有读锁线程，再判断写线程是否应该被阻塞，而在非公平策略下总是不会被阻塞，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;在公平策略下会进行判断(判断同步队列中是否有等待时间更长的线程；若存在，则需要被阻塞，否则，无需阻塞)，之后在设置状态state，然后返回true。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;2. 若state不为0，则表示此时存在读锁或写锁线程，若写锁线程数量为0或者当前线程为独占锁线程，则返回false，表示不成功，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;否则，判断写锁线程的重入次数是否大于了最大值，若是，则抛出异常，否则，设置状态state，返回true，表示成功。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-215" y="4525" width="840" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-108" value="如果存在则直接返回很好理解, 那么对于如何初始化的代码又是怎样的呢?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-108" value="如果存在则直接返回很好理解, 那么对于如何初始化的代码又是怎样的呢?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-145" y="1777" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-110" value="&lt;div&gt;&lt;b&gt;private T setInitialValue() {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; T value = initialValue();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap map = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (map != null)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; map.set(this, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; createMap(t, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; return value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-110" value="&lt;div&gt;&lt;b&gt;private T setInitialValue() {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; T value = initialValue();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Thread t = Thread.currentThread();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; ThreadLocalMap map = getMap(t);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (map != null)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; map.set(this, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; createMap(t, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; return value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-135" y="1807" width="230" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-111" value="&lt;div&gt;&lt;b&gt;首先调用上面写的重载过后的initialValue方法&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;继续查看当前线程的threadLocals是不是空的, 如果ThreadLocalMap已被初始化, 那么直接将产生的对象添加到ThreadLocalMap中, 如果没有初始化, 则创建并添加对象到其中;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-111" value="&lt;div&gt;&lt;b&gt;首先调用上面写的重载过后的initialValue方法&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;继续查看当前线程的threadLocals是不是空的, 如果ThreadLocalMap已被初始化, 那么直接将产生的对象添加到ThreadLocalMap中, 如果没有初始化, 则创建并添加对象到其中;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-140" y="1960" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-112" value="&lt;div&gt;&lt;b&gt;ThreadLocal能够实现变量的多线程隔离了; 其实就是用了Map的数据结构给当前线程缓存了, 要使用的时候就从本线程的threadLocals对象中获取就可以了, key就是当前线程;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;当然了在当前线程下获取当前线程里面的Map里面的对象并操作肯定没有线程并发问题了, 当然能做到变量的线程间隔离了;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-112" value="&lt;div&gt;&lt;b&gt;ThreadLocal能够实现变量的多线程隔离了; 其实就是用了Map的数据结构给当前线程缓存了, 要使用的时候就从本线程的threadLocals对象中获取就可以了, key就是当前线程;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;当然了在当前线程下获取当前线程里面的Map里面的对象并操作肯定没有线程并发问题了, 当然能做到变量的线程间隔离了;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-138" y="1360" width="950" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-113" value="&lt;div&gt;&lt;b&gt;private void set(ThreadLocal&amp;lt;?&amp;gt; key, Object value) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // We don&#39;t use a fast path as with get() because it is at&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // least as common to use set() to create new entries as&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // it is to replace existing ones, in which case, a fast&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // path would fail more often than not.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry[] tab = table;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int len = tab.length;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (len-1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;//这里用的是Hash冲突的开放定址法的线性探测&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; for (Entry e = tab[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e != null;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e = tab[i = nextIndex(i, len)]) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ThreadLocal&amp;lt;?&amp;gt; k = e.get();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (k == key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; e.value = value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (k == null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; replaceStaleEntry(key, value, i);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; tab[i] = new Entry(key, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int sz = ++size;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (!cleanSomeSlots(i, sz) &amp;amp;&amp;amp; sz &amp;gt;= threshold)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rehash();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-113" value="&lt;div&gt;&lt;b&gt;private void set(ThreadLocal&amp;lt;?&amp;gt; key, Object value) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // We don&#39;t use a fast path as with get() because it is at&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // least as common to use set() to create new entries as&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // it is to replace existing ones, in which case, a fast&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // path would fail more often than not.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry[] tab = table;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int len = tab.length;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (len-1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;//这里用的是Hash冲突的开放定址法的线性探测&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; for (Entry e = tab[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e != null;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e = tab[i = nextIndex(i, len)]) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ThreadLocal&amp;lt;?&amp;gt; k = e.get();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (k == key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; e.value = value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (k == null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; replaceStaleEntry(key, value, i);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; tab[i] = new Entry(key, value);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int sz = ++size;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (!cleanSomeSlots(i, sz) &amp;amp;&amp;amp; sz &amp;gt;= threshold)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rehash();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-153" y="2400" width="350" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-114" value="&lt;div&gt;&lt;b&gt;看下当前threadLocal的在数组中的索引位置 比如: i = 2，看i = 2位置上面的元素(Entry)的Key是否等于threadLocal 这个 Key, 如果等于就很好说了, 直接将该位置上面的Entry的Value替换成最新的就可以了;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前位置上面的 Entry 的 Key为空, 说明ThreadLocal对象已经被回收了, 那么就调用replaceStaleEntry&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果清理完无用条目(ThreadLocal被回收的条目)、并且数组中的数据大小 &amp;gt; 阈值的时候对当前的Table进行重新哈希 所以, 该HashMap是处理冲突检测的机制是向后移位, 清除过期条目 最终找到合适的位置;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-114" value="&lt;div&gt;&lt;b&gt;看下当前threadLocal的在数组中的索引位置 比如: i = 2，看i = 2位置上面的元素(Entry)的Key是否等于threadLocal 这个 Key, 如果等于就很好说了, 直接将该位置上面的Entry的Value替换成最新的就可以了;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果当前位置上面的 Entry 的 Key为空, 说明ThreadLocal对象已经被回收了, 那么就调用replaceStaleEntry&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;如果清理完无用条目(ThreadLocal被回收的条目)、并且数组中的数据大小 &amp;gt; 阈值的时候对当前的Table进行重新哈希 所以, 该HashMap是处理冲突检测的机制是向后移位, 清除过期条目 最终找到合适的位置;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="2883" width="1120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-115" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Set方法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-115" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Set方法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-153" y="2360" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-116" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Get方法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-116" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Get方法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-150" y="3010" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-117" value="&lt;div&gt;&lt;b&gt;private Entry getEntry(ThreadLocal&amp;lt;?&amp;gt; key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (table.length - 1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry e = table[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (e != null &amp;amp;&amp;amp; e.get() == key)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return e;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return getEntryAfterMiss(key, i, e);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-117" value="&lt;div&gt;&lt;b&gt;private Entry getEntry(ThreadLocal&amp;lt;?&amp;gt; key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (table.length - 1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry e = table[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; if (e != null &amp;amp;&amp;amp; e.get() == key)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return e;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; else&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return getEntryAfterMiss(key, i, e);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-165" y="3040" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-118" value="&lt;b&gt;先找到ThreadLocal的索引位置, 如果索引位置处的entry不为空并且键与threadLocal是同一个对象, 则直接返回; 否则去后面的索引位置继续查找&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-118" value="&lt;b&gt;先找到ThreadLocal的索引位置, 如果索引位置处的entry不为空并且键与threadLocal是同一个对象, 则直接返回; 否则去后面的索引位置继续查找&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-190" y="3170" width="790" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-119" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Entry对象&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-119" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Entry对象&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-215" y="3223" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-120" value="&lt;div&gt;&lt;b&gt;static class Entry extends WeakReference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; /** The value associated with this ThreadLocal. */&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Object value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry(ThreadLocal&amp;lt;?&amp;gt; k, Object v) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; super(k);//父类是WeakReference，也就是相当于new了一个弱引用(k)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //也就相当于 map中的key是弱引用的&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = v;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-120" value="&lt;div&gt;&lt;b&gt;static class Entry extends WeakReference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; /** The value associated with this ThreadLocal. */&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Object value;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry(ThreadLocal&amp;lt;?&amp;gt; k, Object v) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; super(k);//父类是WeakReference，也就是相当于new了一个弱引用(k)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //也就相当于 map中的key是弱引用的&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; value = v;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="3270" width="430" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-121" value="&lt;b&gt;key指向的ThreadLocal是弱引用，是为了防止ThreadLocal对象永远不会被回收。因为，若key为强引用，当ThreadLocal不想用了，那么就令 tl = null，&lt;/b&gt;&lt;div&gt;&lt;b&gt;但是此时key中还有一个强引用指向ThreadLocal，因此也就永远无法进行回收(除非ThreadLocalMap不用了)，&lt;/b&gt;&lt;div&gt;&lt;b&gt;所以会有内存泄露；但如果key使用的是弱引用，只要GC，就会回收&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-121" value="&lt;b&gt;key指向的ThreadLocal是弱引用，是为了防止ThreadLocal对象永远不会被回收。因为，若key为强引用，当ThreadLocal不想用了，那么就令 tl = null，&lt;/b&gt;&lt;div&gt;&lt;b&gt;但是此时key中还有一个强引用指向ThreadLocal，因此也就永远无法进行回收(除非ThreadLocalMap不用了)，&lt;/b&gt;&lt;div&gt;&lt;b&gt;所以会有内存泄露；但如果key使用的是弱引用，只要GC，就会回收&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="3440" width="840" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-122" value="&lt;b&gt;但是还会有内存泄漏存在，ThreadLocal被回收，就导致key=null,此时map中也就无法访问到value，无法访问到的value也就无用了，&lt;/b&gt;&lt;div&gt;&lt;b&gt;也就是说，这个k-v对无用了，那么value也应该被回收，但实际上value可能没有被回收，因此依然存在内存泄露&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-122" value="&lt;b&gt;但是还会有内存泄漏存在，ThreadLocal被回收，就导致key=null,此时map中也就无法访问到value，无法访问到的value也就无用了，&lt;/b&gt;&lt;div&gt;&lt;b&gt;也就是说，这个k-v对无用了，那么value也应该被回收，但实际上value可能没有被回收，因此依然存在内存泄露&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-203.5" y="3490" width="740" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-123" value="&lt;div&gt;&lt;b&gt;ThreadLocal内存泄漏的原因？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;每个线程都有⼀个 ThreadLocalMap 的内部属性，map的key是 ThreaLocal ，定义为弱引用，value是强引用类型。垃圾回收的时候会⾃动回收key，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;而value的回收取决于Thread对象的生命周期。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;一般会通过线程池的方式复用线程节省资源，而如果用线程池来操作ThreadLocal 对象确实会造成内存泄露, 因为对于线程池里面不会销毁的线程,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;里面总会存在着&amp;lt;ThreadLocal, LocalVariable&amp;gt;的强引用, 因为final static 修饰的 ThreadLocal 并不会释放, 而ThreadLocalMap 对于 Key 虽然是弱引用, 但是强引用不会释放, 弱引用当然也会一直有值,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;同时创建的LocalVariable对象也不会释放, 就造成了内存泄露; 如果LocalVariable对象不是一个大对象的话, 其实泄露的并不严重, 泄露的内存 = 核心线程数 * LocalVariable对象的大小;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;所以, 为了避免出现内存泄露的情况, ThreadLocal提供了一个清除线程中对象的方法, 即 remove, 其实内部实现就是调用 ThreadLocalMap 的remove方法:&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-123" value="&lt;div&gt;&lt;b&gt;ThreadLocal内存泄漏的原因？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;每个线程都有⼀个 ThreadLocalMap 的内部属性，map的key是 ThreaLocal ，定义为弱引用，value是强引用类型。垃圾回收的时候会⾃动回收key，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;而value的回收取决于Thread对象的生命周期。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;一般会通过线程池的方式复用线程节省资源，而如果用线程池来操作ThreadLocal 对象确实会造成内存泄露, 因为对于线程池里面不会销毁的线程,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;里面总会存在着&amp;lt;ThreadLocal, LocalVariable&amp;gt;的强引用, 因为final static 修饰的 ThreadLocal 并不会释放, 而ThreadLocalMap 对于 Key 虽然是弱引用, 但是强引用不会释放, 弱引用当然也会一直有值,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;同时创建的LocalVariable对象也不会释放, 就造成了内存泄露; 如果LocalVariable对象不是一个大对象的话, 其实泄露的并不严重, 泄露的内存 = 核心线程数 * LocalVariable对象的大小;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;所以, 为了避免出现内存泄露的情况, ThreadLocal提供了一个清除线程中对象的方法, 即 remove, 其实内部实现就是调用 ThreadLocalMap 的remove方法:&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="3560" width="1090" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sP_teEGo85cFPhSgKsu7-124" value="&lt;div&gt;&lt;b&gt;private void remove(ThreadLocal&amp;lt;?&amp;gt; key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry[] tab = table;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int len = tab.length;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (len-1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; for (Entry e = tab[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e != null;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e = tab[i = nextIndex(i, len)]) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (e.get() == key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; e.clear();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; expungeStaleEntry(i);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sP_teEGo85cFPhSgKsu7-124" value="&lt;div&gt;&lt;b&gt;private void remove(ThreadLocal&amp;lt;?&amp;gt; key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Entry[] tab = table;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int len = tab.length;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; int i = key.threadLocalHashCode &amp;amp; (len-1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; for (Entry e = tab[i];&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e != null;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e = tab[i = nextIndex(i, len)]) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (e.get() == key) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; e.clear();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; expungeStaleEntry(i);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-213.5" y="3700" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="15" y="418" width="360" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1109" width="247" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="509" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="569" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="629" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="689" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-22" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ThreadLocal&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="583.5" y="1119" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="35.5" y="879" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-42" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-43" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="848" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="889" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;value1&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="205.5" y="889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocal&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="904" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-48" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocalMap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="459" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-49" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Thread1&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10.5" y="379" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="418" width="360" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="510" y="509" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="510" y="569" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="510" y="629" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="510" y="689" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="500" y="879" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-57" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="848" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-61" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="889" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;value2&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="670" y="889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-63" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocal&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="904" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocalMap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="459" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-65" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Thread2&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="379" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="999.25" y="418" width="360" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="1029.75" y="509" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="1029.75" y="569" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="1029.75" y="629" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="1029.75" y="689" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="1019.75" y="879" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-72" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1119.75" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1119.75" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1119.75" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1119.75" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-76" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Entry&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1034.75" y="848" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1029.75" y="889" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-78" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;valueN&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="1189.75" y="889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-79" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocal&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1044.75" y="904" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-80" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadLocalMap&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1094.75" y="459" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-81" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ThreadN&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="994.75" y="379" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-84" value="&lt;div&gt;&lt;b&gt;每个Thread线程内部都有一个Map。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Map里面存储线程本地对象（key）和线程的变量副本（value）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;但是，Thread内部的Map是由ThreadLocal维护的，由ThreadLocal负责向map获取和设置线程的变量值。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;所以对于不同的线程，每次获取副本值时，别的线程并不能获取到当前线程的副本值，形成了副本的隔离，互不干扰。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="285" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-10" target="ZFFmcLiGtEysVzp_GRug-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-45" target="ZFFmcLiGtEysVzp_GRug-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-54" target="ZFFmcLiGtEysVzp_GRug-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-61" target="ZFFmcLiGtEysVzp_GRug-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-70" target="ZFFmcLiGtEysVzp_GRug-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFFmcLiGtEysVzp_GRug-90" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFFmcLiGtEysVzp_GRug-77" target="ZFFmcLiGtEysVzp_GRug-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
