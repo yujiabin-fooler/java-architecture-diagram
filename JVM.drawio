@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3aZms3tKnCu_-96OzhPR" name="Lock">
-    <mxGraphModel dx="3404" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3754" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,194 +331,35 @@
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-105" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;AQS工作流程概述&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;线程获取资源失败，封装成Node节点从C L H队列尾部入队并阻塞线程，某线程释放资源时会把C L H队列首部Node节点关联的线程唤醒（此处的首部是指第二个节点，后面会细说），再次获取资源。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-490" y="840" width="1080" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-106" target="v0gpbXGbmCtM7Lem7zQx-107">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-106" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;线程A&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1060" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-107" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程B&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1160" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-108" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程C&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1260" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-109" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程D&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1380" width="160" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-106" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="920" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-110" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;获取资源&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-245" y="1210" width="165" height="80" as="geometry" />
+          <mxGeometry x="-242.5" y="1099" width="165" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-112" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;获取资源失败&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="1300" width="160" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-112" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;释放资源&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1420" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-113" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;获取资源成功&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="1120" width="160" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-113" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;构建线程节点&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="9" y="1109" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-114" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;执行临界区代码&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1120" width="160" height="60" as="geometry" />
+          <mxGeometry x="-240" y="1290" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-115" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;唤醒队列首部节点（首节点定义是队列第二个节点）&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1120" width="160" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-115" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;当前节点设置为哨兵节点，即头节点&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="1109" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-116" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;队列尾部入队&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1300" width="160" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-116" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;队列尾部入队&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1109" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-117" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;哨兵节点&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="540" y="980" width="210" height="60" as="geometry" />
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-117" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;CLH队列&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="670" y="989" width="170" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-118" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程B节点&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1120" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-119" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程C节点&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1240" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-121" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;线程D节点&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1370" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-122" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-117" target="v0gpbXGbmCtM7Lem7zQx-118">
+        <mxCell id="v0gpbXGbmCtM7Lem7zQx-130" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-106" target="v0gpbXGbmCtM7Lem7zQx-110">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="1210" as="sourcePoint" />
-            <mxPoint x="-210" y="1160" as="targetPoint" />
+            <mxPoint x="-320" y="1020" as="sourcePoint" />
+            <mxPoint x="370" y="1140" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-118" target="v0gpbXGbmCtM7Lem7zQx-119">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="1210" as="sourcePoint" />
-            <mxPoint x="-210" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-124" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-119" target="v0gpbXGbmCtM7Lem7zQx-121">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="1210" as="sourcePoint" />
-            <mxPoint x="-210" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-118" target="v0gpbXGbmCtM7Lem7zQx-117">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="1210" as="sourcePoint" />
-            <mxPoint x="-210" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-126" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-119" target="v0gpbXGbmCtM7Lem7zQx-118">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-90" y="1210" as="sourcePoint" />
-            <mxPoint x="-40" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-121" target="v0gpbXGbmCtM7Lem7zQx-119">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-90" y="1210" as="sourcePoint" />
-            <mxPoint x="-40" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-128" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-117">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="645" y="920" as="sourcePoint" />
-            <mxPoint x="-40" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-129" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-121">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="645" y="1500" as="sourcePoint" />
-            <mxPoint x="-40" y="1160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-130" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-106">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-510" y="1090" as="sourcePoint" />
-            <mxPoint x="180" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-131" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-107">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-510" y="1190" as="sourcePoint" />
-            <mxPoint x="180" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-132" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-108">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-510" y="1290" as="sourcePoint" />
-            <mxPoint x="180" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-133" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0gpbXGbmCtM7Lem7zQx-109">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-510" y="1410" as="sourcePoint" />
-            <mxPoint x="180" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.091;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-109">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79.99" y="1260" as="sourcePoint" />
-            <mxPoint x="-229.99500000000012" y="1270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-108">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79.99" y="1260" as="sourcePoint" />
-            <mxPoint x="-240.01" y="1260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-107">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79.99" y="1260" as="sourcePoint" />
-            <mxPoint x="-245.01" y="1250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.065;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-106">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79.99" y="1260" as="sourcePoint" />
-            <mxPoint x="-234.28500000000008" y="1233.0400000000004" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-110" target="v0gpbXGbmCtM7Lem7zQx-113">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="1260" as="sourcePoint" />
-            <mxPoint x="130" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-110" target="v0gpbXGbmCtM7Lem7zQx-112">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="1260" as="sourcePoint" />
-            <mxPoint x="130" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-140" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-113" target="v0gpbXGbmCtM7Lem7zQx-114">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="1260" as="sourcePoint" />
-            <mxPoint x="100" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-112" target="v0gpbXGbmCtM7Lem7zQx-116">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="1260" as="sourcePoint" />
-            <mxPoint x="100" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-142" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-114" target="v0gpbXGbmCtM7Lem7zQx-115">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="1260" as="sourcePoint" />
-            <mxPoint x="60" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-115" target="v0gpbXGbmCtM7Lem7zQx-118">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-10" y="1260" as="sourcePoint" />
-            <mxPoint x="40" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-144" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-116" target="v0gpbXGbmCtM7Lem7zQx-146">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="1260" as="sourcePoint" />
-            <mxPoint x="60" y="1210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-145" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;header&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;头节点&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="870" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="v0gpbXGbmCtM7Lem7zQx-146" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;tail&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;尾节点&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1500" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-149" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;入队&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-540" y="1613" width="60" height="40" as="geometry" />
@@ -1481,6 +1322,91 @@
         </mxCell>
         <mxCell id="vV4RBcQR2R1CZRx0GpWg-181" value="&lt;b&gt;&lt;font&gt;A Q S中提供了releaseShared模板函数来释放资源，模板流程就是线程释放资源成功，唤醒CHL队列的第二个线程节点（首节点的下个节点）&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; /**&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @description: 共享式-释放资源模板函数&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @param arg&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @return: boolean&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; public final boolean releaseShared(int arg) {&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (tryReleaseShared(arg)) {//释放资源成功，tryReleaseShared子类实现&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //唤醒后继节点&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; doReleaseShared();&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return true;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return false;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; private void doReleaseShared() {&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (;;) {&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //获取头节点&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Node h = head;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (h != null &amp;amp;&amp;amp; h != tail) {&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int ws = h.waitStatus;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (ws == Node.SIGNAL) {//如果头节点等待状态为SIGNAL&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!compareAndSetWaitStatus(h, Node.SIGNAL, 0))//更新头节点等待状态为0&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; continue;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // loop to recheck cases&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //唤醒头节点下个线程节点&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unparkSuccessor(h);&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //如果后继节点暂时不需要被唤醒，更新头节点等待状态为PROPAGATE&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else if (ws == 0 &amp;amp;&amp;amp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;!compareAndSetWaitStatus(h, 0, Node.PROPAGATE))&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; continue;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (h == head)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;与独占式释放资源区别不大，都是唤醒头节点的下个节点&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-750" y="8870" width="770" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-182" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当前线程阻塞&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="216" y="1109" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-183" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CLH队列线程节点获取资源成功场景&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.96;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="1019" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-184" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;非CLH队列线程节点场景&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#f9f7ed;strokeColor=#36393d;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-143.5" y="1190" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-185" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-110" target="v0gpbXGbmCtM7Lem7zQx-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1150" as="sourcePoint" />
+            <mxPoint x="110" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-186" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-114" target="v0gpbXGbmCtM7Lem7zQx-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1150" as="sourcePoint" />
+            <mxPoint x="110" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-187" value="&lt;b&gt;CLH队列第二个线程节点唤醒&lt;/b&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.973;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-112" target="v0gpbXGbmCtM7Lem7zQx-117">
+          <mxGeometry x="-0.2379" width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="1120" as="sourcePoint" />
+            <mxPoint x="170" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="1450" />
+              <mxPoint x="870" y="1045" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-188" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;现成节点重新获取资源&lt;/font&gt;&lt;/b&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-117" target="v0gpbXGbmCtM7Lem7zQx-106">
+          <mxGeometry x="0.0006" width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="755" y="950" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-189" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-110" target="v0gpbXGbmCtM7Lem7zQx-113">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-190" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-113" target="vV4RBcQR2R1CZRx0GpWg-182">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-191" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV4RBcQR2R1CZRx0GpWg-182" target="v0gpbXGbmCtM7Lem7zQx-116">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-192" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-116" target="v0gpbXGbmCtM7Lem7zQx-117">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1340" />
+              <mxPoint x="755" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-194" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-115" target="v0gpbXGbmCtM7Lem7zQx-114">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-395" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-195" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v0gpbXGbmCtM7Lem7zQx-110" target="v0gpbXGbmCtM7Lem7zQx-115">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="1260" as="sourcePoint" />
+            <mxPoint x="370" y="1260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
