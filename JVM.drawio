@@ -664,7 +664,7 @@
         <mxCell id="vV4RBcQR2R1CZRx0GpWg-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;执行临界区代码&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-887" y="-616" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vV4RBcQR2R1CZRx0GpWg-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;唤醒队列首部节点（首节点定义是队列第二个节点）&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="vV4RBcQR2R1CZRx0GpWg-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;释放资源唤醒队列首部节点（首节点定义是队列第二个节点）&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-682" y="-616" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vV4RBcQR2R1CZRx0GpWg-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;队列尾部入队&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
