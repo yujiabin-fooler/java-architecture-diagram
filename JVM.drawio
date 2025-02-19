@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3aZms3tKnCu_-96OzhPR" name="Lock">
-    <mxGraphModel dx="3754" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4654" dy="3884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
           <mxGeometry x="-41" y="-674" width="1080" height="455" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;AbstractQueuedSynchronizer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-486" y="-1169" width="280" height="40" as="geometry" />
+          <mxGeometry x="-480" y="-1250" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="139" y="-618" width="140" height="380" as="geometry" />
@@ -118,7 +118,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-36" value="&lt;b&gt;AbstractQueuedSynchronizer抽象同步队列简称A Q S，它是实现同步器的基础组件，如常用的ReentrantLock、Semaphore、CountDownLatch等。&lt;/b&gt;&lt;div&gt;&lt;b&gt;A Q S的组成结构由&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;三部分组成，state同步状态、Node组成的CLH队列、ConditionObject条件变量（包含Node组成的条件单向队列）&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="-1109" width="830" height="40" as="geometry" />
+          <mxGeometry x="-470" y="-1190" width="830" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v0gpbXGbmCtM7Lem7zQx-37" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Node&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="156" y="-659" width="60" height="30" as="geometry" />
@@ -1407,6 +1407,9 @@
             <mxPoint x="210" y="1260" as="sourcePoint" />
             <mxPoint x="370" y="1260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IRd6eSBVlSbK311jkY0Q-1" value="&lt;div&gt;&lt;b&gt;state 初始化 0，在多线程条件下，线程要执行临界区的代码，必须首先获取 state，某个线程获取成功之后， state 加 1，其他线程再获取的话由于共享资源已被占用，所以会到 FIFO 等待队列去等待，等占有 state 的线程执行完临界区的代码释放资源( state 减 1)后，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;会唤醒 FIFO 中的下一个等待线程（head 中的下一个结点）去获取 state。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;state 由于是多线程共享变量，所以必须定义成 volatile，以保证 state 的可见性, 同时虽然 volatile 能保证可见性，但不能保证原子性，所以 AQS 提供了对 state 的原子操作方法，保证了线程安全。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="-1130" width="1440" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
