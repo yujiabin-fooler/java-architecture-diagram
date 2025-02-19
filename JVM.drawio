@@ -7628,7 +7628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ty3kaYn2vb88mmvuE6XE" name="ThreadPool">
-    <mxGraphModel dx="4327" dy="4141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6077" dy="6212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8343,6 +8343,177 @@
             <mxPoint x="510" y="810" as="sourcePoint" />
             <mxPoint x="560" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Thread&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-3280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;NEW&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="599" y="-2380" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="567" y="-2180" width="263" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;WAITING&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-2105" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;TIMED-WAITING&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-2120" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;TERMINATED&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="363" y="-1630" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BLOCKED&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="837" y="-1630" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="593.5" y="-2110" width="196.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-9" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Ready&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="593.5" y="-1990" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Runnable&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="-2170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Running&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="649" y="-2090" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-2" target="IxXiFD5fIp3fHgtyJx47-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-2090" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.339;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.333;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-8" target="IxXiFD5fIp3fHgtyJx47-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-2040" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.017;exitDx=0;exitDy=0;entryX=0.645;entryY=1.039;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-9" target="IxXiFD5fIp3fHgtyJx47-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-2090" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.01;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-3" target="IxXiFD5fIp3fHgtyJx47-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-2090" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-4" target="IxXiFD5fIp3fHgtyJx47-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-2090" as="sourcePoint" />
+            <mxPoint x="560" y="-2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.086;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-3" target="IxXiFD5fIp3fHgtyJx47-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="-1880" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-7" target="IxXiFD5fIp3fHgtyJx47-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-1920" as="sourcePoint" />
+            <mxPoint x="790" y="-1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.918;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-3" target="IxXiFD5fIp3fHgtyJx47-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-1920" as="sourcePoint" />
+            <mxPoint x="790" y="-1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-3" target="IxXiFD5fIp3fHgtyJx47-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="-2090" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.004;entryY=0.349;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IxXiFD5fIp3fHgtyJx47-5" target="IxXiFD5fIp3fHgtyJx47-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-2090" as="sourcePoint" />
+            <mxPoint x="790" y="-2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-30" value="&lt;b&gt;&lt;font&gt;已超时&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;等待获取锁&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;等待进入synchronized临界区&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-1788" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-32" value="&lt;b&gt;&lt;font&gt;操作系统调用执行 run()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="-2030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-33" value="&lt;b&gt;&lt;font&gt;获取到锁，进入&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;synchronized&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="-1768" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-35" value="&lt;b&gt;执行完成&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1768" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-36" value="&lt;b&gt;&lt;font&gt;操作系统调用执行 yeild()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-2030" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-39" value="&lt;b&gt;&lt;font&gt;Thread.sleep(long)&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Thread.sleep(long,int)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Object.await(long)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Object.wait(long,int)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Thread.join(long)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Thread.join(long,int)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LockSupport.parkNaos()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LockSupport.parkUntil()&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-2335" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-40" value="&lt;b&gt;&lt;font&gt;Object.notify()&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Object.notifyAll()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Thread.interrupted()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;LockSupport.unpark(Thread)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-2060" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-41" value="&lt;b&gt;&lt;font&gt;Thread.start()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="-2260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-42" value="&lt;b&gt;&lt;font&gt;Object.notify()&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Object.notifyAll()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Thread.interrupted()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;LockSupport.unpark(Thread)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350.5" y="-2040" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-43" value="&lt;b&gt;&lt;font&gt;Thread.sleep()&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;Object.wait()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Thread.join()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LockSupport.park()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376.5" y="-2250" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-44" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;NEW：初始状态，线程被构建，但是还没有调用start()方法。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-2422" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-45" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;RUNNABLE：可运行状态，可运行状态可以包括：&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;运行中状态和就绪状态。也就是 可能正在运行&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;，也可能正在等待 CPU 时间片。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="514" y="-2240" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-47" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;等待获取一个排它锁，如果其线程释放了锁就会结束此状态。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="-1682" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-48" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;等待其它线程显式地唤醒，否则不会被分配 CPU 时间片。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76.5" y="-2040" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-49" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;无需等待其它线程显式地唤醒，在一定时间之后会被系统自动唤醒。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="-2050" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-50" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;调用 Thread.sleep() 方法使线程进入限期等待状态时，常常用“使一个线程睡眠”进行描述。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;调用 Object.wait() 方法使线程进入限期等待或者无限期等待时，常常用“挂起一个线程”进行描述。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;睡眠和挂起是用来描述行为，而阻塞和等待用来描述状态。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;阻塞和等待的区别在于，阻塞是被动的，它是在等待获取一个排它锁。而等待是主动的，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;通过调用 Thread.sleep() 和 Object.wait() 等方法进入。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-2020" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-51" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;可以是线程结束任务之后自己结束，或者产生了异常而结束。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270.5" y="-1682" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-52" value="&lt;div&gt;&lt;b&gt;使用线程的方法:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;实现 Runnable 接口；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;实现 Callable 接口；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;继承 Thread 类。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;使用线程池&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;实现 Runnable 和 Callable 接口的类只能当做一个可以在线程中运行的任务，不是真正意义上的线程，因此最后还需要通过 Thread 来调用。可以说任务是通过线程驱动从而执行的。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;守护线程是程序运行时在后台提供服务的线程，不属于程序中不可或缺的部分。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;当所有非守护线程结束时，程序也就终止，同时会杀死所有守护线程。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;main() 属于非守护线程。因此如果设置这个，可以让子线程随着主线程的退出而退出&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;使用 setDaemon() 方法将一个线程设置为守护线程。&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-3220" width="990" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-53" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Thread.sleep(millisec) 方法会休眠当前正在执行的线程，&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;millisec 单位为毫秒&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 255); font-weight: bold;&quot;&gt;sleep的工作流程：&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 255); font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 255); font-weight: bold;&quot;&gt;挂起线程并修改其运行状态&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 255); font-weight: bold;&quot;&gt;用sleep()提供的参数来设置一个定时器&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 255); font-weight: bold;&quot;&gt;当时间结束定时器会触发，内核收到中断后修改线程的运行状态。就绪队列等待调度例如线程会被标志为就绪而进入就绪队列等待调度&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;sleep() 可能会抛出 InterruptedException，因为异常不能跨线程传播回 main() 中，因此必须在本地进行处理。&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;线程中抛出的其它异常也同样需要在本地进行处理。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-2395" width="730" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-54" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&amp;nbsp;Thread.yield() 的调用声明了当前线程已经完成了生命周期中最重要的部分，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;可以切换给其它线程来执行。该方法只是对线程调度器的一个建议，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;而且也只是建议具有相同优先级的其它线程可以运行。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-1930" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-55" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;stop 方法虽然可以停止线程，但它已经是不建议使用的废弃方法了&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;原因在于它在终止一个线程时会强制中断线程的执行，不管run方法是否执行完了，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;并且还会释放这个线程所持有的所有的锁对象。&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;这一现象会被其它因为请求锁而阻塞的线程看到，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;使他们继续向下执行。这就会造成数据的不一致。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="157" y="-1570" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-56" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;使用 interrupt 方法可以给执行任务的线程，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;发送一个中断线程的指令，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它并不直接中断线程，而是发送一个中断线程的信号，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;把是否正在中断线程的主动权交给代码编写者。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;相比于自定义中断标识符而然，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它能更及时的接收到中断指令，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;如果线程因为执行join()，sleep或者wait()而进入阻塞状态，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;此时想要停止它，可以调用interrupt()，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;程序会抛出interruptedException异常。可以利用这个异常终止线程&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;调用 Executor 的 shutdown() 方法会等待线程都执行完毕之后再关闭，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;但是如果调用的是 shutdownNow() 方法，则相当于调用每个线程的 interrupt() 方法。&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="17" y="-1852" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-57" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;在线程中调用另一个线程的 join() 方法，会将当前线程挂起，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;而不是忙等待，直到目标线程结束。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;从源码来看，实际上join方法就是调用了wait方法来使得线程阻塞，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;一直到线程结束运行。&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;也就是说，join方法是一个同步方法，当主线程调用t1.join()方法时，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;主线程先获得了t1对象的锁，随后进入方法，调用了t1对象的wait()方法，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;使主线程进入了t1对象的等待池。&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;jvm虚拟机中存在方法lock.notify_all(thread)，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;在t1线程结束以后，会调用该方法，最后唤醒主线程。&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="36.5" y="-2670" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-58" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;调用 wait() 使得线程等待某个条件满足，线程在等待时会被挂起，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;当其他线程的运行使得这个条件满足时，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;其它线程会调用 notify() 或者 notifyAll() 来唤醒挂起的线程。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它们都属于 Object 的一部分，而不属于 Thread。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;只能用在同步方法synchronized或者同步控制块中使用，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;否则会在运行时抛出 IllegalMonitorStateExeception。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;使用 wait() 挂起期间，线程会释放锁。这是因为，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;如果没有释放锁，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;那么其它线程就无法进入对象的同步方法或者同步控制块中，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;那么就无法执行 notify() 或者 notifyAll() 来唤醒挂起的线程，造成死锁。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot; style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;wait() 和 sleep() 的区别&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;wait() 是 Object 的方法，而 sleep() 是 Thread 的静态方法；&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;wait() 会释放锁，sleep() 不会。&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-2485" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-59" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;java.util.concurrent 类库中提供了 Condition 类来实现线程之间的协调，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;可以在 Condition 上调用 await() 方法使线程等待，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;其它线程调用 signal() 或 signalAll() 方法唤醒等待的线程。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;相比于 wait() 这种等待方式，await() 可以指定等待的条件，因此更加灵活。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1.5" y="-2210" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IxXiFD5fIp3fHgtyJx47-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 16px; background-color: transparent;&quot;&gt;线程中的异常处理&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;Runnable 接口的 run() 方法不允许抛出任何被检查的异常（checked exceptions），只能处理或抛出运行时异常（unchecked exceptions）。&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;b&gt;当在 run() 方法内发生异常时，如果没有显式地捕获和处理这些异常，&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font&gt;它们通常会在执行该 Runnable 的线程中被“吞掉”，即异常会导致线程终止，但不会影响其他线程的执行。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Runnable中异常处理：&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; 1. 在run方法中显示的捕获异常&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; 2. 为创建的线程设置一个UncaughtExceptionHandler&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; 3.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;使用Callable代替Runnable，Callable的call方法允许抛出异常，然后可以通过提交给ExecutorService返回的Future来捕获和处理这些异常&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;RunableFuture&amp;lt;T&amp;gt; 是个接口，但是它继承了Runnable 接口 ， 实现类是 FutureTask&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;FutureTask里的run方法 是不是和 构造时的Callable 有关系，&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;如果存储正常结果的set(result)方法 和存储异常结果的 setException(ex) 方法&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;将正常结果result 和 异常结果 exception 都赋值给了 outcome 这个变量 。&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;b&gt;可以通过get方法获取到异常结果&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-2922.5" width="790" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
