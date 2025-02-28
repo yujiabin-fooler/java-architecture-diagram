@@ -8930,7 +8930,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aFdEVQMKjbmttWaHHXfw" name="Spring，Springboot">
-    <mxGraphModel dx="9249" dy="35678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7861" dy="34967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10858,19 +10858,19 @@
           <mxGeometry x="344.65999999999997" y="-21780" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-269" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="873.36" y="-20910" width="330" height="80" as="geometry" />
+          <mxGeometry x="873.36" y="-20921" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-270" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="118.62" y="-20910" width="420" height="80" as="geometry" />
+          <mxGeometry x="118.62" y="-20921" width="420" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-271" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1735.23" y="-21057" width="330" height="80" as="geometry" />
+          <mxGeometry x="1735.23" y="-21068" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-272" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="313.62" y="-20768" width="330" height="80" as="geometry" />
+          <mxGeometry x="313.62" y="-20779" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-273" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-          <mxGeometry x="564" y="-21057" width="330" height="80" as="geometry" />
+          <mxGeometry x="564" y="-21068" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-275" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1145.1499999999999" y="-22210" width="330" height="80" as="geometry" />
@@ -10939,11 +10939,11 @@
             <mxPoint x="1439.2799999999997" y="-21880" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1378.2799999999997" y="-21670" />
-              <mxPoint x="509.28" y="-21660" />
+              <mxPoint x="510" y="-21670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OZDBB6FNwcegUENohpiK-299" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="OZDBB6FNwcegUENohpiK-299" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" source="OZDBB6FNwcegUENohpiK-232">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1381.5299999999997" y="-21640" as="sourcePoint" />
             <mxPoint x="1523.7799999999997" y="-21860" as="targetPoint" />
@@ -10959,7 +10959,7 @@
             <mxPoint x="1439.2799999999997" y="-21880" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1378.2799999999997" y="-21670" />
-              <mxPoint x="754.28" y="-21660" />
+              <mxPoint x="754" y="-21670" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -10968,7 +10968,7 @@
             <mxPoint x="1389.2799999999997" y="-21830" as="sourcePoint" />
             <mxPoint x="1969.2799999999997" y="-21770" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1383.2799999999997" y="-21670" />
+              <mxPoint x="1378" y="-21670" />
               <mxPoint x="2135" y="-21670" />
               <mxPoint x="2134.2799999999997" y="-21700" />
             </Array>
@@ -11020,46 +11020,46 @@
           <mxGeometry x="236.64999999999998" y="-22640" width="1430" height="400" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-311" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;GenericApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="617" y="-21032" width="230" height="30" as="geometry" />
+          <mxGeometry x="617" y="-21043" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-312" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AnnotationConfigApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="323.62" y="-20743" width="310" height="30" as="geometry" />
+          <mxGeometry x="323.62" y="-20754" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-313" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AbstractRefreshableApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1741.7799999999997" y="-21040" width="330" height="30" as="geometry" />
+          <mxGeometry x="1741.7799999999997" y="-21051" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-314" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AnnotationConfigServletWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="148.62" y="-20885" width="390" height="30" as="geometry" />
+          <mxGeometry x="148.62" y="-20896" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-315" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;GenericWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="921.37" y="-20885" width="260" height="30" as="geometry" />
+          <mxGeometry x="921.37" y="-20896" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-320" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2474.5299999999997" y="-20758" width="320" height="80" as="geometry" />
+          <mxGeometry x="2474.5299999999997" y="-20769" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-321" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2839.2799999999993" y="-20758" width="320" height="80" as="geometry" />
+          <mxGeometry x="2839.2799999999993" y="-20769" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-322" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2060.87" y="-20758" width="378.41" height="80" as="geometry" />
+          <mxGeometry x="2060.87" y="-20769" width="378.41" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-323" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="2195.2799999999997" y="-20935" width="426.75" height="80" as="geometry" />
+          <mxGeometry x="2195.2799999999997" y="-20946" width="426.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-324" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1646.0199999999998" y="-20778" width="320" height="80" as="geometry" />
+          <mxGeometry x="1646.0199999999998" y="-20789" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-325" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="746.99" y="-20768" width="320" height="80" as="geometry" />
+          <mxGeometry x="746.99" y="-20779" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-326" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1227.35" y="-20778" width="320" height="80" as="geometry" />
+          <mxGeometry x="1227.35" y="-20789" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-327" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1361.0100000000002" y="-20940" width="320" height="80" as="geometry" />
+          <mxGeometry x="1361.0100000000002" y="-20951" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-329" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ServletWebServerApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.99" y="-20748" width="310" height="30" as="geometry" />
+          <mxGeometry x="751.99" y="-20759" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-333" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-266" target="OZDBB6FNwcegUENohpiK-232" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -11079,149 +11079,149 @@
             <mxPoint x="709.28" y="-21310" as="targetPoint" />
             <Array as="points">
               <mxPoint x="729" y="-21120" />
-              <mxPoint x="1375" y="-21110" />
+              <mxPoint x="1375" y="-21120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-336" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-270" target="OZDBB6FNwcegUENohpiK-273" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="408.62" y="-21060" as="sourcePoint" />
-            <mxPoint x="458.62" y="-21110" as="targetPoint" />
+            <mxPoint x="408.62" y="-21071" as="sourcePoint" />
+            <mxPoint x="458.62" y="-21121" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="329" y="-20950" />
-              <mxPoint x="729" y="-20950" />
+              <mxPoint x="329" y="-20961" />
+              <mxPoint x="729" y="-20961" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-337" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-272" target="OZDBB6FNwcegUENohpiK-273" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="408.62" y="-21060" as="sourcePoint" />
-            <mxPoint x="458.62" y="-21110" as="targetPoint" />
+            <mxPoint x="408.62" y="-21071" as="sourcePoint" />
+            <mxPoint x="458.62" y="-21121" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="-20800" />
-              <mxPoint x="560" y="-20820" />
-              <mxPoint x="729" y="-20820" />
+              <mxPoint x="560" y="-20811" />
+              <mxPoint x="560" y="-20831" />
+              <mxPoint x="729" y="-20831" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-338" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-325" target="OZDBB6FNwcegUENohpiK-273" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="408.62" y="-21060" as="sourcePoint" />
-            <mxPoint x="458.62" y="-21110" as="targetPoint" />
+            <mxPoint x="408.62" y="-21071" as="sourcePoint" />
+            <mxPoint x="458.62" y="-21121" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="830" y="-20820" />
-              <mxPoint x="729" y="-20820" />
+              <mxPoint x="830" y="-20831" />
+              <mxPoint x="729" y="-20831" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-339" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-269" target="OZDBB6FNwcegUENohpiK-273" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="408.62" y="-21060" as="sourcePoint" />
-            <mxPoint x="458.62" y="-21110" as="targetPoint" />
+            <mxPoint x="408.62" y="-21071" as="sourcePoint" />
+            <mxPoint x="458.62" y="-21121" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="-20950" />
-              <mxPoint x="729" y="-20950" />
+              <mxPoint x="1040" y="-20961" />
+              <mxPoint x="729" y="-20961" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-340" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AbstractXmlApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1410.33" y="-20915" width="260" height="30" as="geometry" />
+          <mxGeometry x="1410.33" y="-20926" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-341" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ClassPathXmlApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1240.35" y="-20748" width="280" height="30" as="geometry" />
+          <mxGeometry x="1240.35" y="-20759" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-342" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;FileSystemXmlApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1681.38" y="-20753" width="280" height="30" as="geometry" />
+          <mxGeometry x="1681.38" y="-20764" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-343" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-271" target="OZDBB6FNwcegUENohpiK-265" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1049.28" y="-20870" as="sourcePoint" />
             <mxPoint x="1099.28" y="-20920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1900" y="-21110" />
-              <mxPoint x="1375" y="-21110" />
+              <mxPoint x="1900" y="-21120" />
+              <mxPoint x="1375" y="-21120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OZDBB6FNwcegUENohpiK-344" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-327" edge="1">
+        <mxCell id="OZDBB6FNwcegUENohpiK-344" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-327" edge="1" target="OZDBB6FNwcegUENohpiK-271">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1195.96" y="-20890" as="sourcePoint" />
-            <mxPoint x="1900" y="-20970" as="targetPoint" />
+            <mxPoint x="1195.96" y="-20901" as="sourcePoint" />
+            <mxPoint x="1900" y="-20981" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1521.02" y="-20960" />
-              <mxPoint x="1906" y="-20950" />
+              <mxPoint x="1521.02" y="-20971" />
+              <mxPoint x="1900" y="-20971" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-345" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-326" target="OZDBB6FNwcegUENohpiK-327" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1063.51" y="-20890" as="sourcePoint" />
-            <mxPoint x="1113.51" y="-20940" as="targetPoint" />
+            <mxPoint x="1063.51" y="-20901" as="sourcePoint" />
+            <mxPoint x="1113.51" y="-20951" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1387.02" y="-20820" />
-              <mxPoint x="1521.02" y="-20820" />
+              <mxPoint x="1387.02" y="-20831" />
+              <mxPoint x="1521.02" y="-20831" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-346" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-324" target="OZDBB6FNwcegUENohpiK-327" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1063.51" y="-20890" as="sourcePoint" />
-            <mxPoint x="1113.51" y="-20940" as="targetPoint" />
+            <mxPoint x="1063.51" y="-20901" as="sourcePoint" />
+            <mxPoint x="1113.51" y="-20951" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1806.02" y="-20820" />
-              <mxPoint x="1521.02" y="-20820" />
+              <mxPoint x="1806.02" y="-20831" />
+              <mxPoint x="1521.02" y="-20831" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-347" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AbstractRefreshableWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2228.6499999999996" y="-20910" width="360" height="30" as="geometry" />
+          <mxGeometry x="2228.6499999999996" y="-20921" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-348" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AnnotationConfigWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2079.2799999999997" y="-20730" width="340" height="30" as="geometry" />
+          <mxGeometry x="2079.2799999999997" y="-20741" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-349" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-323" target="OZDBB6FNwcegUENohpiK-271" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1399.94" y="-20870" as="sourcePoint" />
-            <mxPoint x="1449.94" y="-20920" as="targetPoint" />
+            <mxPoint x="1399.94" y="-20881" as="sourcePoint" />
+            <mxPoint x="1449.94" y="-20931" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2409" y="-20960" />
-              <mxPoint x="1900" y="-20950" />
+              <mxPoint x="2409" y="-20971" />
+              <mxPoint x="1900" y="-20971" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-350" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-322" target="OZDBB6FNwcegUENohpiK-323" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1399.94" y="-20870" as="sourcePoint" />
-            <mxPoint x="1449.94" y="-20920" as="targetPoint" />
+            <mxPoint x="1399.94" y="-20881" as="sourcePoint" />
+            <mxPoint x="1449.94" y="-20931" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2250" y="-20800" />
-              <mxPoint x="2409" y="-20800" />
+              <mxPoint x="2250" y="-20811" />
+              <mxPoint x="2409" y="-20811" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-351" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;GroovyWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2876.8099999999995" y="-20728" width="260" height="30" as="geometry" />
+          <mxGeometry x="2876.8099999999995" y="-20739" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-352" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;XmlWebApplicationContext&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2498.5299999999997" y="-20733" width="230" height="30" as="geometry" />
+          <mxGeometry x="2498.5299999999997" y="-20744" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-353" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-320" target="OZDBB6FNwcegUENohpiK-323" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2179.2799999999997" y="-20680" as="sourcePoint" />
-            <mxPoint x="2229.2799999999997" y="-20730" as="targetPoint" />
+            <mxPoint x="2179.2799999999997" y="-20691" as="sourcePoint" />
+            <mxPoint x="2229.2799999999997" y="-20741" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2635" y="-20800" />
-              <mxPoint x="2410" y="-20800" />
+              <mxPoint x="2635" y="-20811" />
+              <mxPoint x="2410" y="-20811" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-354" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OZDBB6FNwcegUENohpiK-321" target="OZDBB6FNwcegUENohpiK-323" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2179.2799999999997" y="-20680" as="sourcePoint" />
-            <mxPoint x="2229.2799999999997" y="-20730" as="targetPoint" />
+            <mxPoint x="2179.2799999999997" y="-20691" as="sourcePoint" />
+            <mxPoint x="2229.2799999999997" y="-20741" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2999" y="-20800" />
-              <mxPoint x="2409" y="-20800" />
+              <mxPoint x="2999" y="-20811" />
+              <mxPoint x="2409" y="-20811" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -11491,7 +11491,7 @@
           <mxGeometry x="590" y="-19547" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-408" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;可以获取到父容器，说明BeanFactory有子父容器的概念&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1248.25" y="-19580" width="320" height="30" as="geometry" />
+          <mxGeometry x="1260.5" y="-19557" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OZDBB6FNwcegUENohpiK-410" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;增强了 IoC 容器的可定制性，它定义了设置类装载器、属性编辑器、&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;容器初始化后置处理器等方法；&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;可以对BeanFactory进行配置，可以设置我们前面提到的类型转换的东西，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;这样在生成Bean的时候就可以类型属性的类型转换了&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1679.64" y="-19453" width="420" height="70" as="geometry" />
@@ -14394,14 +14394,75 @@
         <mxCell id="1F31O4Q_xerzX_LfgKMW-209" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;@Bean#destroyMethod()起作用，destroyMethod方法被调用了&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2395" y="2230" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H7hIbrW3htnUMstKq-qY-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;BeanDefinition的解析器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="H7hIbrW3htnUMstKq-qY-1" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;BeanDefinition的解析器&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2020" y="-25002" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H7hIbrW3htnUMstKq-qY-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ApplicationEventPublisher：让容器拥有发布应用上下文事件的功能，包括容器启动事件、关闭事件等。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;实现了 ApplicationListener 事件监听接口的 Bean 可以接收到容器事件 ， 并对事件进行响应处理 。&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;在 ApplicationContext 抽象实现类AbstractApplicationContext 中，我们可以发现存在一个 ApplicationEventMulticaster，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它负责保存所有监听器，以便在容器产生上下文事件时通知这些事件监听者。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="H7hIbrW3htnUMstKq-qY-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ApplicationEventPublisher：让容器拥有发布应用上下文事件的功能，包括容器启动事件、关闭事件等。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;实现了 ApplicationListener 事件监听接口的 Bean 可以接收到容器事件 ， 并对事件进行响应处理 。&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;在 ApplicationContext 抽象实现类AbstractApplicationContext 中，我们可以发现存在一个 ApplicationEventMulticaster，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;它负责保存所有监听器，以便在容器产生上下文事件时通知这些事件监听者。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2128.33" y="-21660" width="690" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="H7hIbrW3htnUMstKq-qY-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;所 有 ApplicationContext 实现类都实现了类似于PathMatchingResourcePatternResolver 的功能，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;可以通过带前缀的 Ant 风格的资源文件路径装载 Spring 的配置文件。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="H7hIbrW3htnUMstKq-qY-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;所 有 ApplicationContext 实现类都实现了类似于PathMatchingResourcePatternResolver 的功能，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;可以通过带前缀的 Ant 风格的资源文件路径装载 Spring 的配置文件。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2140" y="-21970" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;工厂模式定义了IOC容器的基本功能规范&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1282.12" y="-19782" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;父子级联 IoC 容器的接口，子容器可以通过接口方法访问父容器；&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;通过 HierarchicalBeanFactory 接口， Spring 的 IoC 容器可以建立父子层级关联的容器体系，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;子容器可以访问父容器中的 Bean，但父容器不能访问子容器的 Bean。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1267.15" y="-19607" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;定义了将容器中的 Bean 按某种规则（如按名字匹配、按类型匹配等）进行自动装配的方法；&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1446.96" y="-19218" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-6" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;向IOC容器手工注册 BeanDefinition 对象的方法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3042.46" y="-24840" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="-24360" width="291.12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-8" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;BeanDefinitionHolder&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2624.8599999999997" y="-24345" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-9" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;BeanDefinitionHolder 是BeanDefination的包装类，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;用来存储BeanDefinition，name以及aliases等&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2551.95" y="-24290" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-10" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;为应用提供 i18n 国际化消息访问的功能；&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="651" y="-21810" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;LifeCycle&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="-21550" width="182.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OZDBB6FNwcegUENohpiK-266" target="Zfu1pSEzlug92QJOXgdT-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="-21430" as="sourcePoint" />
+            <mxPoint x="1540" y="-21480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1375" y="-21450" />
+              <mxPoint x="1019" y="-21450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-14" value="&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;该接口是 Spring 2.0 加入的，该接口提供了 start()和 stop()两个方法，主要用于控制异步处理过程。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;在具体使用时，该接口同时被 ApplicationContext 实现及具体 Bean 实现，&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ApplicationContext 会将 start/stop 的信息传递给容器中所有实现了该接口的 Bean，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;以达到管理和控制 JMX、任务调度等目的&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="583" y="-21420" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-15" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;是初始化的时候就创建容器，往后的每次refresh都不会更改&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="804.61" y="-21021" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-16" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AbstractRefreshableApplicationContext及子类的每次refresh都是先清除已有(如果不存在就创建)的容器，然后再重新创建；&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AbstractRefreshableApplicationContext及子类无法做到GenericApplicationContext混合搭配从不同源头获取bean的定义信息&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1807.69" y="-21026" width="710" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-17" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;从文件系统下的一个或多个xml配置文件中加载上下文定义，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;也就是说系统盘符中加载xml配置文件。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645.43" y="-20689" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-18" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;从类路径下的一个或多个xml配置文件中加载上下文定义，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;适用于xml配置的方式。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="-20689" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-19" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;从一个或多个基于java的配置类中加载上下文定义，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;适用于java注解的方式。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="253.5" y="-20680" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-20" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;扩展于 ApplicationContext，它新增加了两个主要的方法：&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;refresh()和 close()，让 ApplicationContext 具有启动、刷新和关闭应用上下文的能力。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在应用上下文关闭的情况下调用 refresh()即可启动应用上下文，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在已经启动的状态下，调用 refresh()则清除缓存并重新装载配置信息，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;而调用close()则可关闭应用上下文。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1544.31" y="-21380" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfu1pSEzlug92QJOXgdT-21" value="&lt;div&gt;&lt;b&gt;设计者在设计时AnnotationConfigApplicationContext为什么是继承GenericApplicationContext？&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;因为基于注解的配置，是不太会被运行时修改的，这意味着不需要进行动态Bean配置和刷新容器，所以只需要GenericApplicationContext。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;而基于XML这种配置文件，这种文件是容易修改的，需要动态性刷新Bean的支持，所以XML相关的配置必然继承AbstractRefreshableApplicationContext；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;且存在多种xml的加载方式（位置不同的设计），所以必然会设计出AbstractXmlApplicationContext, 其中包含对XML配置解析成BeanDefination的过程。&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="597" y="-20660" width="860" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
