@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.16" pages="27">
   <diagram name="JVM" id="2t9mX146NmbGCnDUHTSx">
-    <mxGraphModel dx="3726" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4244" dy="2502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,6 +258,9 @@
             <mxPoint x="-520" y="2230" as="sourcePoint" />
             <mxPoint x="-470" y="2180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cwfe8ocG7DH4q3muc9LK-95" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;逃逸分析与栈上分配&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;逃逸分析原理JVM 通过静态代码分析（编译时）和动态行为追踪（运行时）判断对象作用域：&lt;/b&gt;&lt;div&gt;&lt;b&gt;未逃逸对象：仅在方法内部使用（如局部变量），可进行栈上分配。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;方法逃逸：对象作为返回值或参数传递到其他方法 → 堆分配。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;线程逃逸：对象被其他线程访问（如存入全局集合） → 堆分配。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;栈上分配：将未逃逸对象直接分配在栈帧中，随方法调用结束自动销毁，&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;避免堆内存分配与 GC 开销（如循环内临时对象）。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;标量替换：将对象拆解为基本类型变量（如User对象拆为int age），&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;消除对象头占用空间（实验显示内存节省约 40%）。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;同步消除：若对象仅被单线程访问，JIT 编译器自动移除synchronized块（如局部锁对象）。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;JVM 参数：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-XX:+DoEscapeAnalysis（启用逃逸分析）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-XX:+PrintEscapeAnalysis（输出分析日志）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;性能对比：栈上分配较堆分配减少 30%的 GC 压力&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1965" width="520" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
