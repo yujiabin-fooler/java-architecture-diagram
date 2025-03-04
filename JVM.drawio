@@ -8930,7 +8930,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aFdEVQMKjbmttWaHHXfw" name="Spring，Springboot">
-    <mxGraphModel dx="11587" dy="36033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="10896" dy="35678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16162,6 +16162,64 @@
               <mxPoint x="4220" y="8940" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-89" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;查看当前单例池中是否存在该Bean，存在直接返回&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="3710" y="9240" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-90" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;如果不存在，且当前Bean正在被创建，从earlySingletonObjects中获取Bean&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="3449.1099999999997" y="9230" width="207.59" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-91" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;如果早期容器也没有且允许创建早期引用，获取该Bean的ObjectFactory工厂&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="3170" y="9240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-92" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;如果当前工厂不为空，创建一个对象实例，添加到早期引用earlySingletonObjects中&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="9240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-93" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;从引用的工厂singletonFactories移除该bean&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="9240" width="186.81" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-76" target="aSReEV5Opm9Btbn-QTs3-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3390" y="9340" as="sourcePoint" />
+            <mxPoint x="3440" y="9290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-89" target="aSReEV5Opm9Btbn-QTs3-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3390" y="9340" as="sourcePoint" />
+            <mxPoint x="3440" y="9290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-90" target="aSReEV5Opm9Btbn-QTs3-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3390" y="9340" as="sourcePoint" />
+            <mxPoint x="3440" y="9290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-91" target="aSReEV5Opm9Btbn-QTs3-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3350" y="9340" as="sourcePoint" />
+            <mxPoint x="3400" y="9290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-92" target="aSReEV5Opm9Btbn-QTs3-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3350" y="9340" as="sourcePoint" />
+            <mxPoint x="3400" y="9290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-99" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1" source="aSReEV5Opm9Btbn-QTs3-93" target="aSReEV5Opm9Btbn-QTs3-76">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3340" y="9320" as="sourcePoint" />
+            <mxPoint x="3500" y="9320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2808" y="9320" />
+              <mxPoint x="3910" y="9320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSReEV5Opm9Btbn-QTs3-100" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;从容器中获取Bean的主要方法，也是解决循环依赖的逻辑&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3560" y="9327.5" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
