@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.16" pages="27">
   <diagram name="JVM" id="2t9mX146NmbGCnDUHTSx">
-    <mxGraphModel dx="9388" dy="4722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6625" dy="3301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -526,6 +526,18 @@
         </mxCell>
         <mxCell id="cwfe8ocG7DH4q3muc9LK-182" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;● 新生代 = Eden + S0 + S1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;● 新生代与老年代默认比例的值为 1:2 ，可以通过参数 –XX:NewRatio 配置。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;● 默认的，Eden : from : to = 8 : 1 : 1 ，可以通过参数–XX:SurvivorRatio 来设定&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="305" y="1935" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;类型信息&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="750" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;常量&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="960" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;即时编译器编译后的代码缓存&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1060" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;静态变量&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="850" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
