@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.16" pages="27">
   <diagram name="JVM" id="2t9mX146NmbGCnDUHTSx">
-    <mxGraphModel dx="7452" dy="3301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4689" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,8 +710,8 @@
         <mxCell id="SlxgPSlWHQ-Alt9UOZyU-68" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Java虚拟机的执行引擎子系统中包含两种执行器，分别为解释器和即时编译器。&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;当执行引擎获取到由javac编译后的.class字节码文件后，&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;在运行时是通过解释器(Interpreter)转换成最终的机械码执行。另外为了提升效率，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;JVM加入了一种名为 JIT即时编译 的技术，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;即时编译器的目的是为了避免一些经常执行的代码被解释执行，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;JIT会将整个函数编译为平台本地的机械码，从而在很大程度上提升了执行的效率。&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-470" y="2630" width="460" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-69" value="&lt;div&gt;&lt;b&gt;● u1、u2、u4、u8 分别代表1个字节、2个字节、4个字节和8个字节的无符号数&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 表是由多个无符号数或者其他表作为数据项构成的复合数据类型&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 每个Class文件的头四个字节被称为魔数（记得以前校招面试，面试官问过我什么叫魔数。。。）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● minor和major version表示次版本号，主版本号&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 紧接着主次版本号之后，是常量池入口，常量池可以比喻为Class文件里的资源仓库&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="490" width="550" height="90" as="geometry" />
+        <mxCell id="SlxgPSlWHQ-Alt9UOZyU-69" value="&lt;div&gt;&lt;b&gt;● u1、u2、u4、u8 分别代表1个字节、2个字节、4个字节和8个字节的无符号数&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 表是由多个无符号数或者其他表作为数据项构成的复合数据类型&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 每个Class文件的头四个字节被称为魔数（CAFEBABE）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● minor和major version表示次版本号，主版本号&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;● 紧接着主次版本号之后，是常量池入口，常量池可以比喻为Class文件里的资源仓库&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="490" width="470" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SlxgPSlWHQ-Alt9UOZyU-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1220" y="-130" width="190" height="50" as="geometry" />
