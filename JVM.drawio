@@ -5820,10 +5820,301 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XmrDIJORuayguxtf7ANS" name="Http/Tcp">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2899" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="boDrmc5xycxraisZHzTp-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;扫描登录过程原理&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-10" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;手机端&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PC端&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;服务端&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#cdeb8b;strokeColor=#00CC00;strokeWidth=3;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-31" target="boDrmc5xycxraisZHzTp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="960" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FFFF00;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-8" target="boDrmc5xycxraisZHzTp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="960" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=3;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-11" target="boDrmc5xycxraisZHzTp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="960" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFF00;strokeWidth=3;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-50" target="boDrmc5xycxraisZHzTp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="960" as="sourcePoint" />
+            <mxPoint x="435" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="425" y="180" width="20" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="815" y="170" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-38" target="boDrmc5xycxraisZHzTp-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="960" as="sourcePoint" />
+            <mxPoint x="825" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="815" y="310" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.089;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="360" as="sourcePoint" />
+            <mxPoint x="810" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-14" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;发送二维码生成请求&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;携带PC信息&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="480" y="165" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.779;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-10" target="boDrmc5xycxraisZHzTp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="870" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="203" />
+              <mxPoint x="880" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-19" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;生成二维码ID，设置状态&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;并与设备号绑定&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="890" y="205" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.941;entryY=0.278;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="815" y="235.5" as="sourcePoint" />
+            <mxPoint x="443.82000000000016" y="239.15999999999985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="480" y="243" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-24" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;返回二维码ID&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="502" y="241" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.08;exitY=0.455;exitDx=0;exitDy=0;entryX=1.011;entryY=0.632;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-8" target="boDrmc5xycxraisZHzTp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="280" as="sourcePoint" />
+            <mxPoint x="445" y="317" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="280" />
+              <mxPoint x="491" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="495" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-27" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;电脑页面展示二维码&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="521" y="290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.66;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.03;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="363" as="sourcePoint" />
+            <mxPoint x="815.3400000000001" y="359.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-30" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;建立长连接或长轮询监听服务端二维码的状态&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;直到登录成功&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="502" y="325" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=3;" edge="1" parent="1" target="boDrmc5xycxraisZHzTp-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="960" as="sourcePoint" />
+            <mxPoint x="105" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="95" y="365" width="20" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;6&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="130" y="346" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.022;entryY=0.951;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="boDrmc5xycxraisZHzTp-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-36" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;扫描获取二维码ID&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="152" y="346" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.014;entryY=0.166;entryDx=0;entryDy=0;exitX=1.02;exitY=0.229;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-31" target="boDrmc5xycxraisZHzTp-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="780" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-56" target="boDrmc5xycxraisZHzTp-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="960" as="sourcePoint" />
+            <mxPoint x="825" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="815" y="420" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;7&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="130" y="402" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-42" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;将手机端用户身份信息和二维码信息发送给服务器&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="410" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-38" target="boDrmc5xycxraisZHzTp-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="836" y="451.5" as="sourcePoint" />
+            <mxPoint x="835" y="489" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="881" y="451.5" />
+              <mxPoint x="881" y="488.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-44" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;8&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="891" y="453.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-45" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;用户身份信息与二维码ID信息绑定&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;并生成临时token&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="432" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.02;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-38" target="boDrmc5xycxraisZHzTp-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="430" as="sourcePoint" />
+            <mxPoint x="115" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;9&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="130" y="472" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-48" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;返回临时token&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="472" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FFFF00;" edge="1" parent="1" target="boDrmc5xycxraisZHzTp-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="960" as="sourcePoint" />
+            <mxPoint x="435" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="425" y="529" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="549" as="sourcePoint" />
+            <mxPoint x="445" y="586" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="548.5" />
+              <mxPoint x="491" y="585.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-53" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;10&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="501" y="550.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-54" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;轮询或长连接监听二维码状态，&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;将二维码状态更新为待确认&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="549" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="640" as="sourcePoint" />
+            <mxPoint x="814" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-57" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-68" target="boDrmc5xycxraisZHzTp-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="960" as="sourcePoint" />
+            <mxPoint x="825" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="815" y="609" width="20" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-58" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;10&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-59" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;确认登录，将临时token发送给服务端&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="609" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.779;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="836" y="653" as="sourcePoint" />
+            <mxPoint x="835" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="881" y="653" />
+              <mxPoint x="881" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-61" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;更新二维码状态为登录成功&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="655" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-62" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;11&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="891" y="655" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="425" y="680" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="700.5" as="sourcePoint" />
+            <mxPoint x="445" y="737.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="700" />
+              <mxPoint x="491" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-65" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;12&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="501" y="702" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-66" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;轮询或长连接监听二维码状态，&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;登录成功后，刷新页面或重定向到目标页&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;同时将临时token信息存储到本地&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="692" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.04;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="boDrmc5xycxraisZHzTp-63" target="boDrmc5xycxraisZHzTp-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="760" as="sourcePoint" />
+            <mxPoint x="800" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-69" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;" edge="1" parent="1" target="boDrmc5xycxraisZHzTp-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="960" as="sourcePoint" />
+            <mxPoint x="825" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="815" y="760" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-70" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;13&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="boDrmc5xycxraisZHzTp-71" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;后续携带token信息访问页面&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="800" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
